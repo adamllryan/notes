@@ -20,8 +20,9 @@ It will take the sum of the heuristic function with the backwards cost of the pa
 
 ## Alpha-Beta Pruning
 
-Because minimax alternates min and max functions, we can actually prune off many sibling nodes in a function. Say we are conducting a min search and at a level, the first node searched yields a value 7. Now we check the second sibling. Of all the sibling's successors, if any have a min smaller than 7 (or equal to), we can immediately discard the whole sibling from the search because we know that it now has a min smaller than its left sibling, and the max function above will pick the left sibling anyways. Similarly, if we are conducting max search at a level, and that left node is 7 (for example), if we find a sibling with a larger successor node than 7 we can discard that sibling because the parent min level will want the smallest successor only. 
+Alpha-beta pruning is an optimization technique for minimax that reduces the number of nodes that are evaluated by the minimax algorithm in its search tree. It is called alpha-beta pruning because it uses two values, alpha and beta, to determine when to prune branches in the search tree.
 
+Because minimax alternates min and max functions, we can actually prune off many sibling nodes in a function. Say we are conducting a min search and at a level, the first node searched yields a value 7. Now we check the second sibling. Of all the sibling's successors, if any have a min smaller than 7 (or equal to), we can immediately discard the whole sibling from the search because we know that it now has a min smaller than its left sibling, and the max function above will pick the left sibling anyways. Similarly, if we are conducting max search at a level, and that left node is 7 (for example), if we find a sibling with a larger successor node than 7 we can discard that sibling because the parent min level will want the smallest successor only. 
 
 Terms:
 
@@ -29,10 +30,3 @@ Terms:
 - h - forward cost (heuristic function or greedy search)
 - f - total cost (g + h)
 
-## Admissible Heuristics
-
-An admissible heuristic is a heuristic that never overestimates the cost of the path from the node to the goal. It is used in A\* search to find the optimal path from the start to the goal.
-
-## Alpha-Beta Pruning
-
-Alpha-beta pruning is an optimization technique for minimax that reduces the number of nodes that are evaluated by the minimax algorithm in its search tree. It is called alpha-beta pruning because it uses two values, alpha and beta, to determine when to prune branches in the search tree.

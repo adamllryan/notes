@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -166,18 +165,18 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "4e3ecca74107cb14",
+  "active": "c7b7008c719b8203",
   "lastOpenFiles": [
+    "CSE3521 - AI Survey/03_informed_search.md",
+    "CSE3521 - AI Survey/04_adversarial_search.md",
     "SP23/CSE2431 - Systems 2/11. Disk Scheduling(1).md",
     "SP23/CSE2431 - Systems 2/0. Formulas and Math and Algorithms and.md",
-    "CSE3521 - AI Survey/04_adversarial_search.md",
     "CSE3521 - AI Survey/Agent Design.md",
     "SP23/CSE2431 - Systems 2/13. Tertiary Storage(1).md",
     "SP23/CSE3901 - Web Apps/7. Static Site Generation.md",
     "SP23/CSE3901 - Web Apps/6. Graphics, Fonts, Images.md",
     "SP23/CSE2431 - Systems 2/5. Interprocess Communication.md",
     "SP23/CSE2431 - Systems 2/4. CPU Scheduling Mechanism.md",
-    "CSE3521 - AI Survey/03_informed_search.md",
     "work/stock.md",
     "work/salary_negotiation.md",
     "CSE3521 - AI Survey/agents.md",

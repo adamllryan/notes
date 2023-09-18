@@ -49,7 +49,9 @@ A\* is optimal! Best case it takes you straight to the goal, but worst case is i
 An admissible heuristic is a heuristic that never overestimates the cost of reaching the goal, i.e., the cost it estimates to reach the goal is not higher than the lowest possible cost from the current point in the path.
 A heuristic is **admissible** if `0 <= h(n) <= h*(n) for all n`, where h*(n) is the true cost to reach the goal state from n.
 ${h(n) \leq h^*(n)}$
+## Admissible Heuristics
 
+An admissible heuristic is a heuristic that never overestimates the cost of the path from the node to the goal. It is used in A\* search to find the optimal path from the start to the goal.
 ## Consistent (monotonic) Heuristics
 
 A heuristic is **consistent** if `h(n) <= c(n, a, n') + h(n') for all n, n'`, where c(n, a, n') is the cost of taking action a in state n to reach state n'.
