@@ -20,3 +20,6 @@ Basically just sorting and mixing data.
 # Congestion Control
 
 Flow control is when your machine takes a more external view about other's network speeds and then adjusts its own speed accordingly. Avoids oversending data when the recipient is unable to take extra data.
+
+### UDP Segment Header
+
