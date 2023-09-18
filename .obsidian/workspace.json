@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3461 - Wired Networks/03_transport_layer.md",
+                "file": "CSE3521 - AI Survey/04_adversarial_search.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d6388fe4de2d54e0",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3461 - Wired Networks/03_transport_layer.md",
+                "file": "CSE3521 - AI Survey/04_adversarial_search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3461 - Wired Networks/03_transport_layer.md",
+                "file": "CSE3521 - AI Survey/04_adversarial_search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3461 - Wired Networks/03_transport_layer.md"
+                "file": "CSE3521 - AI Survey/04_adversarial_search.md"
+              }
+            }
+          },
+          {
+            "id": "c4ec22d6d446bd86",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -157,9 +166,10 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "4e3ecca74107cb14",
+  "active": "c7b7008c719b8203",
   "lastOpenFiles": [
     "CSE3461 - Wired Networks/Untitled.md",
+    "CSE3521 - AI Survey/03_informed_search.md",
     "CSE3521 - AI Survey/04_adversarial_search.md",
     "SP23/CSE2431 - Systems 2/11. Disk Scheduling(1).md",
     "SP23/CSE2431 - Systems 2/0. Formulas and Math and Algorithms and.md",
@@ -169,7 +179,6 @@
     "SP23/CSE3901 - Web Apps/6. Graphics, Fonts, Images.md",
     "SP23/CSE2431 - Systems 2/5. Interprocess Communication.md",
     "SP23/CSE2431 - Systems 2/4. CPU Scheduling Mechanism.md",
-    "CSE3521 - AI Survey/03_informed_search.md",
     "work/stock.md",
     "work/salary_negotiation.md",
     "CSE3521 - AI Survey/agents.md",
