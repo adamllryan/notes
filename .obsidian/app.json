@@ -1,1 +1,7 @@
-{}
+{
+  "promptDelete": false,
+  "strictLineBreaks": false,
+  "rightToLeft": false,
+  "showLineNumber": true,
+  "vimMode": true
+}

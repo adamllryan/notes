@@ -1,0 +1,5 @@
+{
+  "sanctum@@hide-vault-title": true,
+  "sanctum@@wrap-nav-titles": true,
+  "sanctum@@indentation-guide-active": "var(--interactive)"
+}

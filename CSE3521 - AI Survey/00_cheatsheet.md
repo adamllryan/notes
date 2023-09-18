@@ -21,3 +21,4 @@ AI has 4 goals:
 - Computer Vision
   - Object and facial recognition, scene segmentation, and image classification
 -
+ 

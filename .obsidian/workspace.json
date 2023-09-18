@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4c5bfbc7b1aecbd6",
+        "id": "dddbbc45c59069ab",
         "type": "tabs",
         "children": [
           {
-            "id": "2bb35beabbcf0fc1",
+            "id": "c7b7008c719b8203",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SP23/CSE2431 - Systems 2/0. Formulas and Math and Algorithms and.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -69,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SP23/CSE2431 - Systems 2/0. Formulas and Math and Algorithms and.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SP23/CSE2431 - Systems 2/0. Formulas and Math and Algorithms and.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SP23/CSE2431 - Systems 2/0. Formulas and Math and Algorithms and.md"
+              }
             }
           }
         ]
@@ -148,6 +155,28 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "2bb35beabbcf0fc1",
-  "lastOpenFiles": []
+  "active": "c7b7008c719b8203",
+  "lastOpenFiles": [
+    "CSE3521 - AI Survey/04_adversarial_search.md",
+    "CSE3521 - AI Survey/Agent Design.md",
+    "SP23/CSE2431 - Systems 2/13. Tertiary Storage(1).md",
+    "SP23/CSE3901 - Web Apps/7. Static Site Generation.md",
+    "SP23/CSE3901 - Web Apps/6. Graphics, Fonts, Images.md",
+    "SP23/CSE2431 - Systems 2/5. Interprocess Communication.md",
+    "SP23/CSE2431 - Systems 2/4. CPU Scheduling Mechanism.md",
+    "CSE3521 - AI Survey/03_informed_search.md",
+    "work/stock.md",
+    "work/salary_negotiation.md",
+    "CSE3521 - AI Survey/agents.md",
+    "2023-09-17.md",
+    "CSE3241 - Databases/Conceptual Schema.md",
+    "config.md",
+    "CSE3241 - Databases/environments.md",
+    "CSE3241 - Databases/External View.md",
+    "CSE3241 - Databases/Schema Diagram.md",
+    "techstack.md",
+    "CSE3461 - Wired Networks/Transaction Processing.md",
+    "CSE3461 - Wired Networks/Upcall.md",
+    "CSE3521 - AI Survey/00_cheatsheet.md"
+  ]
 }

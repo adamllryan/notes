@@ -12,6 +12,17 @@ Adversarial search is optimal when the game is deterministic, fully observable, 
 
 It will take the sum of the heuristic function with the backwards cost of the path to the node. The heuristic function is the estimated cost of the path from the node to the goal. The backwards cost is the cost of the path from the node to the start.
 
+1. Begin with a max function. 
+2. Max function will pick the largest successor value. 
+3. Each successor is calculated recursively with a min function. 
+4. Min function finds the smallest successor value. 
+5. This repeats, with the min function using a max function to find the largest.
+
+## Alpha-Beta Pruning
+
+
+
+
 Terms:
 
 - g - backwards cost
