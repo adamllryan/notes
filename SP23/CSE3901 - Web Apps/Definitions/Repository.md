@@ -1,0 +1,1 @@
+> A combination of the [[Working Tree]], [[Store]], and [[Index]]. 

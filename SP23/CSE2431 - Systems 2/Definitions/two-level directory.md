@@ -1,0 +1,1 @@
+>Each user has their own directory, and each user is categorized in a master directory. (Same file name, no grouping)

@@ -1,0 +1,1 @@
+Describes the structure of the database. 

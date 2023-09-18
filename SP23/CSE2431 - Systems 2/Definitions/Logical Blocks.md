@@ -1,0 +1,1 @@
+Logical blocks are the smallest unit of transfer. 

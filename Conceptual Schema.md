@@ -1,0 +1,1 @@
+The whole structure of schema for a community of users. Hides details of physical storage and describes entities, relationships, and constraints. Normally where the database is actually implemented and designed. 

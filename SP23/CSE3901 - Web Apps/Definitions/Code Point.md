@@ -1,0 +1,1 @@
+> An integer value that is given a name. Convention defined as U+`hex octet pairs`

@@ -1,0 +1,1 @@
+>SCSI is a bus that can connect up to 16 devices on one cable. The SCSI initiator requests operation and SCSI targets perform tasks. Each target can have up to 8 logical units, which are disks attached to a device controller). 

@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Systems 2\"",
+      "color": {
+        "a": 1,
+        "rgb": 5526240
+      }
+    },
+    {
+      "query": "path:CSE3901",
+      "color": {
+        "a": 1,
+        "rgb": 16726072
+      }
+    },
+    {
+      "query": "path:\"Systems 2/Definitions\"",
+      "color": {
+        "a": 1,
+        "rgb": 10965728
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -0.8,
+  "nodeSizeMultiplier": 0.993229166666667,
+  "lineSizeMultiplier": 0.7125,
+  "collapse-forces": false,
+  "centerStrength": 0.619791666666667,
+  "repelStrength": 12.7083333333333,
+  "linkStrength": 0.526041666666667,
+  "linkDistance": 250,
+  "scale": 0.34148899531608984,
+  "close": true
+}

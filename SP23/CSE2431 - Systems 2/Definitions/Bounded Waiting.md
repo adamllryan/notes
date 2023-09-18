@@ -1,0 +1,1 @@
+> A solution to the [[17. Process Synchronization#Critical-Section Problem|critital-selection problem]]; a process can't wait forever to enter its [[Critical Section]]. A bound must exist on the number of times other processes are allowed to enter their [[Critical Section]] after a process has made a request to enter its [[Critical Section]]. 

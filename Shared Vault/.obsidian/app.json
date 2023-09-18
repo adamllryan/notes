@@ -1,0 +1,22 @@
+{
+  "spellcheckDictionary": [
+    "Accessors",
+    "Mutators",
+    "NaN",
+    "booleans",
+    "IIFE",
+    "innerHeight",
+    "innerWidth",
+    "callee",
+    "Cellranger",
+    "Solaris",
+    "bound",
+    "Mutex"
+  ],
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "showLineNumber": true,
+  "rightToLeft": false,
+  "tabSize": 6,
+  "vimMode": true
+}

@@ -1,0 +1,1 @@
+> A high-speed serial architecture that can be switched fabric with 24-bit address space. It is the basis of storage area networks in which many hosts attach to many storage units. It can be arbitrated loop (FC-AL) of 126 devices. 

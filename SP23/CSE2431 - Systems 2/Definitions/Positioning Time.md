@@ -1,0 +1,1 @@
+>Positioning time is time to move the disk arm to the desired cylinder ([[Seek Time]]) and time for the desired sector to rotate under the disk head ([[Rotational Latency]]). 
