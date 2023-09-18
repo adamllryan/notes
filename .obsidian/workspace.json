@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Markdown Identifiers.md",
+                "file": "CSE3241 - Databases/5. Relational Algebra.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian Markdown Identifiers.md",
+                "file": "CSE3241 - Databases/5. Relational Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian Markdown Identifiers.md",
+                "file": "CSE3241 - Databases/5. Relational Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian Markdown Identifiers.md"
+                "file": "CSE3241 - Databases/5. Relational Algebra.md"
               }
             }
           }
@@ -170,8 +170,15 @@
   },
   "active": "d5589b215184765f",
   "lastOpenFiles": [
-    "CSE3461 - Wired Networks/03_transport_layer.md",
+    "CSE3241 - Databases/4. Relational Modelling.md",
+    "CSE3241 - Databases/5. Relational Algebra.md",
+    "Untitled.md",
+    "CSE3241 - Databases/3. Enhanced Entity Relationship Model.md",
+    "CSE3241 - Databases/definitions/Application Programs and Queries.md",
+    "CSE3241 - Databases/2. Entity Relationship Model.md",
+    "CSE3241 - Databases/1. Intro to Database Management System.md",
     "Obsidian Markdown Identifiers.md",
+    "CSE3461 - Wired Networks/03_transport_layer.md",
     "CSE3241 - Databases/definitions",
     "CSE3461 - Wired Networks/Untitled.md",
     "CSE3521 - AI Survey/04_adversarial_search.md",
@@ -188,14 +195,7 @@
     "work/salary_negotiation.md",
     "CSE3521 - AI Survey/agents.md",
     "2023-09-17.md",
-    "CSE3241 - Databases/Conceptual Schema.md",
-    "config.md",
-    "CSE3241 - Databases/environments.md",
-    "CSE3241 - Databases/External View.md",
-    "CSE3241 - Databases/Schema Diagram.md",
-    "techstack.md",
-    "CSE3461 - Wired Networks/Transaction Processing.md",
-    "CSE3461 - Wired Networks/Upcall.md",
-    "CSE3521 - AI Survey/00_cheatsheet.md"
+    "CSE3241 - Databases/definitions/Conceptual Schema.md",
+    "config.md"
   ]
 }
