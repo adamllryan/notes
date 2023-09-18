@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SP23/CSE2431 - Systems 2/0. Formulas and Math and Algorithms and.md",
+                "file": "CSE3521 - AI Survey/04_adversarial_search.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SP23/CSE2431 - Systems 2/0. Formulas and Math and Algorithms and.md",
+                "file": "CSE3521 - AI Survey/04_adversarial_search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SP23/CSE2431 - Systems 2/0. Formulas and Math and Algorithms and.md",
+                "file": "CSE3521 - AI Survey/04_adversarial_search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SP23/CSE2431 - Systems 2/0. Formulas and Math and Algorithms and.md"
+                "file": "CSE3521 - AI Survey/04_adversarial_search.md"
               }
             }
           }
@@ -155,8 +155,10 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "c7b7008c719b8203",
+  "active": "4e3ecca74107cb14",
   "lastOpenFiles": [
+    "SP23/CSE2431 - Systems 2/11. Disk Scheduling(1).md",
+    "SP23/CSE2431 - Systems 2/0. Formulas and Math and Algorithms and.md",
     "CSE3521 - AI Survey/04_adversarial_search.md",
     "CSE3521 - AI Survey/Agent Design.md",
     "SP23/CSE2431 - Systems 2/13. Tertiary Storage(1).md",
