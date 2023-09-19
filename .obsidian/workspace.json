@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "dddbbc45c59069ab",
+        "id": "2faa3403202a0313",
         "type": "tabs",
         "children": [
           {
-            "id": "c7b7008c719b8203",
+            "id": "62cf697f820eabd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3461 - Wired Networks/03_transport_layer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d5589b215184765f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSE3241 - Databases/5. Relational Algebra.md",
+                "file": "Projects/Run Cellranger Instructions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3241 - Databases/5. Relational Algebra.md",
+                "file": "Projects/Run Cellranger Instructions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3241 - Databases/5. Relational Algebra.md",
+                "file": "Projects/Run Cellranger Instructions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3241 - Databases/5. Relational Algebra.md"
+                "file": "Projects/Run Cellranger Instructions.md"
               }
             }
           }
@@ -168,17 +155,25 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "d5589b215184765f",
+  "active": "4e3ecca74107cb14",
   "lastOpenFiles": [
-    "CSE3241 - Databases/4. Relational Modelling.md",
+    "config.md",
+    "Projects/Graph.canvas",
     "CSE3241 - Databases/5. Relational Algebra.md",
     "Untitled.md",
+    "CSE3241 - Databases/new note1.md",
+    "CSE3461 - Wired Networks/03_transport_layer.md",
+    "CSE3241 - Databases/definitions/Relational Calculus.md",
+    "CSE3241 - Databases/definitions/Relational Algebra.md",
+    "Untitled 1.md",
+    "Untitled 2.md",
+    "Untitled 3.md",
+    "CSE3241 - Databases/4. Relational Modelling.md",
     "CSE3241 - Databases/3. Enhanced Entity Relationship Model.md",
     "CSE3241 - Databases/definitions/Application Programs and Queries.md",
     "CSE3241 - Databases/2. Entity Relationship Model.md",
     "CSE3241 - Databases/1. Intro to Database Management System.md",
     "Obsidian Markdown Identifiers.md",
-    "CSE3461 - Wired Networks/03_transport_layer.md",
     "CSE3241 - Databases/definitions",
     "CSE3461 - Wired Networks/Untitled.md",
     "CSE3521 - AI Survey/04_adversarial_search.md",
@@ -188,14 +183,6 @@
     "SP23/CSE2431 - Systems 2/13. Tertiary Storage(1).md",
     "SP23/CSE3901 - Web Apps/7. Static Site Generation.md",
     "SP23/CSE3901 - Web Apps/6. Graphics, Fonts, Images.md",
-    "SP23/CSE2431 - Systems 2/5. Interprocess Communication.md",
-    "SP23/CSE2431 - Systems 2/4. CPU Scheduling Mechanism.md",
-    "CSE3521 - AI Survey/03_informed_search.md",
-    "work/stock.md",
-    "work/salary_negotiation.md",
-    "CSE3521 - AI Survey/agents.md",
-    "2023-09-17.md",
-    "CSE3241 - Databases/definitions/Conceptual Schema.md",
-    "config.md"
+    "SP23/CSE2431 - Systems 2/5. Interprocess Communication.md"
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "accentColor": "#b9d161",
+  "accentColor": "",
   "theme": "obsidian",
-  "cssTheme": "Cyber Glow"
+  "cssTheme": "Cyber Glow",
+  "baseFontSize": 18
 }
