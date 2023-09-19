@@ -2,15 +2,16 @@
   "sanctum@@hide-vault-title": true,
   "sanctum@@wrap-nav-titles": true,
   "sanctum@@indentation-guide-active": "var(--interactive)",
-  "CG@@CG-workspace-background": false,
-  "CG@@CG-workspace-background-workspace-slider": 0.45,
+  "CG@@CG-workspace-background": true,
+  "CG@@CG-workspace-background-workspace-slider": 0.72,
   "CG@@CG-workspace-background-blur": 0,
   "CG@@CG-workspace-background-brightness": 3,
   "CG@@CG-workspace-sbt": "CG-Obsidian-sbt",
   "CG@@CG-header-crumbs": true,
   "file-tree-alternative-plugin@@oz-fta-file-pane-active-file-background-color": "#FFE500",
-  "CG@@h1-glow": "#FFFF00",
   "CG@@mini-header-hide": false,
   "CG@@CG-hr": "CG-Apple-hr",
-  "CG@@CG-workspace-background-saturation": 0.4
+  "CG@@CG-workspace-background-saturation": 0.4,
+  "CG@@CG-workspace-background-image-custom-option": "url(\"https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/ss_9beef14102f164fa1163536d0fb3a51d0a2e4a3f.1920x1080.jpg?t=1693591602\")",
+  "CG@@CG-workspace-background-image": "CG-workspace-background-image-custom"
 }

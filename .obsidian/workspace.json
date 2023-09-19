@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Run Cellranger Instructions.md",
+                "file": "CSE3241 - Databases/5. Relational Algebra.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf653af61d9f05f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE3241 - Databases/Operations.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Run Cellranger Instructions.md",
+                "file": "CSE3241 - Databases/5. Relational Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Run Cellranger Instructions.md",
+                "file": "CSE3241 - Databases/5. Relational Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Run Cellranger Instructions.md"
+                "file": "CSE3241 - Databases/5. Relational Algebra.md"
               }
             }
           }
@@ -155,11 +167,14 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "4e3ecca74107cb14",
+  "active": "62cf697f820eabd7",
   "lastOpenFiles": [
+    "CSE3241 - Databases/Expressions.md",
+    "CSE3241 - Databases/5. Relational Algebra.md",
+    "CSE3241 - Databases/Operations.md",
+    "Projects/Run Cellranger Instructions.md",
     "config.md",
     "Projects/Graph.canvas",
-    "CSE3241 - Databases/5. Relational Algebra.md",
     "Untitled.md",
     "CSE3241 - Databases/new note1.md",
     "CSE3461 - Wired Networks/03_transport_layer.md",
@@ -181,8 +196,6 @@
     "SP23/CSE2431 - Systems 2/0. Formulas and Math and Algorithms and.md",
     "CSE3521 - AI Survey/Agent Design.md",
     "SP23/CSE2431 - Systems 2/13. Tertiary Storage(1).md",
-    "SP23/CSE3901 - Web Apps/7. Static Site Generation.md",
-    "SP23/CSE3901 - Web Apps/6. Graphics, Fonts, Images.md",
-    "SP23/CSE2431 - Systems 2/5. Interprocess Communication.md"
+    "SP23/CSE3901 - Web Apps/7. Static Site Generation.md"
   ]
 }
