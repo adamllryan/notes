@@ -1,4 +1,7 @@
+# Intro Content
 AI has 4 goals:
+
+
 
 - think like people
 - think rationally
@@ -21,4 +24,12 @@ AI has 4 goals:
 - Computer Vision
   - Object and facial recognition, scene segmentation, and image classification
 -
- 
+
+# Categories of ML
+## Static or Dynamic
+*Static*: The world does not change while the agent is thinking. Decision time does not matter!
+*Dynamic*: The world is changing while the agent is thinking. Decision time matters!
+## Discrete or Continuous
+*Discrete*: Possible states are distinct and/or the world changes discretely. Think integers. 
+*Continuous*: Possible states take continuous values. Think floats. 
+
