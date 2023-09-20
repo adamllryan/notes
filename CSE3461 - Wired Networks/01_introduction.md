@@ -2,6 +2,13 @@
 
 The internet is a network of networks. It is loosely hierarchical and there is a difference between public internet vs private intranet.
 
+
+## Things we need to connect to the internet
+We need:
+- IP Address
+- Subnet Mask
+- Default Router
+- Local/Default DNS
 ## Protocols
 
 There are different methods of sending/receiving messages:
@@ -115,3 +122,7 @@ TCP/IP model layers: Application, Transport, Internet, Network Access
 Routers use all 5 layers of the OSI model: Network, Data Link, Physical, Transport, Application.
 
 We need 4 things configured on a device for it to connect to the internet: IP address, subnet mask, default gateway, DNS server.
+
+
+Nodal processing takes time on the end station
+Queueing delay on router?

@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2faa3403202a0313",
+        "id": "935bc03b9011be1c",
         "type": "tabs",
         "children": [
           {
-            "id": "62cf697f820eabd7",
+            "id": "dbfff74be654bfc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3241 - Databases/5. Relational Algebra.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf653af61d9f05f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSE3241 - Databases/Operations.md",
+                "file": "CSE3461 - Wired Networks/02_application_layer.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d6388fe4de2d54e0",
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3241 - Databases/5. Relational Algebra.md",
+                "file": "CSE3461 - Wired Networks/02_application_layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3241 - Databases/5. Relational Algebra.md",
+                "file": "CSE3461 - Wired Networks/02_application_layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3241 - Databases/5. Relational Algebra.md"
+                "file": "CSE3461 - Wired Networks/02_application_layer.md"
               }
             }
           }
@@ -168,11 +155,13 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "62cf697f820eabd7",
+  "active": "dbfff74be654bfc4",
   "lastOpenFiles": [
-    "CSE3241 - Databases/Expressions.md",
-    "CSE3241 - Databases/5. Relational Algebra.md",
+    "CSE3461 - Wired Networks/01_introduction.md",
+    "CSE3461 - Wired Networks/02_application_layer.md",
     "CSE3241 - Databases/Operations.md",
+    "CSE3241 - Databases/5. Relational Algebra.md",
+    "CSE3241 - Databases/Expressions.md",
     "Projects/Run Cellranger Instructions.md",
     "config.md",
     "Projects/Graph.canvas",
@@ -195,8 +184,6 @@
     "CSE3521 - AI Survey/04_adversarial_search.md",
     "SP23/CSE2431 - Systems 2/11. Disk Scheduling(1).md",
     "SP23/CSE2431 - Systems 2/0. Formulas and Math and Algorithms and.md",
-    "CSE3521 - AI Survey/Agent Design.md",
-    "SP23/CSE2431 - Systems 2/13. Tertiary Storage(1).md",
-    "SP23/CSE3901 - Web Apps/7. Static Site Generation.md"
+    "CSE3521 - AI Survey/Agent Design.md"
   ]
 }
