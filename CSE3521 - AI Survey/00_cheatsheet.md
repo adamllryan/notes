@@ -1,8 +1,6 @@
 # Intro Content
 AI has 4 goals:
 
-
-
 - think like people
 - think rationally
 - act like people
@@ -23,7 +21,6 @@ AI has 4 goals:
   - automatic speech recognition, text-to-speech synthesis, dialog systems
 - Computer Vision
   - Object and facial recognition, scene segmentation, and image classification
--
 
 # Categories of ML
 ## Static or Dynamic
