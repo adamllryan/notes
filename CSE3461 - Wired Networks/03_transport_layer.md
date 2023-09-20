@@ -69,4 +69,9 @@ Now, the server will hold a copy of the packet until **ACK** is received.
 > The sender doesn't know what happened. 
 
 
+#### RDT2.2: Sender and receiver fragments
 
+
+#### RDT3.0: Channels with errors and loss
+
+We now assume underlying channel can also lose packets (data and ACKs). Checksum, 
