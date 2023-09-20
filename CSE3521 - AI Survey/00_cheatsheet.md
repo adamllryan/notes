@@ -1,3 +1,8 @@
+>[!INFO] Stuff on test
+> - Covers up to adversarial search
+> - No coding or pseudocoding problems, but maybe reading code problems
+> - Will cover cost/benefits of graph tree
+> - This sheet must fit on one page 8.5x11 single-sided. 
 # Intro Content
 AI has 4 goals:
 
