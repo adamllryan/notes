@@ -30,3 +30,8 @@ Terms:
 - h - forward cost (heuristic function or greedy search)
 - f - total cost (g + h)
 
+## Deterministic Games
+State space is S, starts from $s_0$
+Players: Agents
+
+Terminal test: sometimes opponent wins and you fail. terminal test checks success whether or not you win or not. Indicates end of path, not just you have reached the end of a path, where it may be the goal state or not. If you can only end by winning, we use goal test, otherwise it is called terminal test. 
