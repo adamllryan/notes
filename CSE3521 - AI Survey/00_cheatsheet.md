@@ -30,3 +30,7 @@ AI has 4 goals:
 *Discrete*: Possible states are distinct and/or the world changes discretely. Think integers. 
 *Continuous*: Possible states take continuous values. Think floats. 
 
+## Deterministic or Stochastic
+*Deterministic*: The next state is fully determined by current state and agent action. If sent back to the same state, you can repeat this 100% of the time. 
+*Stochastic*: The next state has some element of randomness. There is some uncertainty. 
+
