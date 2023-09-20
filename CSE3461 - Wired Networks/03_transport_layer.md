@@ -74,4 +74,6 @@ Now, the server will hold a copy of the packet until **ACK** is received.
 
 #### RDT3.0: Channels with errors and loss
 
-We now assume underlying channel can also lose packets (data and ACKs). Checksum, 
+We now assume underlying channel can also lose packets (data and ACKs). 
+
+Alternates packet/ack 0 and 1 so that 
