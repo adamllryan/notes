@@ -12,7 +12,7 @@ AI has 4 goals:
 | Think | Think like people | Think rationally |  
 | Act | Act like people | Act rationally |
 
-*Turing Test*: Outdated and rudimentary 
+*Turing Test*: Outdated and rudimentary test to determine if AI is successful
 [Turing Test]: Outdated/rudimentary test to determine if AI is successful. Human judge converses with entity (person or AI) for 5 minutes and guesses if it is AI.
 
 `Rational` means to behave in a very specific way:
