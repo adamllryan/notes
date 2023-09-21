@@ -4,12 +4,13 @@
 > - Will cover cost/benefits of graph tree
 > - This sheet must fit on one page 8.5x11 single-sided. 
 # Intro Content
+
 AI has 4 goals:
 
-- think like people
-- think rationally
-- act like people
-- act rationally
+|  | Humanlike | Rationality |  
+| -------- | -------- | -------- |  
+| Think | Think like people | Think rationally |  
+| Act | Act like people | Act rationally |
 
 [Turing Test]: Outdated/rudimentary test to determine if AI is successful. Human judge converses with entity (person or AI) for 5 minutes and guesses if it is AI.
 
