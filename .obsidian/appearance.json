@@ -1,6 +1,7 @@
 {
   "accentColor": "",
   "theme": "obsidian",
-  "cssTheme": "Things",
-  "baseFontSize": 18
+  "cssTheme": "Shimmering Focus",
+  "baseFontSize": 18,
+  "translucency": true
 }

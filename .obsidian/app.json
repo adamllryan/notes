@@ -2,7 +2,7 @@
   "promptDelete": false,
   "strictLineBreaks": false,
   "rightToLeft": false,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "vimMode": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
