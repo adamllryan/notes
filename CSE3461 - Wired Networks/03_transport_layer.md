@@ -120,3 +120,5 @@ Only does point to point
 *point-to-point*: one sender one receiver
 multi-cast: one sender multiple recipients who tune in
 broadcast: one sender, everyone gets
+
+Chooses one random start point, fills buffer, and then sends starting point to other side. 
