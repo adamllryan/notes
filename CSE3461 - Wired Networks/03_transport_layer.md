@@ -121,4 +121,13 @@ Only does point to point
 multi-cast: one sender multiple recipients who tune in
 broadcast: one sender, everyone gets
 
-Chooses one random start point, fills buffer, and then sends starting point to other side. 
+Chooses one random start point, fills buffer, and then sends starting point to other side. Then sends len(buffer_data)+starting point back. 
+If the starting point is 83, and we want to send "CAT", we write cat to buffer and then send ACK(83+len(CAT))
+
+We use a weighted rtt calculation
+
+$\text{EstimatedRTT} = (1-\alpha)\text{EstimatedRtt}_{n-1} + (\alpha)\text{SampleRTT}$
+$\text{DevRTT} = (1-\beta)\text{DevRTT} + \beta|\text{SampleRTT - EstimatedRTT}|$
+$\text{TimeoutInterval} = \text{EstimatedRTT} + (4)\text{DevRTT}$
+
+
