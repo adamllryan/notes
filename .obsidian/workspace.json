@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3521 - AI Survey/05_learning_agents_and_data.md",
+                "file": "CSE3521 - AI Survey/06_learning_agents_and_data.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3521 - AI Survey/05_learning_agents_and_data.md",
+                "file": "CSE3521 - AI Survey/06_learning_agents_and_data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3521 - AI Survey/05_learning_agents_and_data.md",
+                "file": "CSE3521 - AI Survey/06_learning_agents_and_data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3521 - AI Survey/05_learning_agents_and_data.md"
+                "file": "CSE3521 - AI Survey/06_learning_agents_and_data.md"
               }
             }
           }
@@ -160,9 +160,9 @@
   },
   "active": "2d9c563f2829ea86",
   "lastOpenFiles": [
-    "CSE3521 - AI Survey/04_adversarial_search.md",
-    "CSE3521 - AI Survey/05_learning_agents_and_data.md",
     "CSE3521 - AI Survey/00_cheatsheet_content.md",
+    "CSE3521 - AI Survey/04_adversarial_search.md",
+    "CSE3521 - AI Survey/06_learning_agents_and_data.md",
     "CSE3521 - AI Survey/03_informed_search.md",
     "CSE3521 - AI Survey/02_uninformed_search.md",
     "CSE3521 - AI Survey/01_agent_design.md",
