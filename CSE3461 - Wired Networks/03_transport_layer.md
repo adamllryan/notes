@@ -77,3 +77,46 @@ Now, the server will hold a copy of the packet until **ACK** is received.
 We now assume underlying channel can also lose packets (data and ACKs). 
 
 Alternates packet/ack 0 and 1 so that 
+
+TDM FDM
+## Pipelined Protocol
+*Go-back-N*: You have a window size n. There is a sender base pointer and sent 
+Sliding window protocol. 
+Steps:
+Set window, say n=4 (size). 
+Send each packet within window (in this case 4)
+Once reciever gets a packet, send ack(n) back. 
+If something is lost, send ack(n) where n is the last correct packet recieved. 
+On sender side, keep sending whole window and discard any acks that aren't correct order. 
+NOTE: if ack is received in incorrect order, doesn't matter because ack3 implies packet2 also received
+Sender:
+Set window (n=4)
+Send every packet in window. 
+Wait for timeout. 
+Receive cumulative ack(n) that indicates everything up to n has been received. 
+Slide window to ack(n)
+after timeout, Repeat.
+Ignore anything not max(n)
+Reciever: 
+Wait for packets. 
+Send ack for max n packet received, but only if everything before it has also been received. 
+If packet never received, ack last packet and disregard future packets until received in sequence. 
+Gobackn does not buffer on receive side. 
+
+*Selective repeat:* Same as before but:
+Sender:
+Each packet has a timer. 
+Send every packet in window, and after timeout send again. 
+If receive ack for that packet, mark as received. 
+Slide window when sequence up to n has been received all in order. 
+Receiver: 
+Ack every packet received. 
+Keep track of them in buffer
+Selective repeat buffers on receiver side. 
+if received out of order, mark as received out of order and if received a duplicate, send ack anyways. 
+
+## TCP
+Only does point to point
+*point-to-point*: one sender one receiver
+multi-cast: one sender multiple recipients who tune in
+broadcast: one sender, everyone gets

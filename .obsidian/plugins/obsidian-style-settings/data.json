@@ -13,5 +13,7 @@
   "CG@@CG-hr": "CG-Apple-hr",
   "CG@@CG-workspace-background-saturation": 0.4,
   "CG@@CG-workspace-background-image-custom-option": "url(\"https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/ss_9beef14102f164fa1163536d0fb3a51d0a2e4a3f.1920x1080.jpg?t=1693591602\")",
-  "CG@@CG-workspace-background-image": "CG-workspace-background-image-custom"
+  "CG@@CG-workspace-background-image": "CG-workspace-background-image-custom",
+  "minimal-advanced@@cursor": "default",
+  "minimal-advanced@@styled-scrollbars": true
 }
