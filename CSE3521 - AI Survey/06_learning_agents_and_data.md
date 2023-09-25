@@ -7,5 +7,5 @@ This is *machine learning*!
 
 ## Key parts
 *Data*: collected from past observations (training data)
-*Modeling*: devised to capture the patterns in data
+*Modeling*: devised to capture the patterns in data. All models are wrong! They may just be useful. 
 *Prediction*: apply the model to forecast what is going to happen in the future. 

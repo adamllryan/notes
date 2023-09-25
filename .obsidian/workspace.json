@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d6388fe4de2d54e0",
@@ -138,13 +137,21 @@
                 "file": "CSE3521 - AI Survey/06_learning_agents_and_data.md"
               }
             }
+          },
+          {
+            "id": "e7ee847788158cbe",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,11 +161,10 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
-      "copilot:Copilot Chat": false
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "2d9c563f2829ea86",
+  "active": "e7ee847788158cbe",
   "lastOpenFiles": [
     "CSE3521 - AI Survey/00_cheatsheet_content.md",
     "CSE3521 - AI Survey/04_adversarial_search.md",
