@@ -1,16 +1,20 @@
 # Permanent Config Plugins
-copilot.lua
-leap.nvim
-legendary.nvim
-which-key.nvim
-nightfox.nvim
-semshi (python highlighting)
-neo-tree
-mason.nvim
-null-ls
-mini.bufremove <leader>bd <leader>bD
-# To sort
+[x] copilot.lua
+[x] leap.nvim
+[x] legendary.nvim
+[x] which-key.nvim
+[x] nightfox.nvim
+[ ] semshi (python highlighting)
+[x] neo-tree
+[x] mason.nvim
+[x] null-ls
+[ ] mini.bufremove \<leader>bd \<leader>bD
+# Previous setup
 ChatGPT.nvim 
+
+# To sort
+
+
   SchemaStore.nvim 
   cmp-emoji 
   deoplete-jedi 
