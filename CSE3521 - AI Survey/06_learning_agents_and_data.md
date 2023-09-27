@@ -21,3 +21,4 @@ We pass in training data into the learning algorithm and then we are returned wi
 *Test data*: We use a smaller subset of the training data (split off before we test it so that no test data present in training data or vice versa). 
 
 # Data
+Our dataset is a collection of data instances or examples. 
