@@ -1,0 +1,1 @@
+Used in NLP and computer vision. L1 and L2 normalized. 

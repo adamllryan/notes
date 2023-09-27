@@ -1,0 +1,2 @@
+A value that has no inherent ordering but are an option in a list. e.g. car brands. 
+We often display this as a "one-hot" vector, basically a map where if a value applies, it is assigned a 1, else a zero. 

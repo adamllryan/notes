@@ -1,0 +1,1 @@
+Feature Extraction starts from our initial measured data and builds derived values that are intended to be **informative**, **non-redundant**, **facilitating future learning and generalizing steps**, and **leading towards better human interpretations**. 

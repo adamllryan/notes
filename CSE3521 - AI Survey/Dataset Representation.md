@@ -1,0 +1,1 @@
+Histogram and Parzen window, Feature correlation, Feature normalization: z-score and whitening. 

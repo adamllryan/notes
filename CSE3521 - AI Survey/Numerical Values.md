@@ -1,0 +1,1 @@
+Numerical values have a number ordering. They are stored as a vector with the value being its numerical value. 

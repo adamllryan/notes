@@ -22,5 +22,19 @@ We pass in training data into the learning algorithm and then we are returned wi
 
 # Data
 Our dataset is a collection of data instances or examples. Its definition depends on the problem. 
-*Data representation*: This is the form that we store the data in. 
-*Feature variables*: store numerical or categorical values. Numerical values are ordered and categorical are not. 
+[[Data Representation]]
+[[Feature Variables]]
+## Popular data instances
+Computer vision: image & video
+Natural language processing: sentence & document
+Speech: utterance
+Robotics: LiDAR point cloud
+Health care: electronic health records
+
+## Feature extraction
+We can extract features from our data if our data contains a certain pattern or feature. 
+[[Feature Extraction]]
+[[Bag-of-words Representation]]
+[[Dataset Representation]]
+[[Dimensionality reduction]]
+
