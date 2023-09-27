@@ -130,4 +130,8 @@ $\text{EstimatedRTT} = (1-\alpha)\text{EstimatedRtt}_{n-1} + (\alpha)\text{Sampl
 $\text{DevRTT} = (1-\beta)\text{DevRTT} + \beta|\text{SampleRTT - EstimatedRTT}|$
 $\text{TimeoutInterval} = \text{EstimatedRTT} + (4)\text{DevRTT}$
 
+# TCP Flow Control
+Flow control is done explicitly
+If receiver backs up, then sender will back up and then it can loop back to application process. 
+# Congestion Control
 
