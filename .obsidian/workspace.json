@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3521 - AI Survey/08_correlation_and_normalization.md",
+                "file": "CSE3461 - Wired Networks/00_midterm_wired_networking.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -131,7 +131,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d6388fe4de2d54e0",
@@ -147,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3521 - AI Survey/08_correlation_and_normalization.md",
+                "file": "CSE3461 - Wired Networks/00_midterm_wired_networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3521 - AI Survey/08_correlation_and_normalization.md",
+                "file": "CSE3461 - Wired Networks/00_midterm_wired_networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3521 - AI Survey/08_correlation_and_normalization.md"
+                "file": "CSE3461 - Wired Networks/00_midterm_wired_networking.md"
               }
             }
           },
@@ -222,8 +223,9 @@
   },
   "active": "dd906ef59d163589",
   "lastOpenFiles": [
-    "CSE3521 - AI Survey/06_learning_agents_and_data.md",
     "CSE3521 - AI Survey/08_correlation_and_normalization.md",
+    "CSE3461 - Wired Networks/00_midterm_wired_networking.md",
+    "CSE3521 - AI Survey/06_learning_agents_and_data.md",
     "Math3345 MT1.md",
     "CSE3241 - Databases/Untitled 1.md",
     "CSE3241 - Databases/0. Quick Reference.md",
@@ -247,7 +249,6 @@
     "CSE3521 - AI Survey/01_agent_design.md",
     "CSE3241 - Databases/5. Relational Algebra.md",
     "CSE3461 - Wired Networks/02_application_layer.md",
-    "CSE3461 - Wired Networks/Intro.md",
     "CSE3461 - Wired Networks/Traceroute.canvas",
     "Projects/Graph.canvas",
     "CSE3241 - Databases/definitions"
