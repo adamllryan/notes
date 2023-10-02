@@ -45,9 +45,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "63fe312611acfc1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math3345 MT1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd906ef59d163589",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math3345 MT1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -121,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3241 - Databases/0. Quick Reference.md",
+                "file": "Math3345 MT1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3241 - Databases/0. Quick Reference.md",
+                "file": "Math3345 MT1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3241 - Databases/0. Quick Reference.md"
+                "file": "Math3345 MT1.md"
               }
             }
           },
@@ -194,10 +220,12 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "a25be68de22628b1",
+  "active": "4e3ecca74107cb14",
   "lastOpenFiles": [
-    "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
+    "CSE3241 - Databases/Untitled 1.md",
+    "Math3345 MT1.md",
     "CSE3241 - Databases/0. Quick Reference.md",
+    "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
     "CSE3461 - Wired Networks/03_transport_layer.md",
     "CSE3521 - AI Survey/06_learning_agents_and_data.md",
     "CSE3521 - AI Survey/Dimensionality reduction.md",
@@ -221,8 +249,6 @@
     "CSE3461 - Wired Networks/Intro.md",
     "CSE3461 - Wired Networks/Traceroute.canvas",
     "CSE3461 - Wired Networks/01_introduction.md",
-    "CSE3241 - Databases/Operations.md",
-    "CSE3241 - Databases/Expressions.md",
     "Projects/Graph.canvas",
     "CSE3241 - Databases/definitions"
   ]
