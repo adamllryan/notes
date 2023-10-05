@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
+                "file": "CSE3241 - Databases/1. Intro to Database Management System.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
+                "file": "CSE3241 - Databases/1. Intro to Database Management System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
+                "file": "CSE3241 - Databases/1. Intro to Database Management System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3241 - Databases/6. Functional Dependency & Normalization.md"
+                "file": "CSE3241 - Databases/1. Intro to Database Management System.md"
               }
             }
           },
@@ -217,13 +217,14 @@
   },
   "active": "2d9c563f2829ea86",
   "lastOpenFiles": [
+    "CSE3241 - Databases/5. Relational Algebra.md",
+    "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
     "CSE3461 - Wired Networks/00_midterm_wired_networking.md",
     "CSE3521 - AI Survey/08_correlation_and_normalization.md",
     "CSE3521 - AI Survey/06_learning_agents_and_data.md",
     "Math3345 MT1.md",
     "CSE3241 - Databases/Untitled 1.md",
     "CSE3241 - Databases/0. Quick Reference.md",
-    "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
     "CSE3461 - Wired Networks/03_transport_layer.md",
     "CSE3521 - AI Survey/Dimensionality reduction.md",
     "CSE3521 - AI Survey/Dataset Representation.md",
@@ -241,7 +242,6 @@
     "CSE3521 - AI Survey/03_informed_search.md",
     "CSE3521 - AI Survey/02_uninformed_search.md",
     "CSE3521 - AI Survey/01_agent_design.md",
-    "CSE3241 - Databases/5. Relational Algebra.md",
     "CSE3461 - Wired Networks/02_application_layer.md",
     "CSE3461 - Wired Networks/Traceroute.canvas",
     "Projects/Graph.canvas",
