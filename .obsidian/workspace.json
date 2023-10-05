@@ -63,17 +63,11 @@
             "id": "dd906ef59d163589",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSE3461 - Wired Networks/00_midterm_wired_networking.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,12 +121,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d6388fe4de2d54e0",
@@ -148,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3461 - Wired Networks/00_midterm_wired_networking.md",
+                "file": "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3461 - Wired Networks/00_midterm_wired_networking.md",
+                "file": "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3461 - Wired Networks/00_midterm_wired_networking.md"
+                "file": "CSE3241 - Databases/6. Functional Dependency & Normalization.md"
               }
             }
           },
@@ -221,10 +215,10 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "dd906ef59d163589",
+  "active": "2d9c563f2829ea86",
   "lastOpenFiles": [
-    "CSE3521 - AI Survey/08_correlation_and_normalization.md",
     "CSE3461 - Wired Networks/00_midterm_wired_networking.md",
+    "CSE3521 - AI Survey/08_correlation_and_normalization.md",
     "CSE3521 - AI Survey/06_learning_agents_and_data.md",
     "Math3345 MT1.md",
     "CSE3241 - Databases/Untitled 1.md",
