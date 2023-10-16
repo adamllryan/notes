@@ -61,9 +61,16 @@ Classless interDomain Routing.
 # Non-routable IP Addresses
 
 # IP addresses tutorial
-
+request from ip
+divide nets by bit
 # DHCP 
+Application layer model. Used to dynamically assign IP Addr
 
+Steps:
+1. Computer broadcasts on 0.0.0.0:67 that it wants an ip. Chooses random transaction_ID
+2. All DHCP servers reply with offer of ip and returns transaction_ID. Sends over 255.255.255.255:68
+3. Computer chooses one and creates new message with transaction_id+1, 0.0.0.0:67, sends. 
+4. DHCP server replies with confirmation. It may offer same ip to many but the first to accept gets it. 
 # Hierarchical addressing
 
 # NAT
