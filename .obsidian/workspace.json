@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3521 - AI Survey/09_dimensionality_reduction.md",
+                "file": "CSE3521 - AI Survey/10_probability_intro.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3521 - AI Survey/09_dimensionality_reduction.md",
+                "file": "CSE3521 - AI Survey/10_probability_intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3521 - AI Survey/09_dimensionality_reduction.md",
+                "file": "CSE3521 - AI Survey/10_probability_intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3521 - AI Survey/09_dimensionality_reduction.md"
+                "file": "CSE3521 - AI Survey/10_probability_intro.md"
               }
             }
           },
@@ -217,8 +217,9 @@
   },
   "active": "2d9c563f2829ea86",
   "lastOpenFiles": [
-    "CSE3521 - AI Survey/08_correlation_and_normalization.md",
     "CSE3521 - AI Survey/09_dimensionality_reduction.md",
+    "CSE3521 - AI Survey/10_probability_intro.md",
+    "CSE3521 - AI Survey/08_correlation_and_normalization.md",
     "CSE3241 - Databases/1. Intro to Database Management System.md",
     "CSE3241 - Databases/5. Relational Algebra.md",
     "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
@@ -242,7 +243,6 @@
     "CSE3521 - AI Survey/00_cheatsheet_content.md",
     "CSE3521 - AI Survey/04_adversarial_search.md",
     "CSE3521 - AI Survey/03_informed_search.md",
-    "CSE3521 - AI Survey/02_uninformed_search.md",
     "CSE3461 - Wired Networks/Traceroute.canvas",
     "Projects/Graph.canvas",
     "CSE3241 - Databases/definitions"

@@ -32,3 +32,16 @@ Bins grow exponentially
 
 # Nonlinear Dimensionality Reduction
 
+It can fail at times. We want to be able to reduce dimensionality without losing information. 
+
+## General Idea (M < D)
+
+Most fail, Laplacian eigenmap is kind of close for the swiss roll problem
+
+# t-SNE
+
+T distributed stochastic Neighbor embedding. Uses pairwise joint probabability to characterize every set of instances. It preserves the probability of something being this far from sometihng else. 
+
+# Summary
+
+do later lmao
