@@ -55,9 +55,9 @@
 # IP addressing introduction
 
 # Subnets
-
+Any time we leave a router interface, we are in a new subnet. 
 # CIDR
-
+Classless interDomain Routing. 
 # Non-routable IP Addresses
 
 # IP addresses tutorial
