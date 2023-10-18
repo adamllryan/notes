@@ -74,7 +74,9 @@ Steps:
 # Hierarchical addressing
 
 # NAT
+Network Address translation. Translates local nonroutable IP to another address. 
 
+Holds a table that maps WAN side address to LAN side address. Any new unknown address gets a new mappable address and is stored. A WAN side address is an adapter. 
 # IPv6
 
 ## Datagram format
