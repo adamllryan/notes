@@ -27,3 +27,12 @@ A result points to a dependency. Gray colored nodes are observed  and white are 
 First order Markov models: Each layer depends on the last. 
 Second order: Each layer depends on the past two layers. 
 Hidden: Each layer depends on the last and also contains a hidden layer with unknown nodes. 
+
+# Maximum a posteriori
+We should choose the safest choice. If we flip a coin 10 times and 90% is heads, then we choose heads because it is the safest choice. 
+$P(\lambda|D)$ where $\lambda$ is a boolean random variable and D is a single effect( data/evidence). 
+$\text{argmax}_{\lambda}P(\lambda|D)=\text{argmax}_{\lambda}\frac{P(D|\lambda)p(\lambda)}{P(D)}=\text{argmax}_{\lambda}P(D|\lambda)p(\lambda)$  $p(\lambda)$ prior distribution over $\lambda$ before seeing D
+$P(D|\lambda)$ likelihood of the data given $\lambda$
+$P(\lambda|D)$ posterior distribution over $\lambda$ after seeing D
+
+# Probabilistic Queries
