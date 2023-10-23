@@ -17,3 +17,7 @@ Child, parent, ancestor, decedents, neighbors, cycle, tree
 
 # directed graphical models
 Graphical model whose graph is a DAG. Also known as Bayes network/belief network. 
+
+# Naïve Bayes
+The arrow does not mean cause->effect, it just represents a dependency. 
+A result points to a dependency. Gray colored nodes are observed  and white are unknown. 
