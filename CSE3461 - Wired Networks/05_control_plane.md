@@ -6,6 +6,9 @@ These use "link state" algorithms, usually for internal networks.
 BGP Holds the internet together. 
 *Static*: Routes change slowly over time. 
 *Dynamic*: Routes change more quickly, with periodic updates or in response to link cost changes. 
+
+## Bellman Ford Equation
+
 # SDN Controllers
 
 # Internet Control Message Protocol
