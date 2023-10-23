@@ -21,3 +21,9 @@ Graphical model whose graph is a DAG. Also known as Bayes network/belief network
 # Naïve Bayes
 The arrow does not mean cause->effect, it just represents a dependency. 
 A result points to a dependency. Gray colored nodes are observed  and white are unknown. 
+
+# Markov Models
+
+First order Markov models: Each layer depends on the last. 
+Second order: Each layer depends on the past two layers. 
+Hidden: Each layer depends on the last and also contains a hidden layer with unknown nodes. 
