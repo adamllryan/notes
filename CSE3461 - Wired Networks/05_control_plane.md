@@ -28,5 +28,7 @@ BGP Holds the internet together.
 # Controllers
 
 # ICMP
-
+1. we have used this
+2. network layer
 # SNMP
+Management software for internet connected devices. Called an agent, it collects data and sends it to a client. Sends data in a MiB, management information block. 
