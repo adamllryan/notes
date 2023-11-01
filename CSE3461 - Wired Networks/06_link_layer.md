@@ -8,6 +8,8 @@ We include a datagram EDC footer on each to use parity checking. Internal links 
 TDMA - code division multiple access.  like the talking stick. it splits bandwidth into chunks and users take turns. 
 FDMA - frequency division. like CDMA but we are dividing bandwidth and sharing. 
 CDMA - 
+
+CSMA - Carrier sense multiple access. Listen before transmit. If a channel is sensed idle, transmit entire frame. 
 # LANS
 
 ## Addressing, ARP
