@@ -24,9 +24,12 @@
             "id": "8379ded79505d7b9",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.16"
+                "file": "CSE3521 - AI Survey/Feature Extraction.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           },
@@ -153,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3461 - Wired Networks/06_link_layer.md",
+                "file": "CSE3521 - AI Survey/Feature Extraction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3461 - Wired Networks/06_link_layer.md",
+                "file": "CSE3521 - AI Survey/Feature Extraction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3461 - Wired Networks/06_link_layer.md"
+                "file": "CSE3521 - AI Survey/Feature Extraction.md"
               }
             }
           },
@@ -228,6 +231,7 @@
   },
   "active": "8379ded79505d7b9",
   "lastOpenFiles": [
+    "CSE3521 - AI Survey/06_learning_agents_and_data.md",
     "CSE3461 - Wired Networks/05_control_plane.md",
     "CSE3461 - Wired Networks/06_link_layer.md",
     "CSE3461 - Wired Networks/04_network_layer.md",
@@ -240,7 +244,6 @@
     "CSE3241 - Databases/5. Relational Algebra.md",
     "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
     "CSE3461 - Wired Networks/00_midterm_wired_networking.md",
-    "CSE3521 - AI Survey/06_learning_agents_and_data.md",
     "Math3345 MT1.md",
     "CSE3241 - Databases/Untitled 1.md",
     "CSE3241 - Databases/0. Quick Reference.md",
