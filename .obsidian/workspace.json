@@ -21,6 +21,16 @@
             }
           },
           {
+            "id": "8379ded79505d7b9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
+          },
+          {
             "id": "8075825309814057",
             "type": "leaf",
             "state": {
@@ -67,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,7 +226,7 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "2d9c563f2829ea86",
+  "active": "8379ded79505d7b9",
   "lastOpenFiles": [
     "CSE3461 - Wired Networks/05_control_plane.md",
     "CSE3461 - Wired Networks/06_link_layer.md",
