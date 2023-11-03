@@ -4,7 +4,7 @@ We are good at making decisions but not good at explaining our decisions. It's h
 
 Solution: Let's make the machine learn itself and let it create rules itself. 
 This is *machine learning*!
-
+Machine learning is a set of methods that can automatically detect meaningful patterns in data and then use those patterns to predict future data/perform decision making. 
 # Learning Agents
 ## Key parts
 *Data*: collected from past observations (training data)
