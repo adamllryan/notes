@@ -1,15 +1,17 @@
 # Dependent Feature Variables
 Most real-world data has high-dimensional/correlated variables. (Think pixels, words, genes)
 We need a probabilistic model. 
-
 # Chain rule of probability 
-
+p(X[1]=x[1],...)=p(x[1])p(x[2]|x[1])...
 # Conditional Independence
-
+iff conditional joint dist can be written as product of conditional distributions
 # Markov Models
-
+Future independent of past given present
+P(x1,...,xn)=P(x1)(Px2|x1)P(x3|x1,x2)...
+Much cheaper!
 # Probabilistic Graphical Models
-
+First order markov good for 1d sequence data
+Higher dimension look below
 # Graph terminology
 
 Clique is any sub complete graph

@@ -33,8 +33,7 @@ Health care: electronic health records
 
 ## Feature extraction
 We can extract features from our data if our data contains a certain pattern or feature. 
-[[Feature Extraction]]
-[[Bag-of-words Representation]]
-[[Dataset Representation]]
-[[Dimensionality reduction]]
-
+Feature Extraction starts from our initial measured data and builds derived values that are intended to be **informative**, **non-redundant**, **facilitating future learning and generalizing steps**, and **leading towards better human interpretations**. 
+Used in NLP and computer vision. L1 and L2 normalized. 
+Histogram and Parzen window, Feature correlation, Feature normalization: z-score and whitening. 
+Principal component analysis (PCA)
