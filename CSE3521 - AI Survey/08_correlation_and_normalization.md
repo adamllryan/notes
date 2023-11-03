@@ -37,7 +37,9 @@ uncorrelated: cov=0 between variables
 Examples of independent: L1,L2 normalization. Goal is to normalize the magnitude of feature vectors. We assume feature variables or dimensions are on the same scale with no correlation. 
 Examples of dependent: Z-score, whitening. Goal is to remove feature correlation and remove scale difference. 
 ## Dependent costs
+For new inputs, we need to normalize those new inputs too! The mean and standard deviation/covariance must be calculated from the training set. Test set must be normalized by values coming from the training set!
 
+We can represent data as a histogram or using kernel density estimation. 
 # Linear Algebra
 
 ## Inner product

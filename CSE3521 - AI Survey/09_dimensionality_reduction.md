@@ -1,19 +1,20 @@
 ## Sparseness & Dimensionalities
-
+Data can have many features per sample, and grows as time progresses. Less information present, more likely o be true with greater dimensions. 
 ### Reduce this
 
 # Dimensionality Reduction
-
+We can reuce dimensions in cases where:
+- Correlation means redundancy where knowing an element means we know another. 
 Bins grow exponentially
 
 ### General Idea of DR
-
+Linear dimensionality reduction: reduce linearly
 ### Notation
 
 ## Principal Component Analysis: Linear dimensionality Reduction
 
 ### Karhunen-Loeve Transform
-
+$z=W^T(x-\mu)$ 
 ### PCA where M=1
 
 ### PCA M > 1
