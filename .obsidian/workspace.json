@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3521 - AI Survey/06_learning_agents_and_data.md",
+                "file": "CSE3521 - AI Survey/14_gaussian_mixture_models.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -156,7 +156,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3521 - AI Survey/06_learning_agents_and_data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +172,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3521 - AI Survey/06_learning_agents_and_data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,9 +193,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CSE3521 - AI Survey/06_learning_agents_and_data.md"
-              }
+              "state": {}
             }
           },
           {
@@ -229,10 +225,11 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "b631e3f82c5db310",
+  "active": "dd906ef59d163589",
   "lastOpenFiles": [
-    "CSE3521 - AI Survey/Dimensionality reduction.md",
+    "CSE3521 - AI Survey/14_gaussian_mixture_models.md",
     "CSE3521 - AI Survey/06_learning_agents_and_data.md",
+    "CSE3521 - AI Survey/Dimensionality reduction.md",
     "CSE3521 - AI Survey/Dataset Representation.md",
     "CSE3521 - AI Survey/Bag-of-words Representation.md",
     "CSE3521 - AI Survey/Feature Extraction.md",
@@ -256,7 +253,6 @@
     "CSE3241 - Databases/0. Quick Reference.md",
     "CSE3461 - Wired Networks/03_transport_layer.md",
     "CSE3241 - Databases/nvim.md",
-    "CSE3521 - AI Survey/Feature Variables.md",
     "CSE3461 - Wired Networks/Traceroute.canvas",
     "Projects/Graph.canvas",
     "CSE3241 - Databases/definitions"
