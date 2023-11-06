@@ -6,3 +6,5 @@ Expectiation: Different possible values for hidden variables and how likely are 
 Maximization:Maximize the likelihood of our data points (MLE) or our visible variables using our expectations about the hidden variables. 
 
 ## Parameter Estimation: EM Algorithm
+It is a group of algorithms used to deal with problems that have hidden variables. 
+Iterative-improvement algorithm
