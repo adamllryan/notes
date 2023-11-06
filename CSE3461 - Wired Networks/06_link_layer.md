@@ -11,8 +11,15 @@ CDMA -
 
 CSMA - Carrier sense multiple access. Listen before transmit. If a channel is sensed idle, transmit entire frame. 
 # LANS
+MAC address is like social security. 
 
 ## Addressing, ARP
+Address Resolution Protocol. 
+Used to determine interface's MAC address knowing its IP address. 
+Creates an ARP table, where each IP node on LAN has a table. Maps an ip address into a mac address. 
+If not in ARP table, host sends ARP query to every machine on LAN and every machine but intended recipient drops packet. Client then replies with mac address. 
+
+
 
 ## Ethernet
 
