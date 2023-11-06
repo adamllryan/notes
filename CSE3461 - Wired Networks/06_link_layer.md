@@ -18,14 +18,24 @@ Address Resolution Protocol.
 Used to determine interface's MAC address knowing its IP address. 
 Creates an ARP table, where each IP node on LAN has a table. Maps an ip address into a mac address. 
 If not in ARP table, host sends ARP query to every machine on LAN and every machine but intended recipient drops packet. Client then replies with mac address. 
+Your MAC address never leaves your LAN. 
+
+Router wants to send packet to Machine. 
+Router doesn't have IP in ARP table, so Router sends ARP query packet containing Router's MAC address on broadcast. Every machine will then drop this packet but Machine. Machine will respond with its MAC address and returns to sender. 
 
 
 
 ## Ethernet
-
+Early ethernet used bus tech where you would run a cable and then tap into that cable. All nodes are in the same collision domain (allows collisions). 
+We use star now where a switch sits in the center then every machine attaches into the switch. Each spoke runs a separate ethernet protocol such that nodes cannot collide with each other. 
+Ethernet is connectionless and unreliable. 
 ## Switches
-
+Link layer device is a layer 2 device. 
+Switch starts with empty switch table. Table contains mac address, interface, and time to live. It will receive a packet. 
+Initially table is empty and the switch will *flood* every port until it receives a response. Then it will add the mac address to the switch table and be able to return data to only one interface until TTL expires (since machines move). 
 ## VLANs
+
+Virtual LANs. 
 
 # Link Virtualization
 
