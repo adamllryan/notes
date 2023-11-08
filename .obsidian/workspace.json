@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
+                "file": "CSE3461 - Wired Networks/07_wireless.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -79,17 +79,8 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "88723503612760b2",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -109,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
+                "file": "CSE3461 - Wired Networks/07_wireless.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
+                "file": "CSE3461 - Wired Networks/07_wireless.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3521 - AI Survey/15_linear_parameter_estimation.md"
+                "file": "CSE3461 - Wired Networks/07_wireless.md"
               }
             }
           },
@@ -178,15 +169,16 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "b631e3f82c5db310",
   "lastOpenFiles": [
-    "CSE3521 - AI Survey/14_gaussian_mixture_models.md",
-    "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
     "CSE3461 - Wired Networks/06_link_layer.md",
+    "CSE3461 - Wired Networks/07_wireless.md",
+    "CSE5463 - Wireless Networks/Lecture 2.md",
+    "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
+    "CSE3521 - AI Survey/14_gaussian_mixture_models.md",
     "CSE3241 - Databases/nvim.md",
     "CSE3241 - Databases/0. Quick Reference.md",
     "Math3345 MT1.md",
@@ -208,8 +200,6 @@
     "CSE3241 - Databases/1. Intro to Database Management System.md",
     "CSE3241 - Databases/5. Relational Algebra.md",
     "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
-    "CSE3461 - Wired Networks/00_midterm_wired_networking.md",
-    "CSE3241 - Databases/Untitled 1.md",
     "CSE3461 - Wired Networks/Traceroute.canvas",
     "Projects/Graph.canvas",
     "CSE3241 - Databases/definitions"
