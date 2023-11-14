@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3241 - Databases/1. Intro to Database Management System.md",
+                "file": "CSE3241 - Databases/7. SQL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3241 - Databases/1. Intro to Database Management System.md",
+                "file": "CSE3241 - Databases/7. SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3241 - Databases/1. Intro to Database Management System.md",
+                "file": "CSE3241 - Databases/7. SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3241 - Databases/1. Intro to Database Management System.md"
+                "file": "CSE3241 - Databases/7. SQL.md"
               }
             }
           },
@@ -158,15 +158,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e3ecca74107cb14",
+  "active": "5bd66a948e121e28",
   "lastOpenFiles": [
+    "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
+    "CSE3241 - Databases/7. SQL.md",
+    "CSE3241 - Databases/8. Indexing.md",
+    "CSE3241 - Databases/1. Intro to Database Management System.md",
     "CSE3241 - Databases/2. Entity Relationship Model.md",
     "CSE3241 - Databases/3. Enhanced Entity Relationship Model.md",
     "CSE3241 - Databases/4. Relational Modelling.md",
     "CSE3241 - Databases/5. Relational Algebra.md",
-    "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
-    "CSE3241 - Databases/7. SQL.md",
-    "CSE3241 - Databases/8. Indexing.md",
     "CSE3241 - Databases/9. Embedded SQL.md",
     "CSE3461 - Wired Networks/06_link_layer.md",
     "CSE3241 - Databases/Index.md",
@@ -185,7 +186,6 @@
     "CSE3521 - AI Survey/13_probabilistic_parameter_estimation.md",
     "CSE3521 - AI Survey/12_probabilistic_inference.md",
     "CSE3521 - AI Survey/11_bayesian_networks.md",
-    "CSE3521 - AI Survey/10_probability_intro.md",
     "CSE3461 - Wired Networks/Traceroute.canvas",
     "Projects/Graph.canvas",
     "CSE3241 - Databases/definitions"
