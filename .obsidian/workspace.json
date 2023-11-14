@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3461 - Wired Networks/07_wireless.md",
+                "file": "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3461 - Wired Networks/07_wireless.md",
+                "file": "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3461 - Wired Networks/07_wireless.md",
+                "file": "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3461 - Wired Networks/07_wireless.md"
+                "file": "CSE3241 - Databases/6. Functional Dependency & Normalization.md"
               }
             }
           },
@@ -174,8 +174,8 @@
   },
   "active": "b631e3f82c5db310",
   "lastOpenFiles": [
-    "CSE3461 - Wired Networks/06_link_layer.md",
     "CSE3461 - Wired Networks/07_wireless.md",
+    "CSE3461 - Wired Networks/06_link_layer.md",
     "CSE5463 - Wireless Networks/Lecture 2.md",
     "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
     "CSE3521 - AI Survey/14_gaussian_mixture_models.md",
