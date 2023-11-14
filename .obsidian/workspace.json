@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "5db9c25cbdc00edd",
+        "id": "531d953e57764e69",
         "type": "tabs",
         "children": [
           {
-            "id": "2d9c563f2829ea86",
+            "id": "5bd66a948e121e28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3461 - Wired Networks/06_link_layer.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b631e3f82c5db310",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
+                "file": "CSE3241 - Databases/1. Intro to Database Management System.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
+                "file": "CSE3241 - Databases/1. Intro to Database Management System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
+                "file": "CSE3241 - Databases/1. Intro to Database Management System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3241 - Databases/6. Functional Dependency & Normalization.md"
+                "file": "CSE3241 - Databases/1. Intro to Database Management System.md"
               }
             }
           },
@@ -172,10 +158,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b631e3f82c5db310",
+  "active": "4e3ecca74107cb14",
   "lastOpenFiles": [
-    "CSE3461 - Wired Networks/07_wireless.md",
+    "CSE3241 - Databases/2. Entity Relationship Model.md",
+    "CSE3241 - Databases/3. Enhanced Entity Relationship Model.md",
+    "CSE3241 - Databases/4. Relational Modelling.md",
+    "CSE3241 - Databases/5. Relational Algebra.md",
+    "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
+    "CSE3241 - Databases/7. SQL.md",
+    "CSE3241 - Databases/8. Indexing.md",
+    "CSE3241 - Databases/9. Embedded SQL.md",
     "CSE3461 - Wired Networks/06_link_layer.md",
+    "CSE3241 - Databases/Index.md",
+    "CSE3461 - Wired Networks/07_wireless.md",
     "CSE5463 - Wireless Networks/Lecture 2.md",
     "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
     "CSE3521 - AI Survey/14_gaussian_mixture_models.md",
@@ -191,15 +186,6 @@
     "CSE3521 - AI Survey/12_probabilistic_inference.md",
     "CSE3521 - AI Survey/11_bayesian_networks.md",
     "CSE3521 - AI Survey/10_probability_intro.md",
-    "CSE3521 - AI Survey/09_dimensionality_reduction.md",
-    "CSE3521 - AI Survey/08_correlation_and_normalization.md",
-    "CSE3521 - AI Survey/07_data_to_features.md",
-    "CSE3461 - Wired Networks/05_control_plane.md",
-    "CSE3461 - Wired Networks/04_network_layer.md",
-    "CSE3461 - Wired Networks/01_introduction.md",
-    "CSE3241 - Databases/1. Intro to Database Management System.md",
-    "CSE3241 - Databases/5. Relational Algebra.md",
-    "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
     "CSE3461 - Wired Networks/Traceroute.canvas",
     "Projects/Graph.canvas",
     "CSE3241 - Databases/definitions"
