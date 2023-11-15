@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3461 - Wired Networks/06_link_layer.md",
+                "file": "CSE3461 - Wired Networks/07_wireless.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,11 +171,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b631e3f82c5db310",
+  "active": "2d9c563f2829ea86",
   "lastOpenFiles": [
+    "CSE5463 - Wireless Networks/Lecture 2.md",
     "CSE3461 - Wired Networks/06_link_layer.md",
     "CSE3461 - Wired Networks/07_wireless.md",
-    "CSE5463 - Wireless Networks/Lecture 2.md",
     "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
     "CSE3521 - AI Survey/14_gaussian_mixture_models.md",
     "CSE3241 - Databases/nvim.md",
