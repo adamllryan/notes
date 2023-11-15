@@ -10,3 +10,8 @@ Every user is assigned an 8-bit chipping code.
 *Message Integrity*: Sender and receiver want to ensure message has not been altered at any point. 
 *Access and availability*: Services must be accessible and available to users -- has to be practical, not using the cone-of-silence. 
 
+# Security Risks
+*Eavesdrop*: Interception of messages or insert messages into connection. 
+*Impersonation*: Spoofing a source address in a packet. 
+*Hijacking*: Take over an ongoing connection by removing sender or receiver, injecting self into their place. 
+*Denial of Service*: Prevent service from being used by others. (such as overloading resources)
