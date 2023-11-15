@@ -9,3 +9,6 @@ We use SSE because there is less math
 # Estimate Parameters of model
 
 # Least squares
+
+
+

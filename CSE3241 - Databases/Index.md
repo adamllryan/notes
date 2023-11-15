@@ -1,0 +1,1 @@
+A data structure used to speed up retrieval of information from a database. 
