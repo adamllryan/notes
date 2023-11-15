@@ -22,3 +22,10 @@ With cipher text only:
 *Statistical Analysis*: Analyze something like most common letter
 
 Known-plaintext attack:
+
+
+# RSA 
+We use public/private key to encrypt data. You give public key to everyone so that they can encrypt a message to send you, and then your private key can decode. It can also be used to authenticate yourself. If you send a message encrypted by your private key, anyone with public key can know that it is you because only you can encrypt something with private key. 
+
+# DSA
+Shared secret, but much cheaper than RSA. We use public/private keys to exchange shared key, then use DSA shared key on top of that. 
