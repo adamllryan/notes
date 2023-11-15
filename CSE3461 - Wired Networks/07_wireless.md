@@ -15,3 +15,10 @@ Every user is assigned an 8-bit chipping code.
 *Impersonation*: Spoofing a source address in a packet. 
 *Hijacking*: Take over an ongoing connection by removing sender or receiver, injecting self into their place. 
 *Denial of Service*: Prevent service from being used by others. (such as overloading resources)
+
+# Breaking Encryption
+With cipher text only:
+*Brute Force*: Search through all possible keys
+*Statistical Analysis*: Analyze something like most common letter
+
+Known-plaintext attack:
