@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3241 - Databases/7. SQL.md",
+                "file": "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3241 - Databases/7. SQL.md",
+                "file": "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3241 - Databases/7. SQL.md",
+                "file": "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3241 - Databases/7. SQL.md"
+                "file": "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md"
               }
             }
           },
@@ -160,8 +160,8 @@
   },
   "active": "5bd66a948e121e28",
   "lastOpenFiles": [
-    "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
     "CSE3241 - Databases/7. SQL.md",
+    "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
     "CSE3241 - Databases/8. Indexing.md",
     "CSE3241 - Databases/1. Intro to Database Management System.md",
     "CSE3241 - Databases/2. Entity Relationship Model.md",
