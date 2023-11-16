@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3241 - Databases/nvim.md",
+                "file": "CSE3241 - Databases/10. Transaction Management.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3241 - Databases/nvim.md",
+                "file": "CSE3241 - Databases/10. Transaction Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3241 - Databases/nvim.md",
+                "file": "CSE3241 - Databases/10. Transaction Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3241 - Databases/nvim.md"
+                "file": "CSE3241 - Databases/10. Transaction Management.md"
               }
             }
           },
@@ -158,11 +158,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e3ecca74107cb14",
+  "active": "5bd66a948e121e28",
   "lastOpenFiles": [
+    "CSE3241 - Databases/11. XML.md",
+    "nvim.md",
+    "CSE3241 - Databases/definitions/Expressions.md",
+    "CSE3241 - Databases/definitions/Index.md",
+    "CSE3241 - Databases/definitions/Operations.md",
+    "CSE3241 - Databases/Untitled.md",
+    "CSE3241 - Databases/Untitled 1.md",
     "CSE3241 - Databases/10. Transaction Management.md",
     "CSE3241 - Databases/12. NoSQL.md",
-    "CSE3241 - Databases/11. XML.md",
     "CSE3461 - Wired Networks/Transaction Processing.md",
     "CSE3461 - Wired Networks/Upcall.md",
     "CSE3461 - Wired Networks/Untitled.md",
@@ -181,12 +187,6 @@
     "CSE3241 - Databases/5. Relational Algebra.md",
     "CSE3241 - Databases/9. Embedded SQL.md",
     "CSE3461 - Wired Networks/06_link_layer.md",
-    "CSE3241 - Databases/Index.md",
-    "CSE5463 - Wireless Networks/Lecture 2.md",
-    "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
-    "CSE3521 - AI Survey/14_gaussian_mixture_models.md",
-    "CSE3241 - Databases/nvim.md",
-    "CSE3241 - Databases/0. Quick Reference.md",
     "Projects/Graph.canvas",
     "CSE3241 - Databases/definitions"
   ]
