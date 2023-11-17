@@ -11,5 +11,25 @@ We use a taylor series to estimate our local linear error. After the whole pipel
 	3. Calculate change in guess $\Delta \tilde{\rho}_1=(J^TJ)^{-1}J^T\Delta y$
 	4. Make new guess $\hat{\rho}_{t+1}=\hat{\rho}_t+\Delta\tilde{\rho}$
 
+This has similar problems to linear least squares!
+It suffers from expensive matrix inverses and from outliers! 
+There is also the issue regarding initial guess. It is very sensitive to its choice of values. We can get this from expert knowledge or try random values. 
 
+# Gradient Descent
 
+Imagine this like a hilly terrain. We want to find the lowest point in this terrain, or where error is the smallest. 
+
+![Introduction to Gradient Descent Algorithm along its variants](https://cdn.analyticsvidhya.com/wp-content/uploads/2017/03/06100746/grad.png)
+
+Gradient descent is a faster method for solving systems of equations, linear or nonlinear. This method determines a local minimum for a multi-parameter error function by searching through *parameter space* in order to find a minimum error. 
+
+Essentially, we will be using derivatives to find slope, and then we move in the direction where slope is negative. We repeat this until we converge or hit max iterations. 
+
+Initialize our parameters: $\hat{\rho}_{t}=[\rho_1,\rho_2,...,\rho_n]$
+Error function: $E(\rho)$
+Compute Gradients: $\nabla E(\hat{\rho_t})=(\frac{\partial E(\hat{\rho_t})}{\partial \rho_j})_j$
+Update Parameters: $\hat{\rho_{t+1}}=\hat{\rho_t}-\alpha \cdot \nabla E(\hat{\rho_t})$
+Error function $E(\rho)=\sum_i[e_i(\rho)]^2=\sum_i[f(x_i,\rho)-y_i]^2$
+Error gradient: $\nabla E(\rho)=(\frac{\partial E(\rho)}{\partial \rho_j})_j$
+
+Gradient descent has the benefits of no expensive matrix operations, no non-sse error functions, and it is easy to parallelize. However, it can be misled by local minima, get stuck on a flat plain, and can overshoot back and forth. It can be helpful to conduct a random-restart in different locations and there are some methods to select the best learning rates per iteration. 
