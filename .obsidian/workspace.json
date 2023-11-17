@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3241 - Databases/10. Transaction Management.md",
+                "file": "CSE3241 - Databases/0. Quick Reference.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3241 - Databases/10. Transaction Management.md",
+                "file": "CSE3241 - Databases/0. Quick Reference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3241 - Databases/10. Transaction Management.md",
+                "file": "CSE3241 - Databases/0. Quick Reference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3241 - Databases/10. Transaction Management.md"
+                "file": "CSE3241 - Databases/0. Quick Reference.md"
               }
             }
           },
@@ -160,8 +160,9 @@
   },
   "active": "9cdcc0ef0b4add5d",
   "lastOpenFiles": [
-    "CSE3241 - Databases/definitions and resources/Precedence Graph.md",
+    "CSE3241 - Databases/definitions and resources/Operations.md",
     "CSE3241 - Databases/10. Transaction Management.md",
+    "CSE3241 - Databases/definitions and resources/Precedence Graph.md",
     "CSE3241 - Databases/definitions and resources/Screenshot 2023-11-17 at 1.32.07 PM.png",
     "CSE3241 - Databases/Transaction Manager.md",
     "CSE3241 - Databases/9. Embedded SQL.md",
@@ -176,7 +177,6 @@
     "nvim.md",
     "CSE3241 - Databases/definitions and resources/Expressions.md",
     "CSE3241 - Databases/definitions and resources/Index.md",
-    "CSE3241 - Databases/definitions and resources/Operations.md",
     "CSE3241 - Databases/Untitled.md",
     "CSE3241 - Databases/Untitled 1.md",
     "CSE3241 - Databases/12. NoSQL.md",
