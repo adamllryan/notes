@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -161,8 +160,10 @@
   },
   "active": "9cdcc0ef0b4add5d",
   "lastOpenFiles": [
-    "CSE3241 - Databases/Transaction Manager.md",
+    "CSE3241 - Databases/definitions and resources/Precedence Graph.md",
     "CSE3241 - Databases/10. Transaction Management.md",
+    "CSE3241 - Databases/definitions and resources/Screenshot 2023-11-17 at 1.32.07 PM.png",
+    "CSE3241 - Databases/Transaction Manager.md",
     "CSE3241 - Databases/9. Embedded SQL.md",
     "CSE3241 - Databases/8. Indexing.md",
     "CSE3241 - Databases/7. SQL.md",
@@ -173,9 +174,9 @@
     "CSE3241 - Databases/4. Relational Modelling.md",
     "CSE3241 - Databases/11. XML.md",
     "nvim.md",
-    "CSE3241 - Databases/definitions/Expressions.md",
-    "CSE3241 - Databases/definitions/Index.md",
-    "CSE3241 - Databases/definitions/Operations.md",
+    "CSE3241 - Databases/definitions and resources/Expressions.md",
+    "CSE3241 - Databases/definitions and resources/Index.md",
+    "CSE3241 - Databases/definitions and resources/Operations.md",
     "CSE3241 - Databases/Untitled.md",
     "CSE3241 - Databases/Untitled 1.md",
     "CSE3241 - Databases/12. NoSQL.md",
@@ -186,9 +187,7 @@
     "CSE3461 - Wired Networks/Intro.md",
     "CSE3461 - Wired Networks/01_introduction.md",
     "CSE3461 - Wired Networks/07_wireless.md",
-    "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
-    "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
     "Projects/Graph.canvas",
-    "CSE3241 - Databases/definitions"
+    "CSE3241 - Databases/definitions and resources"
   ]
 }
