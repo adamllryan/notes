@@ -11,3 +11,5 @@ We use a taylor series to estimate our local linear error. After the whole pipel
 	3. Calculate change in guess $\Delta \tilde{\rho}_1=(J^TJ)^{-1}J^T\Delta y$
 	4. Make new guess $\hat{\rho}_{t+1}=\hat{\rho}_t+\Delta\tilde{\rho}$
 
+
+
