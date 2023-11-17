@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1700240266741,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1700240208740,
+          "path": "CSE3241 - Databases/Transaction Manager.md",
+          "title": "Transaction Manager"
+        }
+      ],
+      "title": "Todo"
+    }
+  ]
+}
