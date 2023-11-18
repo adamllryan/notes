@@ -1,4 +1,10 @@
 No longer guaranteed to have linear behavior or a single solution. This is our main problem. 
+# Nonlinear Parameter Estimation
+This is a similar idea to linear parameter estimation. However, it behaves in a different way. Unlike linear parameter estimation, nonlinear parameter estimation:
+- has parameters that don't act linearly
+- has a squared-error function that is no longer quadratic or parabolic (it may not have a single minima)
+- often does not have one single closed-form solution (we may need numerical approximation)
+
 
 # Local Linear Error
 We use a taylor series to estimate our local linear error. After the whole pipeline, results are outputted into a Jacobian Matrix. We can minimize the error by 

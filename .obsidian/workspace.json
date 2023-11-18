@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ab30a971f68434f4",
+        "id": "531d953e57764e69",
         "type": "tabs",
         "children": [
           {
-            "id": "6b342fc5f0a9472f",
+            "id": "5bd66a948e121e28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3521 - AI Survey/01_agent_design.md",
+                "file": "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d6388fe4de2d54e0",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3521 - AI Survey/01_agent_design.md",
+                "file": "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3521 - AI Survey/01_agent_design.md",
+                "file": "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3521 - AI Survey/01_agent_design.md"
+                "file": "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md"
               }
             }
           },
@@ -158,37 +159,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6b342fc5f0a9472f",
+  "active": "4e3ecca74107cb14",
   "lastOpenFiles": [
-    "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
-    "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
     "CSE3241 - Databases/2. Entity Relationship Model.md",
     "CSE3241 - Databases/1. Intro to Database Management System.md",
-    "CSE3241 - Databases/definitions and resources/Database Management System.md",
-    "CSE3241 - Databases/definitions and resources/Database.md",
-    "CSE3241 - Databases/definitions and resources/Metadata.md",
-    "CSE3241 - Databases/definitions and resources/Application Programs and Queries.md",
-    "CSE3241 - Databases/definitions and resources/Database state or Snapshot.md",
-    "Signal.md",
     "CSE3241 - Databases/10. Transaction Management.md",
-    "CSE3241 - Databases/0. Quick Reference.md",
-    "CSE3241 - Databases/definitions and resources/Operations.md",
-    "CSE3241 - Databases/definitions and resources/Precedence Graph.md",
-    "CSE3241 - Databases/definitions and resources/Screenshot 2023-11-17 at 1.32.07 PM.png",
-    "CSE3241 - Databases/Transaction Manager.md",
-    "CSE3241 - Databases/9. Embedded SQL.md",
-    "CSE3241 - Databases/8. Indexing.md",
     "CSE3241 - Databases/7. SQL.md",
-    "CSE3241 - Databases/3. Enhanced Entity Relationship Model.md",
-    "CSE3241 - Databases/5. Relational Algebra.md",
-    "CSE3241 - Databases/4. Relational Modelling.md",
-    "CSE3241 - Databases/11. XML.md",
     "nvim.md",
-    "CSE3241 - Databases/definitions and resources/Expressions.md",
+    "Signal.md",
+    "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
+    "CSE3241 - Databases/definitions and resources/Screenshot 2023-11-17 at 1.32.07 PM.png",
+    "CSE3241 - Databases/definitions and resources/Schema Diagram.md",
+    "CSE3241 - Databases/definitions and resources/Schema Construct.md",
+    "CSE3241 - Databases/definitions and resources/Relational Calculus.md",
+    "CSE3241 - Databases/definitions and resources/Relational Algebra.md",
+    "CSE3241 - Databases/definitions and resources/Precedence Graph.md",
+    "CSE3241 - Databases/definitions and resources/Operations.md",
+    "CSE3241 - Databases/definitions and resources/Metadata.md",
+    "CSE3241 - Databases/definitions and resources/Internal Schema.md",
     "CSE3241 - Databases/definitions and resources/Index.md",
-    "CSE3241 - Databases/Untitled.md",
+    "CSE3241 - Databases/definitions and resources/External View.md",
+    "CSE3241 - Databases/definitions and resources/Expressions.md",
+    "CSE3241 - Databases/definitions and resources/ermodel.md",
+    "CSE3241 - Databases/definitions and resources/environments.md",
+    "CSE3241 - Databases/definitions and resources/eermodel.md",
+    "CSE3241 - Databases/definitions and resources/Database.md",
+    "CSE3241 - Databases/definitions and resources/Database state or Snapshot.md",
+    "CSE3241 - Databases/definitions and resources/Database Schema.md",
+    "CSE3241 - Databases/definitions and resources/Database Management System.md",
+    "CSE3241 - Databases/definitions and resources/Database Catalog.md",
+    "CSE3241 - Databases/definitions and resources",
     "CSE3461 - Wired Networks/Traceroute.canvas",
     "Projects/Graph.canvas",
-    "CSE3241 - Databases/definitions and resources"
+    "CSE3241 - Databases/definitions"
   ]
 }
