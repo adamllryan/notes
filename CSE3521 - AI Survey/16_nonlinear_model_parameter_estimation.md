@@ -47,3 +47,7 @@ Error function $E(\rho)=\sum_i[e_i(\rho)]^2=\sum_i[f(x_i,\rho)-y_i]^2$
 Error gradient: $\nabla E(\rho)=(\frac{\partial E(\rho)}{\partial \rho_j})_j$
 
 Gradient descent has the benefits of no expensive matrix operations, no non-sse error functions, and it is easy to parallelize. However, it can be misled by local minima, get stuck on a flat plain, and can overshoot back and forth. It can be helpful to conduct a random-restart in different locations and there are some methods to select the best learning rates per iteration. 
+
+# Addendum
+
+???

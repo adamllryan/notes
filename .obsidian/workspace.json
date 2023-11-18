@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
+                "file": "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d6388fe4de2d54e0",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
+                "file": "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
+                "file": "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md"
+                "file": "CSE3521 - AI Survey/15_linear_parameter_estimation.md"
               }
             }
           },
@@ -159,15 +158,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e3ecca74107cb14",
+  "active": "5bd66a948e121e28",
   "lastOpenFiles": [
+    "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
+    "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
     "CSE3241 - Databases/2. Entity Relationship Model.md",
     "CSE3241 - Databases/1. Intro to Database Management System.md",
     "CSE3241 - Databases/10. Transaction Management.md",
     "CSE3241 - Databases/7. SQL.md",
     "nvim.md",
     "Signal.md",
-    "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
     "CSE3241 - Databases/definitions and resources/Screenshot 2023-11-17 at 1.32.07 PM.png",
     "CSE3241 - Databases/definitions and resources/Schema Diagram.md",
     "CSE3241 - Databases/definitions and resources/Schema Construct.md",
@@ -187,7 +187,6 @@
     "CSE3241 - Databases/definitions and resources/Database state or Snapshot.md",
     "CSE3241 - Databases/definitions and resources/Database Schema.md",
     "CSE3241 - Databases/definitions and resources/Database Management System.md",
-    "CSE3241 - Databases/definitions and resources/Database Catalog.md",
     "CSE3241 - Databases/definitions and resources",
     "CSE3461 - Wired Networks/Traceroute.canvas",
     "Projects/Graph.canvas",
