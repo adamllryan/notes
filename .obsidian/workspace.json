@@ -11,13 +11,8 @@
             "id": "6b342fc5f0a9472f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSE3241 - Databases/11. XML.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3241 - Databases/11. XML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3241 - Databases/11. XML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CSE3241 - Databases/11. XML.md"
-              }
+              "state": {}
             }
           },
           {
@@ -160,6 +151,7 @@
   },
   "active": "6b342fc5f0a9472f",
   "lastOpenFiles": [
+    "CSE3241 - Databases/11. XML.md",
     "CSE3461 - Wired Networks/01_introduction.md",
     "CSE3461 - Wired Networks/04_network_layer.md",
     "CSE3461 - Wired Networks/05_control_plane.md",
@@ -172,7 +164,6 @@
     "CSE3461 - Wired Networks/02_application_layer.md",
     "CSE3461 - Wired Networks/03_transport_layer.md",
     "CSE3241 - Databases/12. NoSQL.md",
-    "CSE3241 - Databases/11. XML.md",
     "CSE3241 - Databases/10. Transaction Management.md",
     "CSE3241 - Databases/9. Embedded SQL.md",
     "CSE3241 - Databases/8. Indexing.md",
