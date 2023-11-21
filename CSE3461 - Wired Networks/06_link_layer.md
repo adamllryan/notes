@@ -1,5 +1,9 @@
 # Introduction
 The link layer is between two machines. It's the Uber, plane, and train system between locations. They have different services but do the same things. 
+
+# Services
+
+# Adapters
 # Error Detection, Correction
 We include a datagram EDC footer on each to use parity checking. Internal links can use single bit parity because it's much lower chance of having more than a single bit flipping, and we use two-dimensional bit parity so that we can detect and correct a flipped bit. 
 

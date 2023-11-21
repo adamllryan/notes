@@ -1,51 +1,71 @@
-# What is the Internet?
+# Internet
+The internet consists of billions of connected computing devices. Essentially, it is a network of networks and is loosely hierarchical. It's built out of hosts (end systems) and clients (users). 
 
-The internet is a network of networks. It is loosely hierarchical and there is a difference between public internet vs private intranet.
+The internet relies on *packet switches* to forward packets or chunks of data. We call [[Router|routers]] and [[06_link_layer#Switches|switches]] to relay these packets between systems. We have divided the internet into a public internet and private intranet.
 
-
-## Things we need to connect to the internet
-We need:
+What do we need to have to connect to the internet? We need four items:
 - IP Address
 - Subnet Mask
 - Default Router
 - Local/Default DNS
-## Protocols
 
-There are different methods of sending/receiving messages:
+The internet, as a service, is infrastructure that provides services to applications. It provides functionality to *services* such as web, video, VoIP, email, e-commerce, social networks, and video games. It also provides *APIs* that interface into apps so we can use applications in other applications. 
 
-- TCP
-- IP
-- HTTP
-- FTP
-- PPP
+To do so, we use some of the following protocols:  *TCP*, *IP*, *HTTP*, *FTP*, *PPP*
 
-### Internet Standards
-
--RFC: Request For Comments
--IETF: Internet Engineering Task Force
-
-`Protocol` is a governing body that regulates all communication activity over the internet. They define:
+We also have *internet standards* to help manage the internet and its applications: 
+- RFC: Request For Comments
+- IETF: Internet Engineering Task Force
+These are called protocols. 
+## Protocol
+A *protocol* is a governing body that regulates all communication activity over the internet. They define:
 
 - Types of messages
 - syntax of those messages
 - semantics of the messages
 - rules associated with the messages
+# Network
 
-# Network Edge
+A network is a group of interconnected machines. These machines can only communicate with members of the same network. 
 
-The network edge consists of clients/users and servers that serve data to clients. The standard model is client/server, where the client hosts requests and receives a response from the server that services request.
+The *network edge* consists of clients/users and servers that serve data to clients. The standard model is client/server, where the client hosts requests and receives a response from the server that services request.
 A second model is the peer-to-peer model that hosts interactions symmetrically (Bitcoin as an example).
 
 The purpose of the network edge is data transfer between end systems. Apps that use TCP are good for HTTP, FTP, Telnet, and SMTP transfer. Apps that use UDP are normally streaming media, teleconferencing, and internet telephony.
 
-# Network Core
-
-The network core is the mesh of interconnected routers. It connects client and servers.
+The *network core* is the mesh of interconnected routers. It connects client and servers.
 
 Data is transferred through the network via:
 
 - Circuit switching, where a dedicated circuit is used per call (like a telephone network)
 - Packet switching, where data is sent through network in discrete 'chunks'
+
+# TODO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Circuit Switching
 

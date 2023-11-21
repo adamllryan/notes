@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "531d953e57764e69",
+        "id": "ab30a971f68434f4",
         "type": "tabs",
         "children": [
           {
-            "id": "5bd66a948e121e28",
+            "id": "6b342fc5f0a9472f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
+                "file": "CSE3461 - Wired Networks/01_introduction.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
+                "file": "CSE3461 - Wired Networks/01_introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
+                "file": "CSE3461 - Wired Networks/01_introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3521 - AI Survey/15_linear_parameter_estimation.md"
+                "file": "CSE3461 - Wired Networks/01_introduction.md"
               }
             }
           },
@@ -158,38 +158,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5bd66a948e121e28",
+  "active": "4e3ecca74107cb14",
   "lastOpenFiles": [
-    "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
-    "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
+    "CSE3461 - Wired Networks/04_network_layer.md",
+    "CSE3461 - Wired Networks/05_control_plane.md",
+    "CSE3461 - Wired Networks/06_link_layer.md",
+    "CSE3461 - Wired Networks/01_introduction.md",
+    "CSE3461 - Wired Networks/06_link_layer/Switches.md",
+    "CSE3461 - Wired Networks/06_link_layer",
+    "06_link_layer/Switches.md",
+    "06_link_layer",
+    "CSE3461 - Wired Networks/00_midterm_wired_networking.md",
+    "CSE3461 - Wired Networks/02_application_layer.md",
+    "CSE3461 - Wired Networks/03_transport_layer.md",
+    "CSE3241 - Databases/12. NoSQL.md",
+    "CSE3241 - Databases/11. XML.md",
+    "CSE3241 - Databases/10. Transaction Management.md",
+    "CSE3241 - Databases/9. Embedded SQL.md",
+    "CSE3241 - Databases/8. Indexing.md",
+    "CSE3241 - Databases/7. SQL.md",
+    "CSE3241 - Databases/5. Relational Algebra.md",
+    "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
+    "CSE3241 - Databases/4. Relational Modelling.md",
+    "CSE3241 - Databases/3. Enhanced Entity Relationship Model.md",
     "CSE3241 - Databases/2. Entity Relationship Model.md",
     "CSE3241 - Databases/1. Intro to Database Management System.md",
-    "CSE3241 - Databases/10. Transaction Management.md",
-    "CSE3241 - Databases/7. SQL.md",
-    "nvim.md",
-    "Signal.md",
+    "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
+    "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
+    "CSE3521 - AI Survey/14_gaussian_mixture_models.md",
+    "CSE3521 - AI Survey/13_probabilistic_parameter_estimation.md",
+    "CSE3521 - AI Survey/01_agent_design.md",
     "CSE3241 - Databases/definitions and resources/Screenshot 2023-11-17 at 1.32.07 PM.png",
-    "CSE3241 - Databases/definitions and resources/Schema Diagram.md",
-    "CSE3241 - Databases/definitions and resources/Schema Construct.md",
-    "CSE3241 - Databases/definitions and resources/Relational Calculus.md",
-    "CSE3241 - Databases/definitions and resources/Relational Algebra.md",
-    "CSE3241 - Databases/definitions and resources/Precedence Graph.md",
-    "CSE3241 - Databases/definitions and resources/Operations.md",
-    "CSE3241 - Databases/definitions and resources/Metadata.md",
-    "CSE3241 - Databases/definitions and resources/Internal Schema.md",
-    "CSE3241 - Databases/definitions and resources/Index.md",
-    "CSE3241 - Databases/definitions and resources/External View.md",
-    "CSE3241 - Databases/definitions and resources/Expressions.md",
-    "CSE3241 - Databases/definitions and resources/ermodel.md",
-    "CSE3241 - Databases/definitions and resources/environments.md",
-    "CSE3241 - Databases/definitions and resources/eermodel.md",
-    "CSE3241 - Databases/definitions and resources/Database.md",
-    "CSE3241 - Databases/definitions and resources/Database state or Snapshot.md",
-    "CSE3241 - Databases/definitions and resources/Database Schema.md",
-    "CSE3241 - Databases/definitions and resources/Database Management System.md",
-    "CSE3241 - Databases/definitions and resources",
     "CSE3461 - Wired Networks/Traceroute.canvas",
     "Projects/Graph.canvas",
-    "CSE3241 - Databases/definitions"
+    "CSE3241 - Databases/definitions and resources"
   ]
 }

@@ -14,6 +14,36 @@
           "type": "file",
           "ctime": 1700245648656,
           "path": "CSE3241 - Databases/definitions and resources/Precedence Graph.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1700515636367,
+          "path": "CSE3461 - Wired Networks/01_introduction.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1700515643635,
+          "path": "CSE3461 - Wired Networks/02_application_layer.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1700515650156,
+          "path": "CSE3461 - Wired Networks/03_transport_layer.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1700515655601,
+          "path": "CSE3461 - Wired Networks/04_network_layer.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1700515661342,
+          "path": "CSE3461 - Wired Networks/05_control_plane.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1700515676036,
+          "path": "CSE3461 - Wired Networks/07_wireless.md"
         }
       ],
       "title": "Todo"
