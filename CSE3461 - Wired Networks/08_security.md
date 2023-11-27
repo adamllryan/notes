@@ -24,3 +24,15 @@ We use public/private key to encrypt data. You give public key to everyone so th
 
 # DSA
 Shared secret, but much cheaper than RSA. We use public/private keys to exchange shared key, then use DSA shared key on top of that. 
+
+# Authentication Protocols
+Our first try was to just declare who you are. It came with the problem that anyone could lie and say they were someone else
+
+The second try was to send an IP packet and then say who you were. This had the same issue where you could just spoof an IP. 
+
+The third try included a secret password, which fixed the spoof issue. But now we can use a *playback attack* by recording the message and then sending it later. 
+
+A modification of protocol 3.0 (now 3.1) encrypts the secret password. It has the same problem. 
+
+Protocol *4.0* starts with identification, then the recipient sends a *random value* back and the sender then uses that to encrypt their data. It suffers from *man in the middle* attacks. 
+
