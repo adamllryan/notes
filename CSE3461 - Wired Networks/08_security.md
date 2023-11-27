@@ -36,3 +36,7 @@ A modification of protocol 3.0 (now 3.1) encrypts the secret password. It has th
 
 Protocol *4.0* starts with identification, then the recipient sends a *random value* back and the sender then uses that to encrypt their data. It suffers from *man in the middle* attacks. 
 
+Protocol *5.0* uses public key cryptography, so we are finally secure against being able to fake data, but now *man in the middle* attacks are still possible. 
+
+# Digital Signatures
+
