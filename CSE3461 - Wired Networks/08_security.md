@@ -48,5 +48,5 @@ One CA is not sufficient to serve everyone, so some third-party CAs register the
 
 # Secure Sockets Layer
 
-
+SSL is a widely-deployed security protocol. It provides confidentiality, integrity, and authentication. Invented by Netscape with the goals of secure e-commerce transactions, encryption, web-server authentication, optional client authentication, and minimum hassle conducting business. It is available to all TCP applications. 
 
