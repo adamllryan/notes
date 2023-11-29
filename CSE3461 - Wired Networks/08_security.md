@@ -43,3 +43,10 @@ Protocol *5.0* uses public key cryptography, so we are finally secure against be
 If we want to check that someone sent a message, we can have them wrap their data with their private key. Then it can only be decoded with the public key, and we know that they had to have sent it because only they have their private key. 
 
 We use *certificate authorities* to bind public keys to a particular person or router. This means when we intend to connect to someone, we can check with an authority to see if they have sent the correct public key. 
+
+One CA is not sufficient to serve everyone, so some third-party CAs register themselves at a larger CA to serve more signatures. So we can have daisy chains of CAs just to get one certificate. 
+
+# Secure Sockets Layer
+
+
+
