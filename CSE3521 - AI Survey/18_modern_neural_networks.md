@@ -32,6 +32,12 @@ Currently, we are working on *skip connections*. These let layers skip between l
 
 We can think of computer vision as the opposite of graphics rendering. Instead of generating an image from a representation of data, we turn an image into a representation of data. 
 
+Our perception is the action of taking raw input and transforming that into ideas about the world. 
+
+*Convolution* is the method of applying a filter to a signal. It transforms an image into a different image that is easier to parse or process. 
+
+A *blur* filter blurs an image. We also have *vertical edge* and *horizontal edge* detection filters. 
+
 # Text and Language
 
 
