@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3521 - AI Survey/18_modern_neural_networks.md",
+                "file": "CSE3521 - AI Survey/17_perceptrons.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3521 - AI Survey/18_modern_neural_networks.md",
+                "file": "CSE3521 - AI Survey/17_perceptrons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3521 - AI Survey/18_modern_neural_networks.md",
+                "file": "CSE3521 - AI Survey/17_perceptrons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3521 - AI Survey/18_modern_neural_networks.md"
+                "file": "CSE3521 - AI Survey/17_perceptrons.md"
               }
             }
           },
@@ -160,8 +160,8 @@
   },
   "active": "6b342fc5f0a9472f",
   "lastOpenFiles": [
-    "CSE3461 - Wired Networks/08_security.md",
     "CSE3521 - AI Survey/18_modern_neural_networks.md",
+    "CSE3461 - Wired Networks/08_security.md",
     "CSE3521 - AI Survey/17_perceptrons.md",
     "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
     "CSE3521 - AI Survey/00_cheatsheet_content.md",
