@@ -30,7 +30,7 @@ Currently, we are working on *skip connections*. These let layers skip between l
 
 # Computer Vision
 
-
+We can think of computer vision as the opposite of graphics rendering. Instead of generating an image from a representation of data, we turn an image into a representation of data. 
 
 # Text and Language
 
