@@ -29,9 +29,11 @@ There are 3 types of units in a network:
 - Output, where we get our results
 - Hidden, which are neither
 Multilayer networks have one or more layers of hidden units. One hidden layer allows us to represent any continuous function. Two hidden layers allows us to represent discontinuous functions. 
+
+Neural networks are very subject to overfitting if we use too many weights in the model. We use cross validation techniques to determine the right size of a network. 
 # Perceptrons
 
-
+Perceptrons were first studied in the late 1950's. A single perceptron has at least one input connected by weights. They represent functions that are linearly separable. Something something *step activation*. (Check definition, not provided in slides)
 # Classification? (20-23)
 
 # Learning Algorithm
