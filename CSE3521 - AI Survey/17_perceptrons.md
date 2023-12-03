@@ -34,13 +34,32 @@ Neural networks are very subject to overfitting if we use too many weights in th
 # Perceptrons
 
 Perceptrons were first studied in the late 1950's. A single perceptron has at least one input connected by weights. They represent functions that are linearly separable. Something something *step activation*. (Check definition, not provided in slides)
-# Classification? (20-23)
+# Classification
+
+*CHECK LATER THIS IS A GUESS*
+Step activation for a perceptron outputs a 0 if our value is less than the *threshold value* and a 1 if our value is greater. 
+
+If our step activation function is y=x and we pass in (1,2)=(x,y) into our perceptron, we will get 1 as the output, because our input is greater than our step activation function y=x. 
+
+A perceptron can represent a function only if a line can separate ALL true and false values. A perceptron may have multiple correct solutions to separate positive and negative values. 
+
+With boolean functions, AND and OR functions are linearly separable, but not XOR. 
 
 # Learning Algorithm
 
-# Weight
+First, we randomly assign weights. Then we train:
+1. Divide process into epochs. 
+2. Make small adjustments in weights to reduce difference between observed and predicted values. 
+
+We can use gradient descent to update our weights. 
 
 # Learning
 
+The *perceptron convergence theorem* uses gradient descent. 
+
+We can also use the *back-propagation* learning algorithm. This works by assessing blame for an error and dividing it locally among the weights that contributed to the error. Then we update layer by layer backwards. 
 # Support Vector Machines
 
+SVMs attempt to maximize the margin between positive and negative training examples. In other words, it tries to adjust the threshold line to be as equally as possible in between our true and false training examples. 
+
+Non-linear SVMs may handle this better because it attempts to map the input space to a higher dimension where the training set is more likely to be linearly separable. 
