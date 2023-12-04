@@ -1,20 +1,20 @@
 # Network Security
 
-*Confidentiality*: Only the sender and receiver should be able to understand a message. (Encryption)
-*Authentication*: Sender and receiver want to confirm the identity of each other. 
-*Message Integrity*: Sender and receiver want to ensure message has not been altered at any point. 
-*Access and availability*: Services must be accessible and available to users -- has to be practical, not using the cone-of-silence. 
+**Confidentiality**: Only the sender and receiver should be able to understand a message. (Encryption)
+**Authentication**: Sender and receiver want to confirm the identity of each other. 
+**Message Integrity**: Sender and receiver want to ensure message has not been altered at any point. 
+**Access and availability**: Services must be accessible and available to users -- has to be practical, not using the cone-of-silence. 
 
 # Security Risks
-*Eavesdrop*: Interception of messages or insert messages into connection. 
-*Impersonation*: Spoofing a source address in a packet. 
-*Hijacking*: Take over an ongoing connection by removing sender or receiver, injecting self into their place. 
-*Denial of Service*: Prevent service from being used by others. (such as overloading resources)
+**Eavesdrop**: Interception of messages or insert messages into connection. 
+**Impersonation**: Spoofing a source address in a packet. 
+**Hijacking**: Take over an ongoing connection by removing sender or receiver, injecting self into their place. 
+**Denial of Service**: Prevent service from being used by others. (such as overloading resources)
 
 # Breaking Encryption
 With cipher text only:
-*Brute Force*: Search through all possible keys
-*Statistical Analysis*: Analyze something like most common letter
+**Brute Force**: Search through all possible keys
+**Statistical Analysis**: Analyze something like most common letter
 
 Known-plaintext attack:
 
@@ -30,7 +30,7 @@ Our first try was to just declare who you are. It came with the problem that any
 
 The second try was to send an IP packet and then say who you were. This had the same issue where you could just spoof an IP. 
 
-The third try included a secret password, which fixed the spoof issue. But now we can use a *playback attack* by recording the message and then sending it later. 
+The third try included a secret password, which fixed the spoof issue. But now we can use a **playback attack** by recording the message and then sending it later. 
 
 A modification of protocol 3.0 (now 3.1) encrypts the secret password. It has the same problem. 
 

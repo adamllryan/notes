@@ -70,7 +70,11 @@ Not too important, but machine translation often uses symbols to help translate.
 
 We can also just flip this process and now we have **image generation**. The tool [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) encodes text, then decodes into an image. This output is fed back into an image encoder and then decoded repeatedly until it is stable.  
 
+**Transformers** take our input and predicts the next output from the current output sequence along with the *entire* input sequence. It has an attention mechanism that matches each input word with every other input word. 
 
+**Large Language Models** is the idea of taking our current approach and scaling it massively. GPT-3 is a massive transformer scaled to run in data centers. ChatGPT is not GPT-3, it takes our input, understands it, and then creates a DIFFERENT response instead of translating. 
 # Flaws
 
-# 
+As models become more capable of doing useful work, we have to worry more about their shortcomings. Some main areas of focus are:
+- Bias, or incorrect assumptions based on factors that don't really matter. Such as race/gender bias. 
+- Hallucination, or the ability to deal with inputs that are not training data. AKA the issue with genAI and creating correct-seeming data while actually making it up. 
