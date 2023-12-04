@@ -60,7 +60,15 @@ But what if we want to input sentences into a neural network? A naive approach w
 
 Instead, we can feed words in one at a time, and then use a **recurrent neural network** to recursively address the meaning of the sentence as more words are added. 
 
-# EXAMPLE HERE
+With a recurrent neural network, we run into the issue of oscillation when we pass output back into input. However, we can simply use deep network concepts to solve the issues of RNNs. By treating each reinput iteration as its own layer, we solve the issue of oscillation. 
+
+**Machine Translation** uses encoder and decoder segments to translate text. The encoder's role is to collect information from the input and turn it into a universal meaning. The decoder uses this information to reverse the process but in another language. 
+
+Not too important, but machine translation often uses symbols to help translate. Some such symbols are `<GO>` and `<STOP>` to indicate the start and end of the statement.  
+
+**Image Labelling** can also work similarly, where we use the same model but replace the encoder with a CNN that processes an image down to a descriptive vector. Then our RNN decoder converts that to text. 
+
+We can also just flip this process and now we have **image generation**. The tool [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) encodes text, then decodes into an image. This output is fed back into an image encoder and then decoded repeatedly until it is stable.  
 
 
 # Flaws
