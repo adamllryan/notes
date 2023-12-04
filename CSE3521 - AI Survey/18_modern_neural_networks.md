@@ -34,12 +34,33 @@ We can think of computer vision as the opposite of graphics rendering. Instead o
 
 Our perception is the action of taking raw input and transforming that into ideas about the world. 
 
-*Convolution* is the method of applying a filter to a signal. It transforms an image into a different image that is easier to parse or process. 
+**Convolution** is the method of applying a filter to a signal. It transforms an image into a different image that is easier to parse or process. 
 
 A *blur* filter blurs an image. We also have *vertical edge* and *horizontal edge* detection filters. 
 
+Nodes are not directly affected by all nodes in the previous layer. Weights on the edges may be reused. Additionally, local patterns can show up at different locations. 
+
+The benefits of weight reuse are: 
+- Smaller training datasets
+- More efficient computation
+- Max pooling (reduces size of filtered image)
+- Fully connected final information
+
+We can use filters as a feature detector! We can have the CNN learn its own filters to have automated feature detection. 
+
 # Text and Language
 
+Our original approach was to use [[07_data_to_features#Bag-of-words representation|one-hot encoding]] to turn words into vectors. However, this leads to many inputs and weights while having mostly zeros for everything. 
+
+A much better approach is **Word2Vec**, which uses one-hot encoding as a first layer weight, then use its first layer weight as a vector for each word. It creates a vector in linear subspace, and we notice that subtle meanings can be encoded as well. We also noticed that bias can become encoded, too. 
+
+But what if we want to input sentences into a neural network? A naive approach would be to append word vectors together. This results in two problems:
+- NNs want fixed-size inputs, but sentences have variable length. 
+- Grammar in human languages are flexible, where we can have different meanings based on ordering or different orderings to represent the same meanings. 
+
+Instead, we can feed words in one at a time, and then use a **recurrent neural network** to recursively address the meaning of the sentence as more words are added. 
+
+# EXAMPLE HERE
 
 
 # Flaws
