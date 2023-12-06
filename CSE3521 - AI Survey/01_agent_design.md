@@ -1,3 +1,7 @@
+In terms of this course, AI can be 
+
+
+
 # Introduction
 
 ## Definition
