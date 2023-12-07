@@ -1,3 +1,5 @@
+>[!NOTE]
+> This is incomplete. It was decently written at first, so I have not done another pass at it yet. 
 # Multiple Agent Games
 
 When agents are placed together, they can either participate in zero-sum or general games. 

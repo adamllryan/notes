@@ -1,4 +1,5 @@
-
+>[!NOTE]
+> This is incomplete. Less priority because this is less machine learning, more statistics.  
 
 # Basics
 An **event** is a possible outcome in a sample space. The probability of an event is denoted as P(A). We can only determine P(A) for discrete, atomic events, like dice. This is because the probability of a continuous value being true is $\frac{1}{\overline{\overline{\mathbb{R}}}}=\frac{1}{\infty}=0$. We can do ranges, though!

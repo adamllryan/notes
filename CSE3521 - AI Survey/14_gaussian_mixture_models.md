@@ -13,13 +13,26 @@ The expectation-maximization algorithm is an *iterative-improvement* algorithm. 
 
 Given $\Theta^t$ at iteration $t$, $Z$ (hidden variables), and $X$ (visible variables), we calculate $\theta^{t+1}$ as $\text{argmax}_\hat{\Theta}\sum_ZP(Z=z|X,\Theta^t)L((X,Z=z|\hat{\Theta}))$
 
-First, we need to calculate the probabilities of $Z$. 
+First, we need to calculate the **expectation** probabilities of $Z$. 
 
+Start by calculating $P_{ci}$ for every data point $x_i$ where $c$ is the source in question. For later use, we denote $N_C=\sum_iP_{ci}$. 
 
+Next comes the **maximization** step. We need to calculate $\hat{\pi}_C=\frac{N_C}{\sum_jNj}=\frac{N_C}{N}$. 
+Then we need $\hat{\mu}_C=\frac{1}{N_C}\sum_i{P_{ci}x_i}$ and $\hat{\sigma}_C=\sqrt{(\frac{1}{N_C}\sum_i{P_{ci}x_i^2})-\hat{\mu}_C^2}$. These are our weighted mean and standard deviation. 
 
+Finally, we can plug in $P_{ci}=\alpha_C(\frac{1}{\sqrt{2\pi}\sigma_c}e^{-\frac{(x_i-\mu_c)^2}{2\sigma_c^2}})\pi_C$ for every $c$,$i$ in our table. 
 
+Then, we repeat these steps until we give up or reach a convergence. 
 
+# Unsupervised Learning
 
-## Parameter Estimation: EM Algorithm
-It is a group of algorithms used to deal with problems that have hidden variables. 
-Iterative-improvement algorithm
+**Unsupervised learning** places parameter estimation as the goal rather than a means to getting inference. There's no target variable, just parameters. 
+
+**Clustering** is a very common example of unsupervised learning, where datapoints are grouped based on similarity. Mixture models are different because they are probabilistic clustering, so no actual decision is made. 
+
+Sometimes, we have difficulty determining choices. A solution to not being sure is K-means clustering. **K-means clustering** is an iterative clustering algorithm that picks K random cluster centers, updates cluster assignments, and then updates cluster centers. 
+
+**Agglomerative clustering** merges similar instances, then with those new groups, merges the similar ones, and so on until there is only one cluster left. FYI, by "similar", the algorithm just chooses instances to merge by distance to each other. We can define different behaviors, though, like farthest pair, average of all pairs and minimum variance (Ward's method). 
+
+By running this clustering until failure, a **dendrogram** is produced, displaying a family of clusters. 
+
