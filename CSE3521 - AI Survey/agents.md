@@ -1,1 +1,0 @@
-an entity that percieves its environment through sensors and acts upon that environment through effectors (actuators)

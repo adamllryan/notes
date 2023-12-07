@@ -55,7 +55,7 @@ An environment can be fully or partially observable. **Fully** observable means 
 
 There may also be single or multiple agents. **Single** agent means there is only one agent, and **multi**-agent means that the task has multiple agents, each with their own performance measure. It may be competitive or cooperative, or nothing at all sometimes. 
 
-Environments may be deterministic or stochastic. To be **deterministic** means that the next world state is only determined by current state and agent action, whereas stochasticism means that there can be a degree of randomness involved. For example, an environment is stochastic if the same action with the same state can result in two different states. Not injective!!!
+Environments may be deterministic or stochastic. To be **deterministic** means that the next world state is only determined by current state and agent action, whereas **stochasticism** means that there can be a degree of randomness involved. For example, an environment is stochastic if the same action with the same state can result in two different states. Not injective!!!
 
 The next pair is episodic and sequential environments. **Episodic** refers to each state being independent of other states. **Sequential** means that every state can affect a later one (Pacman moving and eating pellets). 
 

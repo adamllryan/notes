@@ -4,13 +4,18 @@ When agents are placed together, they can either participate in zero-sum or gene
 If agents have opposite utilities, they are playing by **zero-sum** rules. In this scenario, agents have opposite utilities and must compete to maximize theirs while minimizing their opponents'. 
 Alternatively, **general games** are when agents have independent utilities. This can allow for cooperation, indifference, competition, and more. 
 
+If utility cost is accumulated, our solution is the goal state. In this case, our solution should focus on having the *minimum cost*. We should use A* or UCS, and we want to aim for faster times than brute force. 
+If it isn't, our solution is the terminal state. Now, we focus on finding the solution with the *max utility*. We should explore all paths to terminal states. 
+
+Now, we will refer to the value of a state as the best achievable outcome or utility from that given state. It represents the best possible score we can get given that position. 
+
 # Adversarial Search
 
 Adversarial search (A\*) uses the sum of uninformed and informed search to find the best move in a game. It is a combination of minimax and alpha-beta pruning.
 
 ## Minimax
 
-Minimax is a recursive algorithm that is used to choose an optimal move for a player assuming that the opponent is also playing optimally. It is used in two-player games such as tic-tac-toe, checkers, chess, go, and so on.
+**Minimax** is a recursive algorithm that is used to choose an optimal move for a player assuming that the opponent is also playing optimally. It is used in two-player games such as tic-tac-toe, checkers, chess, go, and so on.
 
 The algorithm searches the game tree starting from the current state and generates all possible moves for the player and the opponent. It then evaluates each of these moves using a heuristic function and chooses the move with the highest score for the player and the lowest score for the opponent.
 
@@ -26,7 +31,7 @@ It will take the sum of the heuristic function with the backwards cost of the pa
 
 ## Alpha-Beta Pruning
 
-Alpha-beta pruning is an optimization technique for minimax that reduces the number of nodes that are evaluated by the minimax algorithm in its search tree. It is called alpha-beta pruning because it uses two values, alpha and beta, to determine when to prune branches in the search tree.
+**Alpha-beta pruning** is an optimization technique for minimax that reduces the number of nodes that are evaluated by the minimax algorithm in its search tree. It is called alpha-beta pruning because it uses two values, alpha and beta, to determine when to prune branches in the search tree.
 
 Because minimax alternates min and max functions, we can actually prune off many sibling nodes in a function. Say we are conducting a min search and at a level, the first node searched yields a value 7. Now we check the second sibling. Of all the sibling's successors, if any have a min smaller than 7 (or equal to), we can immediately discard the whole sibling from the search because we know that it now has a min smaller than its left sibling, and the max function above will pick the left sibling anyways. Similarly, if we are conducting max search at a level, and that left node is 7 (for example), if we find a sibling with a larger successor node than 7 we can discard that sibling because the parent min level will want the smallest successor only. 
 

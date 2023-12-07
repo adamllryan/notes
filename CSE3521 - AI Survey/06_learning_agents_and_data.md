@@ -1,39 +1,26 @@
-# Intro
-Uncertainty and oversimplification caused issues with classic AI models!
-We are good at making decisions but not good at explaining our decisions. It's harder for us to define rules of how we make our decisions than to make decisions. 
+# Machine Learning
+Here are two definitions:
 
-Solution: Let's make the machine learn itself and let it create rules itself. 
-This is *machine learning*!
-Machine learning is a set of methods that can automatically detect meaningful patterns in data and then use those patterns to predict future data/perform decision making. 
-# Learning Agents
-## Key parts
-*Data*: collected from past observations (training data)
-*Modeling*: devised to capture the patterns in data. ***All models are wrong***! They may just be useful. 
-*Prediction*: apply the model to forecast what is going to happen in the future. 
-## Learning Algorithms
-We pass in training data into the learning algorithm and then we are returned with a learned model and patterns. 
+- **Machine learning** is a set of methods that can automatically detect patterns in data and then apply those patterns to predict future data (or perform some other form of decision making). 
+- **Machine learning** refers to the automated detection of meaningful patterns in data. 
 
-## Training data vs. Test data
->[!NOTE] 70/30 SPLIT!!!
-> We often split the dataset into 70 % training and 30% testing data. We can also split further into validation training set data. 
+There are three key ingredients to machine learning:
+- **data**, collected from past observations.
+- **modelling**, devised to capture patterns in the data. 
+- **prediction**, to apply the model to forecast what will happen in the future. 
 
-*Training data*: we will use the training data to train the model. We often use batches to help mitigate errors or issues in segments of the data. However, batches may cause outliers be ignored because they effectively average all the batches. 
-*Test data*: We use a smaller subset of the training data (split off before we test it so that no test data present in training data or vice versa). 
+All models are incorrect, but they may be useful. We must tolerate randomness and mistakes because many things are [[01_agent_design#Environment Types|stochastic]] by nature. 
+
+Often, we can run into the issue where our training data is only memorized by our model. This is called **overfitting** and is noticeable when we observe good performance on training data but not new, unseen data. We want to achieve **generalization**, where the model generalizes patterns for future data. 
+
+**Training data** is used to train the model. We often use batches to help mitigate errors or issues in segments of the data. However, batches may cause outliers be ignored because they effectively average all the batches. 
+**Test data** is a smaller subset of the dataset, split off early on such that none of it is present in the training data. We want this so we can see if the model can accurately predict outcomes with new, unseen information. 
 
 # Data
-Our dataset is a collection of data instances or examples. Its definition depends on the problem. 
-[[Data Representation]]
-[[Feature Variables]]
-## Popular data instances
-Computer vision: image & video
-Natural language processing: sentence & document
-Speech: utterance
-Robotics: LiDAR point cloud
-Health care: electronic health records
+Our dataset is a collection of data instances or examples. Its definition depends on the problem. It is made up of **feature variables**, which store numerical or categorical values. Categorical values have no inherent ordering, like the color of a car. 
 
-## Feature extraction
-We can extract features from our data if our data contains a certain pattern or feature. 
-Feature Extraction starts from our initial measured data and builds derived values that are intended to be **informative**, **non-redundant**, **facilitating future learning and generalizing steps**, and **leading towards better human interpretations**. 
-Used in NLP and computer vision. L1 and L2 normalized. 
-Histogram and Parzen window, Feature correlation, Feature normalization: z-score and whitening. 
-Principal component analysis (PCA)
+## One-Hot Vector
+A **one-hot vector** is a vector that stores every feature variable. 0 and 1 represent false and true. 
+
+## Feature Extraction
+We can extract features from our data if our data contains a certain pattern or feature. **Feature extraction** starts from our initial measured data and builds derived values that are intended to be *informative*, *non-redundant*, *facilitating future learning and generalizing steps*, and *leading towards better human interpretations*. Feature extraction is used in [[18_modern_neural_networks#Text and Language|NLP]] and [[18_modern_neural_networks#Computer Vision|computer vision]]. 

@@ -1,16 +1,8 @@
-# Bag-of-words representation
+# Bag-of-Words
 
-Simplified representation of sentences by counting the occurrences of each word or phrase. 
+**Bag-of-words representation** is a simplified representation of sentences that counts the occurrences of each word or phrase. It creates a vector that stores the number of occurrences of an instance. It misses grammar and word order, is not normalized, highly-sparse and dimensional, and words have no linkage. However, it is simple and fixed-size. 
 
-## N-gram vocabulary
-for an n-gram vector, every set of n words is saved in a vector. For example, 1-gram would save "sheep", "follow", "wolfs" while 2-gram would save "sheep-follow", "follow-wolfs". The size of vocabulary is $\sum_n{D^n}$
-Cons:
-- This is not normalized though :(
-We can solve this with feature normalization. We can take the $L_p$ norm. 
-L1 normalization is just dividing the vector by sum of its components. L2 is widely used if angle has an important role. 
-- Missing sequential information
-- Words treated as independent
-- Very sparse, lots of dimensions
+For an **n-gram vector**, every set of n words is saved in a vector. For example, 1-gram would save "sheep", "follow", "wolfs" while 2-gram would save "sheep-follow", "follow-wolfs". The size of vocabulary is $\sum_n{D^n}$. It solves the issue of sequence loss, but it is much more expensive. We can normalize this, though. 
 # Dataset representation
 Histogram and parzen window
 ## Histogram
