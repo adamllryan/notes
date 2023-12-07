@@ -16,7 +16,7 @@ We define **rationality** to be exactly this:
 - Maximize expected utility
 Rational behavior is essentially doing the "right" thing, without consideration of the thought process behind it. 
 
-# Areas of focus
+# Areas of Focus
 **Speech technologies** refer to the subjects of automatic speech recognition, text-to-speech synthesis, and dialog systems. **Language processing technologies** refer to the topics of question answering, machine translation, web search, and text classification. 
 These is expanded upon in the [[18_modern_neural_networks#Text and Language|text and language]] section. 
 
