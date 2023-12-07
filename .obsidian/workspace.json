@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3521 - AI Survey/14_gaussian_mixture_models.md",
+                "file": "WEB_DEV/Vue/Syntaxes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3521 - AI Survey/14_gaussian_mixture_models.md",
+                "file": "WEB_DEV/Vue/Syntaxes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3521 - AI Survey/14_gaussian_mixture_models.md",
+                "file": "WEB_DEV/Vue/Syntaxes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3521 - AI Survey/14_gaussian_mixture_models.md"
+                "file": "WEB_DEV/Vue/Syntaxes.md"
               }
             }
           },
@@ -160,9 +160,19 @@
   },
   "active": "6b342fc5f0a9472f",
   "lastOpenFiles": [
+    "work/stock.md",
+    "work/salary_negotiation.md",
+    "README.md",
+    "config.md",
+    "Math3345 MT1.md",
+    "nvim.md",
+    "Obsidian Markdown Identifiers.md",
+    "CSE3521 - AI Survey/12_probabilistic_inference.md",
+    "Signal.md",
+    "techstack.md",
+    "CSE3521 - AI Survey/14_gaussian_mixture_models.md",
     "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
     "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
-    "CSE3521 - AI Survey/14_gaussian_mixture_models.md",
     "CSE3461 - Wired Networks/05_control_plane.md",
     "CSE3521 - AI Survey/Bayes Network.png",
     "CSE3521 - AI Survey/Swiss Roll.png",
@@ -178,15 +188,6 @@
     "CSE3521 - AI Survey/13_probabilistic_parameter_estimation.md",
     "CSE3521 - AI Survey/06_learning_agents_and_data.md",
     "CSE3521 - AI Survey/09_dimensionality_reduction.md",
-    "CSE3521 - AI Survey/03_informed_search.md",
-    "CSE3521 - AI Survey/08_correlation_and_normalization.md",
-    "CSE3521 - AI Survey/12_probabilistic_inference.md",
-    "CSE3521 - AI Survey/Feature Variables.md",
-    "CSE3461 - Wired Networks/02_application_layer.md",
-    "CSE3461 - Wired Networks/00_midterm_wired_networking.md",
-    "CSE3521 - AI Survey/17_perceptrons.md",
-    "CSE3521 - AI Survey/00_cheatsheet_content.md",
-    "CSE3241 - Databases/11. XML.md",
     "CSE3461 - Wired Networks/06_link_layer",
     "06_link_layer",
     "CSE3241 - Databases/definitions and resources/Screenshot 2023-11-17 at 1.32.07 PM.png",
