@@ -1,3 +1,9 @@
+# Multiple Agent Games
+
+When agents are placed together, they can either participate in zero-sum or general games. 
+If agents have opposite utilities, they are playing by **zero-sum** rules. In this scenario, agents have opposite utilities and must compete to maximize theirs while minimizing their opponents'. 
+Alternatively, **general games** are when agents have independent utilities. This can allow for cooperation, indifference, competition, and more. 
+
 # Adversarial Search
 
 Adversarial search (A\*) uses the sum of uninformed and informed search to find the best move in a game. It is a combination of minimax and alpha-beta pruning.

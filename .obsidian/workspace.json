@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3521 - AI Survey/02_uninformed_search.md",
+                "file": "CSE3521 - AI Survey/04_adversarial_search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3521 - AI Survey/02_uninformed_search.md",
+                "file": "CSE3521 - AI Survey/04_adversarial_search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3521 - AI Survey/02_uninformed_search.md",
+                "file": "CSE3521 - AI Survey/04_adversarial_search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3521 - AI Survey/02_uninformed_search.md"
+                "file": "CSE3521 - AI Survey/04_adversarial_search.md"
               }
             }
           },
@@ -161,6 +161,7 @@
   "active": "6b342fc5f0a9472f",
   "lastOpenFiles": [
     "CSE3521 - AI Survey/03_informed_search.md",
+    "CSE3521 - AI Survey/04_adversarial_search.md",
     "CSE3521 - AI Survey/02_uninformed_search.md",
     "CSE3521 - AI Survey/01_agent_design.md",
     "CSE3521 - AI Survey/00_cheatsheet_content.md",
@@ -171,7 +172,6 @@
     "CSE3461 - Wired Networks/07_wireless.md",
     "CSE3521 - AI Survey/18_modern_neural_networks.md",
     "CSE3521 - AI Survey/07_data_to_features.md",
-    "CSE3521 - AI Survey/04_adversarial_search.md",
     "CSE3521 - AI Survey/11_bayesian_networks.md",
     "CSE3521 - AI Survey/10_probability_intro.md",
     "CSE3521 - AI Survey/15_linear_parameter_estimation.md",

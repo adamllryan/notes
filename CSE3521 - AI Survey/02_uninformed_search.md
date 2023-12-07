@@ -77,3 +77,29 @@ Analysis of UCS:
 - It is also optimal. 
 
 Note that the only difference between all of these is the way we add and remove nodes! We can implement the same search algorithm but use a queue, stack, and priority queue for breadth-first, depth-first, and uniform cost search respectively. 
+
+# Graph Search
+
+With tree search, we need to identify repeated states or else we could end up with lots of extra work (or even infinite loops). This is due to creating our tree from a graph that may contain recurrences. Here is a general set of rules to abide by so that we can avoid this:
+- Never expand a state twice. 
+- Before expanding a state, check a list of visited nodes and make sure that we have never been to this state. 
+- Store this as a set, not a list. 
+
+Graph search uses the same algorithm as [[02_uninformed_search#Tree Search|tree search]], but with a few changes:
+~~~
+NEW: create visited set
+Function Loop:
+1. If there are no candidates for expansion, return FALSE.
+2. Choose a LEAF NODE for expansion according to strategy.
+3. If the NODE contains a goal state, return the corresponding solution.
+4. NEW: If NODE not in visited set, add to visited set then expand, and add children to search tree. 
+5. Continue.
+~~~
+We can sometimes optimize this by not adding already visited nodes to the search tree *at all*. This doesn't work for some algorithms, though (like [[03_informed_search#A * Search|A* Search]]). 
+
+Analysis:
+- Smaller time complexity than before
+- Exponential space but limited by state space size. Only bad with DFS.
+- Same as before. 
+
+With graph search, iterative deepening is not optimal. We don't care, though, because of the memory cost with graph search and DFS. 
