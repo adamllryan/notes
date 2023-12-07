@@ -17,7 +17,6 @@ Covariance is the same formula without the denominator of $\sigma_d\sigma_{d'}$.
 Changing units changes distance, STD, and COV. 
 ### Dataset-dependent normalization
 
-
 #### Z-score
 We can remove scaling from units with z score. Process:
 Subtract mean

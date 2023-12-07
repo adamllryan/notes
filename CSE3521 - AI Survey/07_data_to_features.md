@@ -6,25 +6,6 @@ For an **n-gram vector**, every set of n words is saved in a vector. For example
 
 How do we represent data?
 ## Histogram
-A **histogram** displays each feature variable grouped into bins with the height being the count of occurrences. 
+A **histogram** displays each feature variable grouped into bins with the height being the count of occurrences. They are simple, discontinuous, are not scalable to higher dimensions, and need the right locations to place bins. 
 ## Kernel Density Estimation
-Also known as **Parzen window**, **Kernel density estimation** represents the probability of an occurrence as a probability density function. 
-
-### Feature Distributions
-
-We can create a distribution with interval size $\Delta$, which controls the shape and smoothness. 
-
-### Kernel Density Estimation
-
-AKA Parzen window. It is the probability density of a variable given already seen variables. 
-
-$p(u)=\frac{1}{N}\sum^N_{n=1}{k(u-u_n)}$
-Has a probability density function and gaussian distribution is popular k(u). 
-$\sigma=h$ controls shape. too small h is less smooth
-
-#### Comparison
-Histograms:
-Simpler, Discontinuous, not scalable to higher dimensions, need right locations
-KDE:
-Need to keep all training data, smoother/better resolution, more computation, scalable, automatic bins
-# Dimensionality Reduction
+Also known as **Parzen window**, **Kernel density estimation** represents the probability of an occurrence as a probability density function. The probability of seeing a value $u$ given a set $\{u_1,u_2,...,u_n\}$ is $p(u)=\frac{1}{N}\sum^N_{n=1}{k(u-u_n)}$. Unlike histograms, KDE needs to keep all data, has better resolution, has more computations, is scalable, and automatically creates bins. 
