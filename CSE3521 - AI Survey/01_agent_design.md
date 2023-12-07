@@ -1,137 +1,72 @@
-In terms of this course, AI can be 
+# Artificial Intelligence
+In terms of this course, the definition of AI can be left as *the science of making machines that: (think, act)$\times$(like people, rationally)*. 
 
+# Turing Test
 
+The **Turing Test** is old, outdated, and does not work (it's popular though). To conduct the test, you take a human judge and an "unknown entity" and put them in two different rooms. The rooms have two chat terminals, and both must converse for 5 minutes. The AI passes if the judge thinks it is a human. 
 
-# Introduction
+The test is flawed. It doesn't show understanding, thinking, ability to learn, interaction with the world, sensory input processing, knowledge, or much else. 
 
-## Definition
+# Rationality
 
-AI is difficult to define. We can narrow it down to 4 goals: think like people, think rationally, act like people, and act rationally.
+We define **rationality** to be exactly this:
+- Achieve predefined goals to the highest extent
+- No evaluation on thought process, only results/decisions
+- Evaluate on utility of outcome
+- Maximize expected utility
+Rational behavior is essentially doing the "right" thing, without consideration of the thought process behind it. 
 
-### Turing Test
+# Areas of focus
+**Speech technologies** refer to the subjects of automatic speech recognition, text-to-speech synthesis, and dialog systems. **Language processing technologies** refer to the topics of question answering, machine translation, web search, and text classification. 
+These is expanded upon in the [[18_modern_neural_networks#Text and Language|text and language]] section. 
 
-The most popular test of AI success is the Turing Test, that requires a human judge and unknown entity (either a person on an AI). They must converse for 5 minutes and if the entity can fool the judge into thinking that it is a human, it passes the test.
+**Computer vision** focuses on object/facial recognition, scene segmentation, and image classification. More can be found [[18_modern_neural_networks#Computer Vision|here]].
+**Robotics** are more mechanical engineering, but are much harder because we need to incorporate more rigorous testing. We won't focus on this in this class. 
 
-#### Issues with the Turing Test
+We can also use AI for **logic** applications, like theorem provers, NASA fault diagnoses, question answering, deduction systems, constraint satisfaction, and satisfiability solvers. Similarly, we can have AI play games. 
 
-This is kind of flawed though. It fails to address understanding, thinking, ability to learn, interaction with an unconstrained world, sensory input processing, having knowledge, and basically anything besides being able to trick a person into thinking it has thought.
+**Decision making** is also important, covering the sections of scheduling, route planning, medical diagnosis, web search engines, spam classifiers, automated help desks, fraud detection, product recommendations, and more. 
 
-## Rational Thinking
+# Agent Design
 
-`Rational` means to behave in a very specific way:
+The main focus of AI is regarding *agents* in an *environment*. An **agent** is an entity that can perceive its environment through sensors and act in the environment through effectors. The **environment** is our problem setting. 
 
-- maximize achieving pre-defined goals
-- only consider decisions, not the thought process behind them
-- goals expressed in terms of utility of outcomes
-- maximizing your expected utility
+A **percept** is an agent's perceptual inputs at a given instant, and a **percept sequence** is the complete history of everything that an agent has perceived. 
 
-# Research areas related to AI
+We use **PEAS** to flesh out our understanding of a setting. Peas is defined as: 
+Performance - measuring the agent's success. 
+Environment - what populates the problem's world?
+Actuators - what can the agent act with?
+Sensors - how can the agent perceive the world?
 
-## Speech processing & Natural language processing
+A **rational agent** must act to maximize its expected performance given the current percept or state. Note that rationality is NOT omniscience, because there is always uncertainty in the environment. 
 
-Speech technologies like Siri and Alexa. Encapsulates [automatic speech recognition] (ASR), [text-to-speech synthesis] (tts), and [dialog systems].
+# Agent Types
 
-Language processing technologies like [question answering], [machine translation], [web search], and [text classification].
+A **reflex agent** (IS) chooses actions based on *current* percept and memory. 
+Alternatively, a **planning agent** (WOULD) chooses actions based on a set of *hypothesized* consequences of all possible actions. It needs a model of how the world changes in response to actions it takes. 
 
-## Computer vision
+A **goal-based agent** chooses actions (in a sequence) in order to get from the current state to its goals. 
+We'll talk about [[learing agents]] later. There are also utility-based agents and logical agents. 
 
-Object and face recognition, scene segmentation, and image classification.
+# Environment Types
 
-## Robotics
+An environment can be fully or partially observable. **Fully** observable means that the agent can see the complete state, and **partially** observable means there exists noise, inaccuracy, or incomplete sensors. 
 
-Part mechanical engineering, part AI. Much harder than simulations.
-Technologies like vehicles, rescue, soccer, and lots of automation.
-No mechanical aspects in this class!
+There may also be single or multiple agents. **Single** agent means there is only one agent, and **multi**-agent means that the task has multiple agents, each with their own performance measure. It may be competitive or cooperative, or nothing at all sometimes. 
 
-## Logic
+Environments may be deterministic or stochastic. To be **deterministic** means that the next world state is only determined by current state and agent action, whereas stochasticism means that there can be a degree of randomness involved. For example, an environment is stochastic if the same action with the same state can result in two different states. Not injective!!!
 
-Logical systems like [theorem provers], [NASA fault diagnosis], [question answering].
-Methods like [deduction systems], [constraint satisfaction], and [satisfiability solvers].
+The next pair is episodic and sequential environments. **Episodic** refers to each state being independent of other states. **Sequential** means that every state can affect a later one (Pacman moving and eating pellets). 
 
-## Game playing
+Next, we have static and dynamic. **Static** environments do not change while the agent is thinking. **Dynamic** means that the environment is changing as time passes. 
 
-Plays games lol
+Finally, environments can be **discreet** or **continuous**. To be **discreet** just means states and actions must be distinct and to be **continuous** means that they can take on continuous values. This is like tic-tac-toe vs. driving. 
 
-## Decision making
-
-Applied AI for automation like [scheduling], [route planning], [medical diagnosis], [web search engines], [spam classifiers], [automated help desks], [fraud detection], [product recommendations], etc.
-
-# Start to Agent Design
-
-## AI
-
-Much of AI is concerned with AI acting in [environments]. An [environment] is the problem setting and the [agent] is an entity that _perceives_ its environment through _sensors_ and _acts_ upon that environment through _actuators_.
-
-[Percept]: An agent's perceptual inputs at any given instant
-[Percept Sequence]: Complete history of everything an agent has perceived
-
-## PEAS
-
-`P`erformance - measuring the agent's success
-`E`nvironment - what populates the problem's world?
-`A`ctuators - what can the agent act with?
-`S`ensors - how can the agent perceive the world?
-
-## Rational Agent
-
-A [rational agent] always acts to maximize its expected performance measure given current percept/state
-NOTE: Rationality /= omniscience!!! There is always uncertainty in the environment and the agent cannot know everything (sometimes)
-
-## Types of agents
-
-### Reflex agent
-
-Chooses action based on current percept and maybe memory. Does not consider future consequences of actions!!!
-
-NOTE: A state is a representation of the environment with only elements that are relevant to the problem. A percept is what the agent can perceive from the environment
-
-### Planning agent
-
-Asks what if and makes desicions based on presumed consequences of performed actions. Must have a model of how the world evolves in response to actions and must formulate a long-term goal.
-
-### Goal-based agent
-
-Chooses an action from current state in order to achieve a goal
-
-### Learning agents, utility-based agents, logical agents
-
-not here?? confused
-
-## Types of environments
-
-### Observable
-
-[Fully observable]: agent can see everything (chess game or like a fully visible board game)
-[Partially observable]: agent must deal with noise, inaccuracy, or incomplete sensors (poker game with hidden cards)
-
-### Number of agents
-
-[Single agent]: the only agent is controlled by the AI
-[Multiagent]: task involves more than one agent, each with its own performance measure and may be competitive or cooperative.
-
-### Repeatability
-
-[Deterministic]: next state is based on current state and agent action. EXACT RESULT FOR INPUTS
-[Stochastic]: incorporates randomness. If repeated, results could be different despite the same scenario `UNCERTAINTY`
-
-### Relations
-
-[Episodic]: each step is independent of previous ones. (checking emails. each email is independent)
-[Sequential]: each step's state affects later ones. (pacman)
-
-### Environment
-
-[Static]: world does not change while agent is choosing an action.
-[Dynamic]: decision time matters. (such as driving a car)
-
-### Liquidity/Freedom
-
-[Discrete]: possible states and actions are distinct. Like an integer
-[Continuous]: states and actions take on continuous values. Like a double
-
-**Static**: focus on getting high accuracy
-**Dynamic**: trade some utility for higher efficiency (speed)
-**Episodic**: reflex agent
-**Sequential**: goal based/planning agent
-**Stochastic**: robustness to uncertainty/failure
-**Deterministic**: efficiency and exactness
+When approaching a problem, certain environments require decisions. Here are the areas of focus:
+- Static: go for high accuracy
+- Dynamic: trade accuracy or some utility for speed
+- Episodic: use a reflex agent
+- Sequential: use a goal or planning agent
+- Stochastic: go for robustness to uncertainty and failure
+- Deterministic: go for efficiency and exactness
