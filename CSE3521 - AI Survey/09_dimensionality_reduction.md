@@ -18,45 +18,29 @@ The general idea of dimensionality reduction is to *reduce linearly*.
 **Linear** dimensionality reduction aims to cut down on correlated dimensions, $z=W^Tx$ where $W \in R^{D \times M}$. 
 **Nonlinear** dimensionality reduction aims to define a function that maps the original set to a lower dimension set, $z=g(x)$ where $g:R^D \mapsto R^M$. 
 
-### Notation
+# Principal Component Analysis
 
-NOTATION
-## Principal Component Analysis: Linear dimensionality Reduction
+**Principal component analysis** is conducted through the Karhunen-Loeve transform: $z=W^T(x-\mu)$ where $W \in R^{D \times M}$ and $W^TW=I$. We need to maximize variance from $x$ to $z$ and minimize reconstruction error from $z$ back to $x$. PCA is linear!
 
-### Karhunen-Loeve Transform
+Maximizing *variance* helps us keep the most information and minimizing *reconstruction error* minimizes the loss. We must find a $W$ shared by all $x \in X=[x_1,...,x_n]$.
 
-z
+In order to maximize variance, we need to:
+1. Calculate covariance matrix $\Sigma$ of the data. 
+2. Calculate the eigenvalues and eigenvectors of $\Sigma$. 
+3. Find the largest positive eigenvalue of $\Sigma$ and use the corresponding eigenvector as our value. 
+If we need more eigenvalues and vectors, we can reuse the computation values and just order by descending size. 
+Features are **decorrelated** if there is zero covariance between each other. 
 
-Maximize variance fro x to z
-Minimize reconstruction error from z back to x
-### PCA where M=1
-Maximize variance, minimize loss
+We can choose an M via: $\frac{\Sigma^M_{d=1}\lambda_d}{\Sigma^D_{d=1}\lambda_d}\geq \text{Threshold}$ where our threshold is a fraction we decide (most common .90 or .95). 
 
-z_n
+Minimizing the reconstruction, or projection, error also needs to be considered, but we didn't really focus on that. 
 
-to find w1, calculate COV, calculate eigenvalues of COV, find largest eigenvalue of COV corresponding to w1
-### PCA M > 1
-Maximize variance of projection strengths. Largest eigenvalues/vectors are our values for w1 and second is w2 and so on. 
-#### How to choose M
-Where sum of eigenvalues of m / EV of D >= Threshold (normally 90/95%)
-##### Minimize Error (Projection)
+PCA is commonly used for pre-processing and feature extraction in order to remove noise and reduce data dimensionality. It is also used to *de-correlate* data. 
 
-
-
+However, PCA sometimes fails. Here is a common example (swiss roll problem): 
+![[Swiss Roll.png]]
 # Nonlinear Dimensionality Reduction
 
-It can fail at times. We want to be able to reduce dimensionality without losing information. 
+Sometimes, linear dimensionality reduction fails. This is where nonlinear dimensionality reduction comes in ($z=g(x)$ where $g:R^D \mapsto R^M$). 
 
-## General Idea (M < D)
-
-Most fail, Laplacian eigenmap is kind of close for the swiss roll problem
-
-# t-SNE
-
-T distributed stochastic Neighbor embedding. Uses pairwise joint probabability to characterize every set of instances. It preserves the probability of something being this far from sometihng else. 
-
-# Summary
-
-DR: Curse of dimensionality, visualization, noise redundancy removal. Need to define criterion to preserve properties
-PCA: Linear method to preserve data variance. Use normalized Eigenvectors of data covariance matrix
-Nonlinear DR: Preserve structures
+**T-distributed stochastic neighbor embedding** (t-SNE). Builds a pairwise joint probability to characterize every set of instances. It preserves the probability of something being this far from something else. 
