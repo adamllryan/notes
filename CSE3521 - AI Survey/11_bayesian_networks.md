@@ -1,28 +1,19 @@
-# Dependent Feature Variables
-Most real-world data has high-dimensional/correlated variables. (Think pixels, words, genes)
-We need a probabilistic model. 
-# Chain rule of probability 
-p(X[1]=x[1],...)=p(x[1])p(x[2]|x[1])...
-# Conditional Independence
-iff conditional joint dist can be written as product of conditional distributions
-# Markov Models
-Future independent of past given present
-P(x1,...,xn)=P(x1)(Px2|x1)P(x3|x1,x2)...
-Much cheaper!
-# Probabilistic Graphical Models
-First order markov good for 1d sequence data
-Higher dimension look below
-# Graph terminology
+Most real-world data contains high-dimensional and correlated variables. Even data instances are not independent at times. 
 
-Clique is any sub complete graph
-Child, parent, ancestor, decedents, neighbors, cycle, tree
+A large probability can be broken down like this: $p(X[1]=x[1],...,X[D]=x[D])=\Pi_dp(x[d]|x[1:d-1])$. 
 
-# directed graphical models
-Graphical model whose graph is a DAG. Also known as Bayes network/belief network. 
+Similarly, we can break down $P(X,Y|Z)$ into $P(X|Z)P(Y|Z)$. 
+A **Markov model** shows that the future is independent of the past given the present. $P(x1,...,xn)=P(x1)(Px2|x1)P(x3|x1,x2)...$
+This is much cheaper and first order Markov models are useful for one dimensional sequence data. 
 
+# Bayesian Networks
+We can represent a join distribution by drawing a directed, acyclic graph (DAG), where nodes are variables and edges represent a dependency. These are known as **Bayesian networks**. 
+
+![[Bayes Network.png]]
+
+The above can be written as $P(x_1)P(x_2|x_1)P(x_3|x_1)P(x_4|x_2,x_3)P(x_5|x_3)$. We can also reverse the process and create a DAG from the equation.  
 # Naïve Bayes
-The arrow does not mean cause->effect, it just represents a dependency. 
-A result points to a dependency. Gray colored nodes are observed  and white are unknown. 
+In a naïve bayes graph, edges represent a dependency. It does not imply cause and effect. Gray nodes are observed and white nodes are unknown . 
 
 # Markov Models
 
