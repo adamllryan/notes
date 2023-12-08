@@ -1,1 +1,0 @@
->The type of the file, needed for systems to support different file types. 

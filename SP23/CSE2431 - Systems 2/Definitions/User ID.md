@@ -1,1 +1,0 @@
->An ID that identifies users, allowing permissions and protections to be per-user. 

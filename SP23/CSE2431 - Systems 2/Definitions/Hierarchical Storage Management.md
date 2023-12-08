@@ -1,1 +1,0 @@
->HSM is a storage system that extends storage beyond primary and secondary storage, incorporating tertiary storage. 

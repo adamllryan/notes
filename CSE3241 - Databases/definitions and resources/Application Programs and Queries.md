@@ -1,1 +1,0 @@
-Programs and queries made by you, the programmer. Often in languages like Python and Javascript. (Flask, Node, etc)

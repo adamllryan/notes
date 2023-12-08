@@ -1,1 +1,0 @@
->Processes can find status of locks and decide what to do. 

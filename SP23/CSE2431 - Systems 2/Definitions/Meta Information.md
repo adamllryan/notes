@@ -1,1 +1,0 @@
-> Data for protection, security, and usage monitoring, such as time, date, and user identification. 

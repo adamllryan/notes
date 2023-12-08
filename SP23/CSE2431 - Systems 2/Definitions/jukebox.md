@@ -1,1 +1,0 @@
->Refers to the storage medium that implements tertiary storage. 

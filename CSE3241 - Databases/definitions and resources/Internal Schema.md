@@ -1,1 +1,0 @@
-The physical storage structure of the database. Lowest Level

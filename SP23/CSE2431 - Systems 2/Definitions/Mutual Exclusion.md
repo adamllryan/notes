@@ -1,1 +1,0 @@
-> A solution to the [[17. Process Synchronization#Critical-Section Problem|critital-selection problem]]; if a process is in its [[Critical Section]], no other process may be in its [[Critical Section]]. 

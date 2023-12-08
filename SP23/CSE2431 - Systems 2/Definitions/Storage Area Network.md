@@ -1,1 +1,0 @@
->SANs are common in large storage environments and allow multiple hosts to attach to multiple storage arrays. They are more flexible. 

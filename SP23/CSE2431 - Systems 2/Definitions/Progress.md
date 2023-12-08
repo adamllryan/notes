@@ -1,1 +1,0 @@
-> A solution to the [[17. Process Synchronization#Critical-Section Problem|critital-selection problem]]; if no processes are in their [[Critical Section]] and at least one process wants to enter its section, it cannot be indefinitely postponed. 

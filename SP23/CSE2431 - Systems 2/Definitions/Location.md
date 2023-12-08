@@ -1,1 +1,0 @@
-> A pointer to the file location on the device. 

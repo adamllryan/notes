@@ -1,1 +1,0 @@
->Method of data accessing where data is read by reading and writing directly to a point in a file, provided a block n. Can also position to n and then call sequential access methods. 

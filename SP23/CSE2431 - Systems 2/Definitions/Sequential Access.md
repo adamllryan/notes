@@ -1,1 +1,0 @@
-> Read and write to a file object one at a time. Call reset to wrap back to beginning. You cannot read after last write. 

@@ -1,1 +1,0 @@
-> Allows the target thread to periodically check if it should be cancelled. 

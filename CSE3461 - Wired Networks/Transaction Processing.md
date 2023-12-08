@@ -1,1 +1,0 @@
-A set of accesses against a database is a *transaction*

@@ -1,1 +1,0 @@
->Organization scheme where all users share a single directory. 

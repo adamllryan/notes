@@ -1,1 +1,0 @@
-Operations have relations as inputs and outputs.

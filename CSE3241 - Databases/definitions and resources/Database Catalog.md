@@ -1,1 +1,0 @@
-Used by DBMS software and users who need information about the database structure. 

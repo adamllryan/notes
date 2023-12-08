@@ -1,1 +1,0 @@
-> An ID that allows users to be in groups, permitting group access rights. 

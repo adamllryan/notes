@@ -1,1 +1,0 @@
->Network Attached Storage is storage made available over a network rather than a local connection (like a bus). 
