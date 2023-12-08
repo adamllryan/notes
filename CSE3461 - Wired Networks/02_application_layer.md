@@ -1,32 +1,42 @@
-# Principles of Network Applications
+When we create a network app, we want it to be able to run on different end systems. This means they need to be able to communicate with each other regardless of system architecture. This way, developers won't need to focus on developing the network-core software as well as the application itself. 
 
-We need to write programs that run on different _end systems_, communicate over network, and run in a way that promote rapid app development and allow the developer to not write software for network-core devices.
+There are two structures for these applications:
+- Client-server. 
+- Peer-to-peer (P2P). 
 
-We use two structures for applications:
+# Client-Server Architecture
 
-- client-server
-- peer-to-peer (P2P)
+When we use **client-server** architecture, we have a client and a server. 
 
-## Client server architecture
+A **client** is you or your machine. The client's responsibility is the entity that is making web requests. Clients may be intermittently connected, have dynamic IP addresses, and do not communicate directly with each other. 
 
-A [server] is an always-on host. It has a permanent IP address and can be in data centers for scalability.
+A **server** is your always-on host. It maintains a permanent IP address and is often found in a datacenter to allow for scalability. Servers traditionally cannot make their own requests. Instead, they sit in a permanent wait state until they receive a request. Then, they are allowed one response to the client, then reset. 
 
-A [client] communicates with the server. May be intermittently connected, have a dynamic IP address, and cannot communicate directly with other [clients].
+# Peer-to-peer Architecture
+**P2P** differs from client server in that we treat everyone like a client. There is no longer an always-on server and instead of having clients, everyone is now a peer. 
 
-## P2P Architecture
+**Peers** request services from each other and provide service in return to other peers. This introduces *self-scalability*, where peers bring new service capacity while also bringing new service demands. 
 
-There is no always-on [server] in this case. Arbitrary end systems directly communicate with each other.
+P2P requires complex management techniques because peers are connected with no discrete structure and may change IP addresses at any time. 
 
-Peers request service from other peers and provide service in return to other peers. P2P architecture is `self-scalable`. When you add a new peer, that peer brings new service capacity but also service demands. Peers are intermittently connected and change IP addresses. Lots of management.
 
-## Processes
+# Process Communication
 
-A [process] is code running within a host. Within the same host, two processes communicate using `inter-process communication`, defined by the OS.
+A **process** is simply code running within a host. Within the same host, two processes communicate via [[5. Interprocess Communication|interprocess communication]]. Processes with different hosts can communicate via [[5. Interprocess Communication#Message Passing|message passing]]. 
 
-Client process: process that initiates communication.
-Server process: Listener process waiting for contact.
+The client process initiates a communication and the server process waits to be contacted. P2P applications have both a client and server process (at least one of each). 
 
-P2P Arch applications use client/server processes.
+A **socket** is a hook that processes may use to send and receive messages between themselves. A process has to connect to a socket and then send or receive messages from that socket. Once sent, we have to assume it will arrive at the end. 
+
+
+
+
+
+
+
+
+
+
 
 ## Sockets
 
