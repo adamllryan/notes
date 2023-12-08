@@ -4,10 +4,10 @@ The internet consists of billions of connected computing devices. Essentially, i
 The internet relies on **packet switches** to forward packets or chunks of data. We call [[Router|routers]] and [[06_link_layer#Switches|switches]] to relay these packets between systems. We have divided the internet into a public internet and private intranet.
 
 What do we need to have to connect to the internet? We need four items:
-- IP Address
-- Subnet Mask
-- Default Router
-- Local/Default DNS
+- IP Address - your address
+- Subnet Mask - identifies host vs. network
+- Default Router - how to get off LAN
+- Local/Default DNS - phonebook of IP addresses
 
 The internet, as a service, is infrastructure that provides services to applications. It provides functionality to *services* such as web, video, VoIP, email, e-commerce, social networks, and video games. It also provides *APIs* that interface into apps so we can use applications in other applications. 
 
@@ -32,7 +32,7 @@ A **network** is a group of interconnected machines. These machines can only com
 The **network edge** consists of clients/users and servers that serve data to clients. The standard model is client/server, where the client hosts requests and receives a response from the server that services request.
 A second model is the peer-to-peer model that hosts interactions symmetrically (Bitcoin as an example).
 
-The purpose of the network edge is data transfer between end systems. Apps that use TCP are good for HTTP, FTP, Telnet, and SMTP transfer. Apps that use UDP are normally streaming media, teleconferencing, and internet telephony.
+The purpose of the network edge is data transfer between end systems. Apps that use TCP are good for HTTP, FTP, Telnet, and SMTP transfer. Apps that use UDP are normally streaming media, teleconferencing, and internet telephony. TCP uses application, transport layers and require Internet and network access. 
 
 # Network Core
 
@@ -89,7 +89,6 @@ $D_p=D/S$ where $D$ is the length of the physical link and $S$ is the propagatio
 
 NOTE: S and R are very different! (they are unrelated)
 
-
 # OSI Protocol Layers
 
 The internet is hard to organize!
@@ -109,36 +108,30 @@ Split into the **OSI Model Layer**, or **Internet Protocol Stack** (in order top
 
 Each layer is distributed. Layers are implemented with **entities** that handle layer functions. Each entity performs actions and exchange messages with peers.
 
-In order to send data, that data is passed in from the top (application layer) to the bottom and then parsed by the recipient bottom up. 
+As an example, let's say machine A wants to send data to machine B. A will pass data into its application layer, then transport, then network, link, and physical. That data, once passing through other links and reaching B, will enter through B's physical layer and pass back up. 
 
-# Quiz Questions
+# Domain Name System
+This was assigned as a self-learn topic. 
+The **Domain Name System** is like a phonebook, but for the Internet. We are bad at remembering numbers, so we can assign domains to our IPs like www.google.com. The purpose of a DNS is to translate domain names to IP addresses so our computers can communicate with the machines we want. 
 
-OSI model layers: Application, Presentation, Session, Transport, Network, Data Link, Physical
+In order to use DNS, we need servers (DNS servers). We categorize four main types of DNS servers:
+- DNS Recursors: receives queries from client machines and looks through the other servers to get an answer. 
+- Root Nameservers: normally serve as references to more specific DNS locations. 
+- Top Level Domain (TLD) Nameservers: are responsible for storing all addresses assigned to a specific TLD. 
+- Authoritative Nameservers: are the final servers, responsible for returning the actual IP address back to the DNS Recursor. 
 
-TCP/IP model layers: Application, Transport, Internet, Network Access
+In a typical request, a client sends a request to a DNS Recursive Resolver, which then sends a request to a Root Nameserver, which sends a request to a TLD Nameserver, then an authoritative Nameserver, which then returns info to the Recursive Resolver. 
 
-Routers use all 5 layers of the OSI model: Network, Data Link, Physical, Transport, Application.
+A **recursive resolver** responds to requests from a client and tries to track down a DNS record. It makes a series of requests until it reaches an authoritative DNS nameserver. It can also save time by caching addresses for later use. 
 
-We need 4 things configured on a device for it to connect to the internet: IP address, subnet mask, default gateway, DNS server.
+A **root server** will receive requests from a recursive resolver and gives it the address for a TLD server that matches the correct TLD. 
 
+Once the recursive resolver gets the TLD nameserver IP, it makes a request to it. The **TLD nameserver** then returns the IP of the authoritative nameserver. 
 
-Nodal processing takes time on the end station
-Queueing delay on router?
+The **authoritative nameserver** is responsible for actually holding the domain name records, and will do this for a fee.
 
+How are domains organized? Consider the example "www\.google\.com". 
 
-Need 4 things to connect to internet
-IP Address - IPv4
-Subnet Mask
-Default Router - how to get off router
-Local DNS - phone book of IP addresses
+Domains are split by "." delimiters, and in this case, "www" represents the **host name**, and is the left-most grouping. 
 
-www is host name
-center is domain
-suffix is category
-
-
-.com is top level dns
-
-TTL - Time to live
-
-
+Everything else is the "**domain**". The domain may contain multiple sections, and if so will be grouped in a hierarchical sense from right to left. In the above case, "com" is the top-level domain, and "google" is a **subdomain** of "com". If there were more to the left, they would be the subdomain of "google". 
