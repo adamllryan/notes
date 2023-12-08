@@ -24,18 +24,17 @@ A **protocol** is a governing body that regulates all communication activity ove
 - syntax of those messages
 - semantics of the messages
 - rules associated with the messages
-# Network
 
-A network is a group of interconnected machines. These machines can only communicate with members of the same network. 
+A **network** is a group of interconnected machines. These machines can only communicate with members of the same network. 
 
-## Network Edge
+# Network Edge
 
 The **network edge** consists of clients/users and servers that serve data to clients. The standard model is client/server, where the client hosts requests and receives a response from the server that services request.
 A second model is the peer-to-peer model that hosts interactions symmetrically (Bitcoin as an example).
 
 The purpose of the network edge is data transfer between end systems. Apps that use TCP are good for HTTP, FTP, Telnet, and SMTP transfer. Apps that use UDP are normally streaming media, teleconferencing, and internet telephony.
 
-## Network Core
+# Network Core
 
 The **network core** is the mesh of interconnected routers. It connects client and servers.
 
@@ -64,8 +63,6 @@ We use [[datagrams]] to package data. It contains a *destination address* to det
 
 In a **virtual circuit network**, each packet holds a tag that determines next hop. It has a fixed path determined at *call setup time* and remains fixed through call. 
 
-## Structure of the internet
-
 The structure of the internet is *roughly hierarchical*. It's supported by national and international backbone providers, or NBPs. These NBPs are owned by companies like BBN/GTE, Sprint, AT&T, IBM, and UUNet. These NBPs connect to regional ISPs, which connect to local ISPs, who provide you your internet connection. 
 
 # Network Error
@@ -93,7 +90,7 @@ $D_p=D/S$ where $D$ is the length of the physical link and $S$ is the propagatio
 NOTE: S and R are very different! (they are unrelated)
 
 
-# Layers
+# OSI Protocol Layers
 
 The internet is hard to organize!
 Because of this, we split them into the **Internet protocol stack**:
