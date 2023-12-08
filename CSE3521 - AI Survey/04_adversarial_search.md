@@ -1,5 +1,3 @@
->[!NOTE]
-> This is incomplete. It was decently written at first, so I have not done another pass at it yet. 
 # Multiple Agent Games
 
 When agents are placed together, they can either participate in zero-sum or general games. 
@@ -21,7 +19,7 @@ Adversarial search (A\*) uses the sum of uninformed and informed search to find 
 
 The algorithm searches the game tree starting from the current state and generates all possible moves for the player and the opponent. It then evaluates each of these moves using a heuristic function and chooses the move with the highest score for the player and the lowest score for the opponent.
 
-Adversarial search is optimal when the game is deterministic, fully observable, two-player, zero-sum, and turn-taking.
+Adversarial search is optimal when the game is deterministic, fully observable, two-player, zero-sum, and turn-taking. The algorithm assumes *both* the player and the opponent will play optimally and perfectly. If either chooses a non-optimal action, the algorithm is prone to failure.
 
 It will take the sum of the heuristic function with the backwards cost of the path to the node. The heuristic function is the estimated cost of the path from the node to the goal. The backwards cost is the cost of the path from the node to the start.
 
@@ -31,6 +29,32 @@ It will take the sum of the heuristic function with the backwards cost of the pa
 4. Min function finds the smallest successor value. 
 5. This repeats, with the min function using a max function to find the largest.
 
+Here is an implementation to minimax in pseudocode:
+
+~~~ value
+def value(state):
+	if next state is terminal state, return its utility;
+	if next state is max turn, return max-value(state);
+	otherwise, return min-value(state);
+~~~
+
+~~~ max-value
+def max-value(state):
+	v=-inf;
+	for each successor state:
+		v=max(v,value(successor));
+	return v;
+~~~
+
+~~~ min-value
+def min-value(state):
+	v=inf;
+	for each successor state:
+		v=min(v,value(successor));
+	return v;
+~~~
+
+Minimax has efficiency $O(B^m)$ time and $O(bm)$ space complexity. Similar to [[02_uninformed_search#Uninformed Search|DFS]]. 
 ## Alpha-Beta Pruning
 
 **Alpha-beta pruning** is an optimization technique for minimax that reduces the number of nodes that are evaluated by the minimax algorithm in its search tree. It is called alpha-beta pruning because it uses two values, alpha and beta, to determine when to prune branches in the search tree. Alpha is expected to increase and beta should decrease. 
@@ -40,6 +64,28 @@ In essence, alpha-beta pruning is an algorithm that lets us trim off branches th
 ![[AlphaBetaPruning.png]]
 
 Because minimax alternates min and max functions, we can actually prune off many sibling nodes in a function. Say we are conducting a min search and at a level, the first node searched yields a value 7. Now we check the second sibling. Of all the sibling's successors, if any have a min smaller than 7 (or equal to), we can immediately discard the whole sibling from the search because we know that it now has a min smaller than its left sibling, and the max function above will pick the left sibling anyways. Similarly, if we are conducting max search at a level, and that left node is 7 (for example), if we find a sibling with a larger successor node than 7 we can discard that sibling because the parent min level will want the smallest successor only. 
+
+Here is how we change `min-value` and `max-value` to implement alpha-beta pruning:
+
+~~~ min-value
+def min-value(state,a,b):
+	v=inf;
+	for each successor state:
+		v=min(v,value(successor,a,b));
+		b=min(b,v);
+		if a>=b,return -inf;
+	return v;
+~~~
+
+~~~ max-value
+def max-value(state,a,b):
+	v=-inf;
+	for each successor state:
+		v=max(v,value(successor,a,b));
+		a=max(a,v);
+		if a>=b,return inf;
+	return v;
+~~~
 
 Terms:
 
