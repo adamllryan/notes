@@ -1,1 +1,0 @@
-`<RouterLink to="/">Text</RouterLink>` creates a hyperlink to a defined route

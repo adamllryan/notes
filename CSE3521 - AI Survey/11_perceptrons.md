@@ -2,7 +2,7 @@
 
 We define a neuron as a functional unit. A neural net is composed of *nodes* which are connected by *links*. Every link has a weight associated with it, intended to be modified so that passing in data from one end through a network will produce a goal response. Nodes have an *activation level* given inputs and weights, or a local computation based on inputs from neighbors. 
 
-In order to use a neural network, we have to decide how many, what kind, and how to connect nodes we want. We normally assign random weights initially and then change them over time. 
+In order to use a neural network, we have to decide how many, what kind, and how to connect nodes we want. We normally assign random weights initially and then change them over time. Neural Networks are bottom-up models.  
 
 # Computing Elements
 
@@ -15,7 +15,7 @@ We have 3 types of nonlinear functions:
 - Step function (0, 1 at t)
 - Sign function (-1, then 1 at x>=0)
 - Sigmoid Function (1/(1+e^(-x)))
-
+ReLU is another! Not sure what it is though. 
 # Network Structures
 
 There are two main varieties of network structures:
@@ -33,7 +33,7 @@ Multilayer networks have one or more layers of hidden units. One hidden layer al
 Neural networks are very subject to overfitting if we use too many weights in the model. We use cross validation techniques to determine the right size of a network. 
 # Perceptrons
 
-Perceptrons were first studied in the late 1950's. A single perceptron has at least one input connected by weights. They represent functions that are linearly separable. Something something *step activation*. (Check definition, not provided in slides)
+Perceptrons were first studied in the late 1950's. A single perceptron has at least one input connected by weights. They represent functions that are linearly separable. Something something *step activation*. (Check definition, not provided in slides) Excitatory synapses increase potential and inhibitory decrease.
 # Classification
 
 *CHECK LATER THIS IS A GUESS*
