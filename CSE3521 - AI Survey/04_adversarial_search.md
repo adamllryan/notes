@@ -35,6 +35,10 @@ It will take the sum of the heuristic function with the backwards cost of the pa
 
 **Alpha-beta pruning** is an optimization technique for minimax that reduces the number of nodes that are evaluated by the minimax algorithm in its search tree. It is called alpha-beta pruning because it uses two values, alpha and beta, to determine when to prune branches in the search tree. Alpha is expected to increase and beta should decrease. 
 
+In essence, alpha-beta pruning is an algorithm that lets us trim off branches that we know will never be picked. If we are on the max stage and we reach a max value higher than our previous maxes, we know the min function above will never pick it so we can ignore the whole rest of the branch! Same with min values, except they have to be smaller than our current min. 
+
+![[AlphaBetaPruning.png]]
+
 Because minimax alternates min and max functions, we can actually prune off many sibling nodes in a function. Say we are conducting a min search and at a level, the first node searched yields a value 7. Now we check the second sibling. Of all the sibling's successors, if any have a min smaller than 7 (or equal to), we can immediately discard the whole sibling from the search because we know that it now has a min smaller than its left sibling, and the max function above will pick the left sibling anyways. Similarly, if we are conducting max search at a level, and that left node is 7 (for example), if we find a sibling with a larger successor node than 7 we can discard that sibling because the parent min level will want the smallest successor only. 
 
 Terms:

@@ -6,7 +6,7 @@ The **Bernoulli distribution** for a binary random variable is depicted as $P(\t
 It's built from the joint probability distribution of the samples and is a function of the parameters only, forcing random variables as fixed. 
 
 # Maximum Likelihood Estimation
-**Maximum likelihood estimation** is the process of choosing the parameters that will result in the maximum probability in the observed data. A useful trick is to apply log to the likelihood function and then take the derivative. This will let us find the maximum point with minimal effort. We can set it equal to zero because the derivative must be zero. 
+**Maximum likelihood estimation** is the process of choosing the parameters that will result in the maximum probability (maximizing the weight of our observed data, not it being true) in the observed data. A useful trick is to apply log to the likelihood function and then take the derivative. This will let us find the maximum point with minimal effort. We can set it equal to zero because the derivative must be zero. 
 
 An alternative to MLE is Bayesian parametrics, where we treat parameters as variables themselves. This is problematic, though, because the new parameter variables also need distributions. 
 
