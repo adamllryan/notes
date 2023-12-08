@@ -1,5 +1,5 @@
 # Internet
-The internet consists of billions of connected computing devices. Essentially, it is a *network of network*s and is loosely hierarchical. It's built out of hosts (end systems) and clients (users). 
+The internet consists of billions of connected computing devices. Essentially, it is a *network of networks* and is loosely hierarchical. It's built out of hosts (end systems) and clients (users). 
 
 The internet relies on **packet switches** to forward packets or chunks of data. We call [[Router|routers]] and [[06_link_layer#Switches|switches]] to relay these packets between systems. We have divided the internet into a public internet and private intranet.
 
@@ -11,7 +11,7 @@ What do we need to have to connect to the internet? We need four items:
 
 The internet, as a service, is infrastructure that provides services to applications. It provides functionality to *services* such as web, video, VoIP, email, e-commerce, social networks, and video games. It also provides *APIs* that interface into apps so we can use applications in other applications. 
 
-To do so, we use some of the following protocols:  **TCP**, **IP**, **HTTP**, **FTP**, **PPP**
+To do so, we use some of the following protocols: **TCP**, **IP**, **HTTP**, **FTP**, and **PPP**. 
 
 We also have **internet standards** to help manage the internet and its applications: 
 - RFC: Request For Comments
