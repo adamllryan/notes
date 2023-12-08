@@ -3,7 +3,7 @@ A **mixture model** (specifically Gaussian) is a model where the data is a mixtu
 
 While we normally are able to recover original source Gaussians, we can only sometimes recover original sources for our datapoints. 
 
-Original source Gaussians can be recovered with [[13_probabilistic_parameter_estimation#Maximum Likelihood Estimation|MLE]]. However, applying MLE will leave you with no closed-form solution. This is where we will apply parameter estimation by splitting hidden and visible variables separately. We have two things to work through in doing so: 
+Original source Gaussians can be recovered with [[07_probabilistic_graphical_models#Maximum Likelihood Estimation|MLE]]. However, applying MLE will leave you with no closed-form solution. This is where we will apply parameter estimation by splitting hidden and visible variables separately. We have two things to work through in doing so: 
 - Expectation, what are the possible values for hidden variables and how likely do we think they are?
 - Maximization, where we try to maximize the likelihood of our visible variables using data from expectations. 
 This is the **expectation-maximization** (EM) algorithm. 

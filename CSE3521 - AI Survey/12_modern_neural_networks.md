@@ -50,7 +50,7 @@ We can use filters as a feature detector! We can have the CNN learn its own filt
 
 # Text and Language
 
-Our original approach was to use [[07_data_to_features#Bag-of-words representation|one-hot encoding]] to turn words into vectors. However, this leads to many inputs and weights while having mostly zeros for everything. 
+Our original approach was to use [[05_machine_learning#Bag-of-Words|one-hot encoding]] to turn words into vectors. However, this leads to many inputs and weights while having mostly zeros for everything. 
 
 A much better approach is **Word2Vec**, which uses one-hot encoding as a first layer weight, then use its first layer weight as a vector for each word. It creates a vector in linear subspace, and we notice that subtle meanings can be encoded as well. We also noticed that bias can become encoded, too. 
 

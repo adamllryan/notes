@@ -1,6 +1,6 @@
 # Curve Fitting
 
-**Curve fitting** is the process of fitting a curve to a set of points. We want to do this in order to discover more relationships and model relationships as a mathematical function. A function is *linear* if it can be written as a sum of terms $f(x,y,...)=ax+by+...+c$. It is [[16_nonlinear_model_parameter_estimation#Nonlinear Parameter Estimation|nonlinear]] if we can't express it in linear terms, such as if it includes the term $axe^{by}$. 
+**Curve fitting** is the process of fitting a curve to a set of points. We want to do this in order to discover more relationships and model relationships as a mathematical function. A function is *linear* if it can be written as a sum of terms $f(x,y,...)=ax+by+...+c$. It is [[10_nonlinear_model_parameter_estimation#Nonlinear Parameter Estimation|nonlinear]] if we can't express it in linear terms, such as if it includes the term $axe^{by}$. 
 
 This time, our process will be taking $x,y$ data points and their desired target values then finding $a,b,c$ to get $x,y$ closest to the target values. 
 

@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "11247e8b28f4d180",
+        "id": "823f9e1cdeb74042",
         "type": "tabs",
         "children": [
           {
-            "id": "550ce219e6514253",
+            "id": "612a21861dd21aca",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CSE3521 - AI Survey/12_modern_neural_networks.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CSE3521 - AI Survey/12_modern_neural_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CSE3521 - AI Survey/12_modern_neural_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CSE3521 - AI Survey/12_modern_neural_networks.md"
+              }
             }
           },
           {
@@ -149,34 +158,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "550ce219e6514253",
+  "active": "612a21861dd21aca",
   "lastOpenFiles": [
-    "CSE3521 - AI Survey/08_correlation_and_normalization.md",
-    "CSE3521 - AI Survey/07_data_to_features.md",
-    "CSE3521 - AI Survey/06_learning_agents_and_data.md",
-    "CSE3521 - AI Survey/04_adversarial_search.md",
-    "CSE3521 - AI Survey/02_uninformed_search.md",
-    "CSE3521 - AI Survey/10_probability_intro.md",
-    "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
-    "CSE3521 - AI Survey/17_perceptrons.md",
-    "CSE3521 - AI Survey/18_modern_neural_networks.md",
-    "CSE3521 - AI Survey/AlphaBetaPruning.png",
-    "CSE3521 - AI Survey/19_final_cheatsheet.md",
-    "CSE3521 - AI Survey/14_gaussian_mixture_models.md",
-    "CSE3521 - AI Survey/13_probabilistic_parameter_estimation.md",
+    "CSE3521 - AI Survey/11_perceptrons.md",
+    "CSE3521 - AI Survey/10_nonlinear_model_parameter_estimation.md",
+    "CSE3521 - AI Survey/09_linear_parameter_estimation.md",
+    "CSE3521 - AI Survey/08_gaussian_mixture_models.md",
     "CSE3521 - AI Survey/01_agent_design.md",
-    "CSE3521 - AI Survey/09_dimensionality_reduction.md",
-    "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
-    "CSE3521 - AI Survey/00_quizzes.md",
+    "CSE3521 - AI Survey/02_uninformed_search.md",
+    "CSE3521 - AI Survey/03_informed_search.md",
+    "CSE3521 - AI Survey/04_adversarial_search.md",
+    "CSE3521 - AI Survey/05_machine_learning.md",
+    "CSE3521 - AI Survey/06_probability_intro.md",
+    "CSE3521 - AI Survey/07_probabilistic_graphical_models.md",
+    "CSE3521 - AI Survey/13_probabilistic_parameter_estimation.md",
+    "CSE3521 - AI Survey/12_modern_neural_networks.md",
     "CSE3521 - AI Survey/12_probabilistic_inference.md",
     "CSE3521 - AI Survey/11_bayesian_networks.md",
-    "CSE3521 - AI Survey/03_informed_search.md",
-    "CSE3521 - AI Survey/Untitled.md",
+    "CSE3521 - AI Survey/06_learning_agents_and_data.md",
+    "CSE3521 - AI Survey/07_data_to_features.md",
+    "CSE3521 - AI Survey/08_correlation_and_normalization.md",
+    "CSE3521 - AI Survey/09_dimensionality_reduction.md",
+    "CSE3521 - AI Survey/5_Machine_Learning.md",
+    "CSE3521 - AI Survey/AlphaBetaPruning.png",
+    "CSE3521 - AI Survey/19_final_cheatsheet.md",
+    "CSE3521 - AI Survey/00_quizzes.md",
     "work/stock.md",
     "Finance/Finance.md",
     "Projects/OLA Auction Handler.md",
     "Projects/Run Cellranger Instructions.md",
-    "WEB_DEV/Vue/Syntaxes.md",
     "CSE3521 - AI Survey/Bayes Network.png",
     "CSE3521 - AI Survey/Swiss Roll.png",
     "CSE3461 - Wired Networks/06_link_layer",
