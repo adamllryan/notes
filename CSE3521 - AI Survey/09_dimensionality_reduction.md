@@ -44,3 +44,8 @@ However, PCA sometimes fails. Here is a common example (swiss roll problem):
 Sometimes, linear dimensionality reduction fails. This is where nonlinear dimensionality reduction comes in ($z=g(x)$ where $g:R^D \mapsto R^M$). 
 
 **T-distributed stochastic neighbor embedding** (t-SNE). Builds a pairwise joint probability to characterize every set of instances. It preserves the probability of something being this far from something else. 
+
+The goal of principal component analysis is to transform the feature space into a smaller linear space where variance is maximized and transformational reversal loss is minimized. 
+Eigenvalue represents variance in a particular direction, eigenvector is is the direction of variance, covariance is how different features are correlated, and M is related to how much variance to keep or throw out. 
+PCA should be unbiased, reduce redundancy/sparseness, be decorrelated. 
+PCA reduces redundancy where whitening scales. 

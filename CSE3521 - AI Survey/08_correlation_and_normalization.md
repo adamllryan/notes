@@ -71,3 +71,7 @@ We can represent data as a histogram or using kernel density estimation.
 ## Covariance matrix
 
 ## Feature Correlation
+
+Z-score guarantees unbiased (mean=0) and uniformly scaled (standard deviation=1) values, and whitening guarantees unbiased, uniformly scaled, and uncorrelated data. Neither guarantees reduced redundancy (non-sparse). 
+Training, test, and new data set $\mu,\Sigma$ comes from training set. 
+Correlation and covariance are related by a scalar factor. Correlation is the measure of how two variables are linearly related. Removing correlation from a data set can look like you are rotating the data. 
