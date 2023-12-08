@@ -6,9 +6,9 @@
 A **heuristic** is a function that is able to estimate the distance of a state to a goal. We are in charge of implementing it ourselves. 
 
 We use Heuristics to guide the search process. Heuristics are problem-specific knowledge that provide hints about where a solution is likely to be found. Heuristics are used to evaluate nodes in the search tree and decide which node to expand next.
-Heuristics are forward-looking, i.e., they estimate the cost of reaching the goal from the current state. A common heuristic always overestimates the cost, should never underestimate the forward-looking cost. 
+Heuristics are forward-looking, i.e., they estimate the cost of reaching the goal from the current state. 
 
-Again, a heuristic should **ALWAYS OVERESTIMATE, NEVER UNDERESTIMATE** the forward-looking cost. 
+A heuristic should **NEVER OVERESTIMATE, ALWAYS UNDERESTIMATE** the forward-looking cost. 
 
 A common heuristic in determining path is just returning the distance between the current node and the goal node. Often called greedy search.
 
