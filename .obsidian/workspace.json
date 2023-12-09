@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3461 - Wired Networks/02_application_layer.md",
+                "file": "CSE3461 - Wired Networks/03_transport_layer.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3461 - Wired Networks/02_application_layer.md",
+                "file": "CSE3461 - Wired Networks/03_transport_layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3461 - Wired Networks/02_application_layer.md",
+                "file": "CSE3461 - Wired Networks/03_transport_layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3461 - Wired Networks/02_application_layer.md"
+                "file": "CSE3461 - Wired Networks/03_transport_layer.md"
               }
             }
           },
@@ -160,14 +160,14 @@
   },
   "active": "612a21861dd21aca",
   "lastOpenFiles": [
-    "SP23/CSE2431 - Systems 2/5. Interprocess Communication.md",
     "CSE3461 - Wired Networks/02_application_layer.md",
+    "CSE3461 - Wired Networks/03_transport_layer.md",
+    "CSE3461 - Wired Networks/01_introduction.md",
+    "SP23/CSE2431 - Systems 2/5. Interprocess Communication.md",
     "SP23/CSE2431 - Systems 2/2. CPU Scheduling.md",
     "CSE3461 - Wired Networks/06_link_layer.md",
     "CSE3461 - Wired Networks/05_control_plane.md",
     "CSE3461 - Wired Networks/04_network_layer.md",
-    "CSE3461 - Wired Networks/03_transport_layer.md",
-    "CSE3461 - Wired Networks/01_introduction.md",
     "CSE3461 - Wired Networks/08_security.md",
     "README.md",
     "CSE3461 - Wired Networks/00_midterm_wired_networking.md",

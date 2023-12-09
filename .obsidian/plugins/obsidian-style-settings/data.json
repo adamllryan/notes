@@ -15,5 +15,7 @@
   "CG@@CG-workspace-background-image-custom-option": "url(\"https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/ss_9beef14102f164fa1163536d0fb3a51d0a2e4a3f.1920x1080.jpg?t=1693591602\")",
   "CG@@CG-workspace-background-image": "CG-workspace-background-image-custom",
   "minimal-advanced@@cursor": "default",
-  "minimal-advanced@@styled-scrollbars": true
+  "minimal-advanced@@styled-scrollbars": true,
+  "shimmering-focus@@use-relative-line-numbers": true,
+  "shimmering-focus@@disable-vim-cursor-blink": false
 }

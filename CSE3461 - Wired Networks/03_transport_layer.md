@@ -1,3 +1,35 @@
+# Transport Layer Services
+Transport layer services provide logical communication between [[02_application_layer#Process Communication|processes]] running on different hosts. 
+
+On the send side, the protocol breaks an application message into *segments* that are passed to the [[04_network_layer|network layer]]. On the receive side, the protocol reassembles segments back into messages and passes up to the application layer. 
+
+The transport layer's responsibilities are to handle logical communications between processes. This is different than the network layer, which is responsible for the logical communication between *hosts*, not processes. 
+
+The two transport layer protocols we use are TCP and UDP. 
+# Mux and Demux
+
+At the sender, we multiplex our data. We take data from multiple sockets, add transport headers, and send off. At the receiving side, we header information to deliver received segments to the correct socket. 
+
+**Demultiplexing** takes a received IP datagram and forwards it to the appropriate socket. A **datagram** contains a source and destination IP address/port, header fields, and a payload segment. 
+
+We can perform connectionless demultiplexing by using UDP sockets. In order to do this, we need to specify a destination IP address and port. When received, UDP will redirect the datagram to that socket and store the rebuild the payload. 
+
+Connection-oriented demultiplexing uses TCP sockets. These sockets are identified by a source and destination IP address and port number. A server host may support many simultaneous TCP sockets, and web servers have different sockets for each connecting client. 
+
+**Multiplexing** utilizes DGRAM or Stream sockets. A DGRAM socket is identified by a local IP address and port when created and is identified by local and destination address/port for inbound packets. 
+# UDP
+
+A **UDP** segment has a 64 bit header. The header is equally allocated across the source and destination ports, length, and checksum (16 bits for each). 
+
+UDP is unreliable, but it comes with the benefits of no connection establishment (no delay), it is simpler (no connection states), small header size, and no congestion control (no speed limits). 
+
+# RDT
+
+# TCP
+
+# Congestion Control
+
+# TCP Congestion Control
 # Transport Layer
 
 At the application level, this is a message. It is then given a header at the transport layer and it becomes a segment. A message can also be split into multiple segments.

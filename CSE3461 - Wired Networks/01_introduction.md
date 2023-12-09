@@ -109,29 +109,3 @@ Split into the **OSI Model Layer**, or **Internet Protocol Stack** (in order top
 Each layer is distributed. Layers are implemented with **entities** that handle layer functions. Each entity performs actions and exchange messages with peers.
 
 As an example, let's say machine A wants to send data to machine B. A will pass data into its application layer, then transport, then network, link, and physical. That data, once passing through other links and reaching B, will enter through B's physical layer and pass back up. 
-
-# Domain Name System
-This was assigned as a self-learn topic. 
-The **Domain Name System** is like a phonebook, but for the Internet. We are bad at remembering numbers, so we can assign domains to our IPs like www.google.com. The purpose of a DNS is to translate domain names to IP addresses so our computers can communicate with the machines we want. 
-
-In order to use DNS, we need servers (DNS servers). We categorize four main types of DNS servers:
-- DNS Recursors: receives queries from client machines and looks through the other servers to get an answer. 
-- Root Nameservers: normally serve as references to more specific DNS locations. 
-- Top Level Domain (TLD) Nameservers: are responsible for storing all addresses assigned to a specific TLD. 
-- Authoritative Nameservers: are the final servers, responsible for returning the actual IP address back to the DNS Recursor. 
-
-In a typical request, a client sends a request to a DNS Recursive Resolver, which then sends a request to a Root Nameserver, which sends a request to a TLD Nameserver, then an authoritative Nameserver, which then returns info to the Recursive Resolver. 
-
-A **recursive resolver** responds to requests from a client and tries to track down a DNS record. It makes a series of requests until it reaches an authoritative DNS nameserver. It can also save time by caching addresses for later use. 
-
-A **root server** will receive requests from a recursive resolver and gives it the address for a TLD server that matches the correct TLD. 
-
-Once the recursive resolver gets the TLD nameserver IP, it makes a request to it. The **TLD nameserver** then returns the IP of the authoritative nameserver. 
-
-The **authoritative nameserver** is responsible for actually holding the domain name records, and will do this for a fee.
-
-How are domains organized? Consider the example "www\.google\.com". 
-
-Domains are split by "." delimiters, and in this case, "www" represents the **host name**, and is the left-most grouping. 
-
-Everything else is the "**domain**". The domain may contain multiple sections, and if so will be grouped in a hierarchical sense from right to left. In the above case, "com" is the top-level domain, and "google" is a **subdomain** of "com". If there were more to the left, they would be the subdomain of "google". 
