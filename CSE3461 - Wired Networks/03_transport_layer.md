@@ -16,14 +16,37 @@ We can perform connectionless demultiplexing by using UDP sockets. In order to d
 
 Connection-oriented demultiplexing uses TCP sockets. These sockets are identified by a source and destination IP address and port number. A server host may support many simultaneous TCP sockets, and web servers have different sockets for each connecting client. 
 
-**Multiplexing** utilizes DGRAM or Stream sockets. A DGRAM socket is identified by a local IP address and port when created and is identified by local and destination address/port for inbound packets. 
+**Multiplexing** utilizes DGRAM or Stream sockets. A **DGRAM** socket is identified by a local IP address and port when created and is identified by local and destination address/port for inbound packets. In this case, the application has to handle adding the destination IP and port for each outbound packet and a singe socket may handle multiple destinations and sources. 
+
+A **stream** socket is identified by a local IP address and port when created and is identified by the local, destination, remote, and source IP and port (for inbound packets). The system handles assigning IP and port for outbound packets, in this case. Stream sockets handle only one destination and source. 
+
 # UDP
 
-A **UDP** segment has a 64 bit header. The header is equally allocated across the source and destination ports, length, and checksum (16 bits for each). 
+**UDP** is a barebones Internet transport protocol. UDP guarantees nothing to the recipient, which means that the recipient may get packets out of order, in pieces, or not at all. UDP is *connectionless*, meaning there are no handshakes between either party, and each UDP segment is handled on its own. A UDP segment has a 64 bit header. The header is equally allocated across the source and destination ports, length, and checksum (16 bits for each). 
 
-UDP is unreliable, but it comes with the benefits of no connection establishment (no delay), it is simpler (no connection states), small header size, and no congestion control (no speed limits). 
+UDP is unreliable, but it comes with the benefits of no connection establishment (no delay), it is simpler (no connection states), small header size, and no congestion control (no speed limits). Since UDP is unreliable, it is most frequently used with loss-tolerant and rate sensitive applications like streaming, DNS, and SNMP. 
 
-# RDT
+We can use a UDP checksum to try to detect errors (flipped bits) in a sent segment. To do so, the sender sends a one's complement sum of the segment contents into the UDP checksum field. The recipient then can compare this to the data, and if no error is detected, we still aren't sure that there are no errors. This is because errors can be hidden to checksum for a number of reasons. 
+
+# Reliable Data Transfer
+
+RDT is the idea of taking a channel that isn't guaranteed to keep 100% integrity of data and abstract it to this: given a sender and receiver and a channel, if the sender puts data into the channel, the receiver will get that exact data back. RDT is taking that unreliable channel and making it such that processes can pass in data and expect it to come out perfectly on the other side. 
+
+Because of the complexity of issues we'll have to handle, we have multiple iterations of RDT. 
+
+RDT **1.0** is reliable transfer over a reliable channel. We put data in, and it comes out the other side the same. 
+
+RDT **2.0** assumes we may have *bit errors*. The solution for this is to use checksum and acknowledgements (ACKs). If the checksum returns nothing after a certain time to live (TTL), we know something went wrong. Then we know to resend the data! If the recipient sends an ACK back, we send the next packet. 
+
+But what if the ACK is corrupted? We use sequence numbers to indicate what packet we are on so that no matter what, we have a method of synchronization. When we have info we a) already have ACKed or b) don't understand, we discard it and retransmit. 
+
+RDT **2.1** adds ACK error handling. 
+
+RDT **2.2** totally removes NAKs, or the negative acknowledgements. Not mentioned above, RDT 2.0 uses NAKs to indicate failure. 
+
+RDT **3.0** assumes we have errors and loss. Now we have a TTL 
+
+
 
 # TCP
 
