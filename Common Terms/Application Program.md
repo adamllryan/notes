@@ -1,0 +1,1 @@
+The actual application we are writing. We abstract this to its own layer so that we can focus on our own content instead of developing the infrastructure that supports it. 
