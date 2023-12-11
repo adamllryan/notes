@@ -1,4 +1,4 @@
-When we create a network app, we want it to be able to run on different end systems. This means they need to be able to communicate with each other regardless of system architecture. This way, developers won't need to focus on developing the network-core software as well as the application itself. 
+When we create a network app, we want it to be able to run on different end systems. This means they need to be able to communicate with each other regardless of system architecture. This way, developers won't need to focus on developing the network-core software as well as the [[Application Program|application]] itself. 
 
 There are two structures for these applications:
 - Client-server. 
