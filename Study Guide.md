@@ -10,8 +10,6 @@ Web development, webscraping
 Python data analysis
 ## Team-work experience
 **1-week game jam**, worked with team, no leaders and allocated parts to everyone else
-
-## Projects and Work
 # Technical
 ## Experience with programming languages
 C++ in class and robotics and project

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ab30a971f68434f4",
+        "id": "576699df0e513cbc",
         "type": "tabs",
         "children": [
           {
-            "id": "6b342fc5f0a9472f",
+            "id": "805b0331a1d8ef1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -65,12 +65,25 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "6b342fc5f0a9472f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study Guide.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 324.5
   },
   "right": {
     "id": "d6388fe4de2d54e0",
@@ -158,7 +171,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6b342fc5f0a9472f",
+  "active": "4e3ecca74107cb14",
   "lastOpenFiles": [
     "Study Guide.md",
     "CSE3461 - Wired Networks/01_introduction.md",
