@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "823f9e1cdeb74042",
+        "id": "ab30a971f68434f4",
         "type": "tabs",
         "children": [
           {
-            "id": "612a21861dd21aca",
+            "id": "6b342fc5f0a9472f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3521 - AI Survey/07_probabilistic_graphical_models.md",
+                "file": "CSE2221 - Software 1/31_object_oriented_programming.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3521 - AI Survey/07_probabilistic_graphical_models.md",
+                "file": "CSE2221 - Software 1/31_object_oriented_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3521 - AI Survey/07_probabilistic_graphical_models.md",
+                "file": "CSE2221 - Software 1/31_object_oriented_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3521 - AI Survey/07_probabilistic_graphical_models.md"
+                "file": "CSE2221 - Software 1/31_object_oriented_programming.md"
               }
             }
           },
@@ -158,19 +158,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "612a21861dd21aca",
+  "active": "6b342fc5f0a9472f",
   "lastOpenFiles": [
-    "CSE3461 - Wired Networks/00_midterm_wired_networking.md",
-    "CSE3521 - AI Survey/07_probabilistic_graphical_models.md",
-    "CSE3521 - AI Survey/08_gaussian_mixture_models.md",
-    "CSE3521 - AI Survey/00_quizzes.md",
+    "CSE2221 - Software 1/Untitled.md",
+    "CSE2221 - Software 1/31_object_oriented_programming.md",
+    "CSE2221 - Software 1/03_output_strings_input.md",
+    "CSE2221 - Software 1/02_java_overview.md",
+    "CSE2221 - Software 1/01_introduction.md",
+    "CSE2221 - Software 1",
+    "CSE3521 - AI Survey/CSE2221 - Software 1",
+    "CSE3461 - Wired Networks/06_link_layer.md",
+    "README.md",
     "CSE3521 - AI Survey/AlphaBetaPruning.png",
     "CSE3521 - AI Survey/12_modern_neural_networks.md",
     "CSE3521 - AI Survey/11_perceptrons.md",
     "CSE3521 - AI Survey/10_nonlinear_model_parameter_estimation.md",
     "CSE3521 - AI Survey/09_linear_parameter_estimation.md",
+    "CSE3521 - AI Survey/08_gaussian_mixture_models.md",
+    "CSE3521 - AI Survey/07_probabilistic_graphical_models.md",
     "CSE3521 - AI Survey/06_probability_intro.md",
     "CSE3521 - AI Survey/05_machine_learning.md",
+    "CSE3521 - AI Survey/00_quizzes.md",
+    "work/stock.md",
+    "work/salary_negotiation.md",
+    "work",
     "techstack.md",
     "nvim.md",
     "config.md",
@@ -178,26 +189,24 @@
     "WEB_DEV/Vue",
     "WEB_DEV",
     "Signal.md",
-    "README.md",
     "Projects/Run Cellranger Instructions.md",
     "Projects/OLA Auction Handler.md",
     "Projects",
     "Obsidian Markdown Identifiers.md",
-    "Math3345 MT1.md",
-    "Finance/Finance.md",
     "Finance",
-    "CSE3521 - AI Survey/18_modern_neural_networks.md",
-    "CSE3521 - AI Survey/17_perceptrons.md",
-    "CSE3521 - AI Survey/16_nonlinear_model_parameter_estimation.md",
-    "CSE3521 - AI Survey/15_linear_parameter_estimation.md",
-    "CSE3521 - AI Survey/14_gaussian_mixture_models.md",
+    "Common Terms",
+    "CSE3241 - Databases/Relationship.png",
+    "CSE3241 - Databases/Entity.png",
+    "CSE3241 - Databases/ER Summary.png",
+    "CSE3241 - Databases/DBMS Implementation.png",
+    "CSE3241 - Databases/DBMS Environment.png",
+    "CSE3241 - Databases/Attribute.png",
+    "Work Notes",
     "CSE3521 - AI Survey/Bayes Network.png",
     "CSE3521 - AI Survey/Swiss Roll.png",
     "CSE3461 - Wired Networks/06_link_layer",
-    "06_link_layer",
     "CSE3241 - Databases/definitions and resources/Screenshot 2023-11-17 at 1.32.07 PM.png",
     "CSE3461 - Wired Networks/Traceroute.canvas",
-    "Projects/Graph.canvas",
-    "CSE3241 - Databases/definitions and resources"
+    "Projects/Graph.canvas"
   ]
 }
