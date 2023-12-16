@@ -11,8 +11,13 @@
             "id": "2cc88e124deb7e12",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Study Guides/Study Guide.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -67,7 +72,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study Guide.md",
+                "file": "Study Guides/Study Guide.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study Guide.md",
+                "file": "Study Guides/Study Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study Guide.md",
+                "file": "Study Guides/Study Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study Guide.md"
+                "file": "Study Guides/Study Guide.md"
               }
             }
           },
@@ -184,7 +189,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Study Guide.md",
+                    "file": "Study Guides/Study Guide.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -204,9 +209,11 @@
       }
     ]
   },
-  "active": "805b0331a1d8ef1f",
+  "active": "4e3ecca74107cb14",
   "lastOpenFiles": [
-    "Study Guide.md",
+    "Study Guides",
+    "New folder",
+    "Study Guides/Study Guide.md",
     "CSE3461 - Wired Networks/01_introduction.md",
     "CSE2221 - Software 1/Untitled.md",
     "CSE2221 - Software 1/31_object_oriented_programming.md",
@@ -235,13 +242,11 @@
     "SP23/CSE2431 - Systems 2/Definitions/Zero capacity.md",
     "SP23/CSE2431 - Systems 2/Definitions/User ID.md",
     "SP23/CSE2431 - Systems 2/Definitions/Type.md",
-    "SP23/CSE2431 - Systems 2/Definitions/Unbounded capacity.md",
     "SP23/CSE3901 - Web Apps/Definitions",
     "SP23/CSE2431 - Systems 2/Definitions",
     "SP23/CSE3901 - Web Apps",
     "SP23/CSE2431 - Systems 2",
     "SP23",
-    "CSE3461 - Wired Networks",
     "CSE3241 - Databases/definitions and resources/Screenshot 2023-11-17 at 1.32.07 PM.png",
     "CSE3241 - Databases/Relationship.png",
     "CSE3241 - Databases/Entity.png",
