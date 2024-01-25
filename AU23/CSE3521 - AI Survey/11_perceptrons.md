@@ -28,7 +28,7 @@ There are 3 types of units in a network:
 - Input, where we add our data
 - Output, where we get our results
 - Hidden, which are neither
-Multilayer networks have one or more layers of hidden units. One hidden layer allows us to represent any continuous function. Two hidden layers allows us to represent discontinuous functions. 
+Multilayer networks have one or more layers of hidden units. **One** hidden layer allows us to represent any **continuous** function. **Two** hidden layers allows us to represent **discontinuous** functions. 
 
 Neural networks are very subject to overfitting if we use too many weights in the model. We use cross validation techniques to determine the right size of a network. 
 # Perceptrons

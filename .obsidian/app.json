@@ -13,5 +13,6 @@
   "propertiesInDocument": "hidden",
   "foldHeading": true,
   "foldIndent": true,
-  "showIndentGuide": true
+  "showIndentGuide": true,
+  "spellcheck": false
 }

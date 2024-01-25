@@ -13,14 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE3241 - Databases/12. NoSQL.md",
+                "file": "CSE3341 - Principles of Programming Languages/1. Introduction.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5efa36adb8a032f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE5524 - Computer Vision/02. Noise Removal.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3ece2654ecf6869",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE5255 - Natural Language Processing/01. Overview of Machine Learning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54846f910c4c4311",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -70,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "d6388fe4de2d54e0",
@@ -86,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE3241 - Databases/12. NoSQL.md",
+                "file": "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE3241 - Databases/12. NoSQL.md",
+                "file": "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE3241 - Databases/12. NoSQL.md"
+                "file": "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md"
               }
             }
           },
@@ -155,57 +195,58 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "612a21861dd21aca",
+  "active": "54846f910c4c4311",
   "lastOpenFiles": [
-    "CSE3241 - Databases/11. XML.md",
-    "CSE3241 - Databases/10. Transaction Management.md",
-    "CSE3241 - Databases/9. Embedded SQL.md",
-    "CSE3241 - Databases/8. Indexing.md",
-    "CSE3241 - Databases/7. SQL.md",
-    "CSE3241 - Databases/6. Functional Dependency & Normalization.md",
-    "CSE3241 - Databases/5. Relational Algebra.md",
-    "CSE3241 - Databases/3. Enhanced Entity Relationship Model.md",
-    "CSE3241 - Databases/4. Relational Modelling.md",
-    "CSE3241 - Databases/Transaction Manager.md",
-    "CSE3241 - Databases/definitions and resources/Operations.md",
-    "CSE3241 - Databases/2. Entity Relationship Model.md",
-    "CSE3241 - Databases/ER Summary.png",
-    "CSE3241 - Databases/Relationship.png",
-    "CSE3241 - Databases/Attribute.png",
-    "CSE3241 - Databases/Entity.png",
-    "CSE3241 - Databases/1. Intro to Database Management System.md",
-    "CSE3241 - Databases/definitions and resources/External View.md",
-    "CSE3241 - Databases/DBMS Implementation.png",
-    "CSE3241 - Databases/DBMS Environment.png",
-    "CSE3241 - Databases/12. NoSQL.md",
-    "CSE3461 - Wired Networks/02_application_layer.md",
-    "Common Terms/Application Program.md",
-    "CSE3241 - Databases/definitions and resources/Application Programs and Queries.md",
-    "Common Terms",
+    "CSE3341 - Principles of Programming Languages/1. Introduction.md",
+    "CSE3341 - Principles of Programming Languages/2. Formal Languages.md",
+    "CSE3341 - Principles of Programming Languages/3. Functional Languages.md",
+    "CSE3341 - Principles of Programming Languages/8. Concurrency and Parallelism.md",
+    "CSE3341 - Principles of Programming Languages/7. Memory Management.md",
+    "CSE3341 - Principles of Programming Languages/6. Types.md",
+    "CSE3341 - Principles of Programming Languages/5. Object-Oriented Languages.md",
+    "CSE3341 - Principles of Programming Languages/4. Imperative Languages.md",
+    "CSE5526 - Neural Networks/05. LMS and Gradient Descent.md",
+    "CSE5526 - Neural Networks/04. Perceptron Convergence & LMS.md",
+    "CSE5526 - Neural Networks/08. ?.md",
+    "CSE5526 - Neural Networks/07. Network Optimization and Regularization.md",
+    "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
+    "CSE5526 - Neural Networks/03. Perceptrons.md",
+    "CSE5526 - Neural Networks/00. Neural Networks.md",
+    "CSE5526 - Neural Networks/01. Brain and Neural Model.md",
+    "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md",
+    "CSE5255 - Natural Language Processing/03. Text Classification.md",
+    "CSE5255 - Natural Language Processing/02. Datasets.md",
+    "CSE5255 - Natural Language Processing/01. Overview of Machine Learning.md",
+    "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md",
+    "CSE5255 - Natural Language Processing/01. Introduction.md",
+    "CSE5524 - Computer Vision/04. Image Pyramids.md",
+    "CSE5524 - Computer Vision/05. Region Extraction.md",
+    "CSE5524 - Computer Vision/03. Edge Detection.md",
+    "CSE5524 - Computer Vision/01. Image Formation.md",
+    "CSE5526 - Neural Networks/Edges.png",
+    "CSE5524 - Computer Vision/SNP_results.png",
+    "CSE5524 - Computer Vision/salt-and-pepper.png",
+    "CSE5524 - Computer Vision/salt-and-pepper.png",
+    "AU23/CSE5463 - Wireless Networks",
+    "AU23/CSE3521 - AI Survey/Bayes Network.png",
+    "AU23/CSE3521 - AI Survey/AlphaBetaPruning.png",
+    "AU23/CSE3521 - AI Survey/Swiss Roll.png",
+    "AU23/CSE3521 - AI Survey",
+    "AU23/CSE3461 - Wired Networks",
+    "AU23/CSE3241 - Databases/definitions and resources/Screenshot 2023-11-17 at 1.32.07 PM.png",
+    "AU23/CSE3241 - Databases/DBMS Implementation.png",
+    "AU23/CSE3241 - Databases/ER Summary.png",
+    "AU23/CSE3241 - Databases/definitions and resources",
+    "AU23/CSE3241 - Databases",
+    "AU23",
     "untitled folder",
-    "CSE3241 - Databases/Common Definitions",
-    "CSE3241 - Databases/definitions and resources/Database Catalog.md",
-    "CSE3241 - Databases/definitions and resources/Metadata.md",
-    "CSE3241 - Databases/definitions and resources/Database.md",
-    "CSE3241 - Databases/0. Quick Reference.md",
-    "CSE3461 - Wired Networks/quiz stuff.md",
-    "conflict-files-obsidian-git.md",
-    "CSE3461 - Wired Networks/03_transport_layer.md",
-    "CSE3461 - Wired Networks/01_introduction.md",
-    "Work Notes",
-    "SP23/CSE3901 - Web Apps/Definitions",
-    "SP23/CSE2431 - Systems 2/Definitions",
-    "SP23/CSE3901 - Web Apps",
-    "SP23/CSE2431 - Systems 2",
-    "SP23",
-    "CSE5463 - Wireless Networks",
-    "CSE3241 - Databases/definitions and resources/Screenshot 2023-11-17 at 1.32.07 PM.png",
-    "CSE3521 - AI Survey/AlphaBetaPruning.png",
-    "CSE3521 - AI Survey/Bayes Network.png",
-    "CSE3521 - AI Survey/Swiss Roll.png",
+    "CSE5255 - Natural Language Processing",
+    "CSE3341 - Principles of Programming Languages",
+    "CSE5526 - Neural Networks",
     "CSE3461 - Wired Networks/Traceroute.canvas",
     "Projects/Graph.canvas"
   ]
