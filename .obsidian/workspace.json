@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md",
+                "file": "CSE5255 - Natural Language Processing/04. Context Free Grammars.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md",
+                "file": "CSE5255 - Natural Language Processing/04. Context Free Grammars.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md",
+                "file": "CSE5255 - Natural Language Processing/04. Context Free Grammars.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md"
+                "file": "CSE5255 - Natural Language Processing/04. Context Free Grammars.md"
               }
             }
           },
@@ -199,34 +199,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "54846f910c4c4311",
+  "active": "4e3ecca74107cb14",
   "lastOpenFiles": [
-    "CSE3341 - Principles of Programming Languages/1. Introduction.md",
-    "CSE3341 - Principles of Programming Languages/2. Formal Languages.md",
+    "CSE5255 - Natural Language Processing/CYK Algorithm.gif",
+    "CSE5255 - Natural Language Processing/03. Text Classification.md",
+    "CSE5255 - Natural Language Processing/04. Context Free Grammars.md",
+    "CSE5524 - Computer Vision/01. Image Formation.md",
+    "CSE5255 - Natural Language Processing/01. Overview of Machine Learning.md",
+    "CSE5524 - Computer Vision/00. Introduction.md",
+    "CSE5524 - Computer Vision/02. Noise Removal.md",
+    "CSE5524 - Computer Vision/03. Edge Detection.md",
+    "CSE5524 - Computer Vision/04. Image Pyramids.md",
+    "CSE5524 - Computer Vision/06. 2-D Shape.md",
+    "CSE5524 - Computer Vision/07. PCA.md",
+    "CSE5524 - Computer Vision/05. Region Extraction.md",
     "CSE3341 - Principles of Programming Languages/3. Functional Languages.md",
-    "CSE3341 - Principles of Programming Languages/8. Concurrency and Parallelism.md",
-    "CSE3341 - Principles of Programming Languages/7. Memory Management.md",
+    "CSE3341 - Principles of Programming Languages/4. Imperative Languages.md",
     "CSE3341 - Principles of Programming Languages/6. Types.md",
     "CSE3341 - Principles of Programming Languages/5. Object-Oriented Languages.md",
-    "CSE3341 - Principles of Programming Languages/4. Imperative Languages.md",
-    "CSE5526 - Neural Networks/05. LMS and Gradient Descent.md",
-    "CSE5526 - Neural Networks/04. Perceptron Convergence & LMS.md",
-    "CSE5526 - Neural Networks/08. ?.md",
-    "CSE5526 - Neural Networks/07. Network Optimization and Regularization.md",
+    "CSE5526 - Neural Networks/04. Gradient Descent.md",
     "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
     "CSE5526 - Neural Networks/03. Perceptrons.md",
-    "CSE5526 - Neural Networks/00. Neural Networks.md",
-    "CSE5526 - Neural Networks/01. Brain and Neural Model.md",
+    "CSE5526 - Neural Networks/07. Network Optimization and Regularization.md",
+    "CSE5526 - Neural Networks/04. Perceptron Convergence & LMS.md",
     "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md",
-    "CSE5255 - Natural Language Processing/03. Text Classification.md",
-    "CSE5255 - Natural Language Processing/02. Datasets.md",
-    "CSE5255 - Natural Language Processing/01. Overview of Machine Learning.md",
+    "CSE5526 - Neural Networks/01. Brain and Neural Model (Neurons).md",
+    "CSE5526 - Neural Networks/00. Neural Networks.md",
     "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md",
-    "CSE5255 - Natural Language Processing/01. Introduction.md",
-    "CSE5524 - Computer Vision/04. Image Pyramids.md",
-    "CSE5524 - Computer Vision/05. Region Extraction.md",
-    "CSE5524 - Computer Vision/03. Edge Detection.md",
-    "CSE5524 - Computer Vision/01. Image Formation.md",
+    "CSE3341 - Principles of Programming Languages/1. Introduction.md",
     "CSE5526 - Neural Networks/Edges.png",
     "CSE5524 - Computer Vision/SNP_results.png",
     "CSE5524 - Computer Vision/salt-and-pepper.png",
