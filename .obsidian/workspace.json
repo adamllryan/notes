@@ -8,59 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "612a21861dd21aca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSE3341 - Principles of Programming Languages/1. Introduction.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f5efa36adb8a032f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE5524 - Computer Vision/02. Noise Removal.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3ece2654ecf6869",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSE5255 - Natural Language Processing/01. Overview of Machine Learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54846f910c4c4311",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSE5255 - Natural Language Processing/04. Context Free Grammars.md",
+                "file": "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE5255 - Natural Language Processing/04. Context Free Grammars.md",
+                "file": "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE5255 - Natural Language Processing/04. Context Free Grammars.md",
+                "file": "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE5255 - Natural Language Processing/04. Context Free Grammars.md"
+                "file": "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md"
               }
             }
           },
@@ -199,54 +159,54 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4e3ecca74107cb14",
+  "active": "f5efa36adb8a032f",
   "lastOpenFiles": [
-    "CSE5255 - Natural Language Processing/CYK Algorithm.gif",
-    "CSE5255 - Natural Language Processing/03. Text Classification.md",
-    "CSE5255 - Natural Language Processing/04. Context Free Grammars.md",
-    "CSE5524 - Computer Vision/01. Image Formation.md",
-    "CSE5255 - Natural Language Processing/01. Overview of Machine Learning.md",
-    "CSE5524 - Computer Vision/00. Introduction.md",
-    "CSE5524 - Computer Vision/02. Noise Removal.md",
-    "CSE5524 - Computer Vision/03. Edge Detection.md",
-    "CSE5524 - Computer Vision/04. Image Pyramids.md",
-    "CSE5524 - Computer Vision/06. 2-D Shape.md",
-    "CSE5524 - Computer Vision/07. PCA.md",
-    "CSE5524 - Computer Vision/05. Region Extraction.md",
-    "CSE3341 - Principles of Programming Languages/3. Functional Languages.md",
-    "CSE3341 - Principles of Programming Languages/4. Imperative Languages.md",
-    "CSE3341 - Principles of Programming Languages/6. Types.md",
-    "CSE3341 - Principles of Programming Languages/5. Object-Oriented Languages.md",
+    "CSE5526 - Neural Networks/01. Brain and Neural Model (Neurons).md",
+    "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md",
+    "CSE5526 - Neural Networks/03. Perceptrons.md",
     "CSE5526 - Neural Networks/04. Gradient Descent.md",
     "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
-    "CSE5526 - Neural Networks/03. Perceptrons.md",
     "CSE5526 - Neural Networks/07. Network Optimization and Regularization.md",
-    "CSE5526 - Neural Networks/04. Perceptron Convergence & LMS.md",
-    "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md",
-    "CSE5526 - Neural Networks/01. Brain and Neural Model (Neurons).md",
-    "CSE5526 - Neural Networks/00. Neural Networks.md",
-    "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md",
-    "CSE3341 - Principles of Programming Languages/1. Introduction.md",
+    "CSE5255 - Natural Language Processing/04. Context Free Grammars.md",
+    "Work Notes/stock.md",
+    "Work Notes/salary_negotiation.md",
+    "Work Notes",
+    "SP23/CSE3901 - Web Apps/Definitions/Working Tree.md",
+    "SP23/CSE3901 - Web Apps/Definitions/Store.md",
+    "SP23/CSE3901 - Web Apps/Definitions/Repository.md",
+    "SP23/CSE3901 - Web Apps/Definitions/History.md",
+    "SP23/CSE3901 - Web Apps/Definitions/Index.md",
+    "SP23/CSE3901 - Web Apps/Definitions/Glyph.md",
+    "SP23/CSE3901 - Web Apps/Definitions/Commit.md",
+    "SP23/CSE3901 - Web Apps/Definitions/Code Point.md",
+    "SP23/CSE3901 - Web Apps/Definitions/Branch.md",
+    "SP23/CSE3901 - Web Apps/Definitions/Block.md",
+    "SP23/CSE2431 - Systems 2/Definitions/two-level directory.md",
+    "SP23/CSE2431 - Systems 2/Definitions/tree-structured directory.md",
+    "SP23/CSE2431 - Systems 2/Definitions/single-level directory.md",
+    "SP23/CSE2431 - Systems 2/Definitions/mirroring.md",
+    "SP23/CSE2431 - Systems 2/Definitions/jukebox.md",
+    "SP23/CSE2431 - Systems 2/Definitions/interleaved parity.md",
+    "SP23/CSE2431 - Systems 2/Definitions/extents.md",
+    "SP23/CSE3901 - Web Apps/Definitions",
+    "SP23/CSE2431 - Systems 2/Definitions",
+    "SP23/CSE3901 - Web Apps",
+    "SP23/CSE2431 - Systems 2",
+    "SP23",
+    "Common Terms",
+    "CSE5914 - Knowledge-based Systems Capstone",
     "CSE5526 - Neural Networks/Edges.png",
+    "CSE5526 - Neural Networks",
+    "CSE5524 - Computer Vision/salt-and-pepper.png",
     "CSE5524 - Computer Vision/SNP_results.png",
-    "CSE5524 - Computer Vision/salt-and-pepper.png",
-    "CSE5524 - Computer Vision/salt-and-pepper.png",
-    "AU23/CSE5463 - Wireless Networks",
+    "CSE5524 - Computer Vision",
+    "CSE5255 - Natural Language Processing/CYK Algorithm.gif",
+    "AU23/CSE3521 - AI Survey/Swiss Roll.png",
     "AU23/CSE3521 - AI Survey/Bayes Network.png",
     "AU23/CSE3521 - AI Survey/AlphaBetaPruning.png",
-    "AU23/CSE3521 - AI Survey/Swiss Roll.png",
-    "AU23/CSE3521 - AI Survey",
-    "AU23/CSE3461 - Wired Networks",
     "AU23/CSE3241 - Databases/definitions and resources/Screenshot 2023-11-17 at 1.32.07 PM.png",
-    "AU23/CSE3241 - Databases/DBMS Implementation.png",
-    "AU23/CSE3241 - Databases/ER Summary.png",
-    "AU23/CSE3241 - Databases/definitions and resources",
-    "AU23/CSE3241 - Databases",
-    "AU23",
-    "untitled folder",
-    "CSE5255 - Natural Language Processing",
-    "CSE3341 - Principles of Programming Languages",
-    "CSE5526 - Neural Networks",
+    "AU23/CSE3241 - Databases/Relationship.png",
+    "AU23/CSE3241 - Databases/Entity.png",
     "CSE3461 - Wired Networks/Traceroute.canvas",
     "Projects/Graph.canvas"
   ]
