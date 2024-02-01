@@ -1,4 +1,4 @@
-# Deep Learning
+## Deep Learning
 
 Suppose we have a 3 layer neural network. Both hidden layers have 4 neurons, so we have 4x4 weights or 16 weights. Now if we increase the neurons to 8, we have 8x8 or 64 weights. As we increase our number of neurons, we have extreme growth which is expensive to handle. This is *quadratic* growth. 
 
@@ -10,7 +10,7 @@ In this class, we will consider anything with more than 3 layers deep, however i
 
 Adding more layers introduces problems into the network. 
 
-The *vanishing gradient* problem: Back propagation  calculates gradients one layer at a time, starting with the output. This problem refers to the phenomena where gradient values approach zero as we get further from the output layer. And we need these gradient descent values to make adjustments proportional to the magnitude of the gradient. As our gradient gets smaller, our rate of adjustment drops. 
+The *vanishing gradient* problem: Back propagation calculates gradients one layer at a time, starting with the output. This problem refers to the phenomena where gradient values approach zero as we get further from the output layer. And we need these gradient descent values to make adjustments proportional to the magnitude of the gradient. As our gradient gets smaller, our rate of adjustment drops. 
 
 In other words, as our network gets deeper, our rate of learning decreases and becomes more shallower near the start of the network. In short, the longer the network, the less impact those earlier layers have on the output. 
 
@@ -28,7 +28,7 @@ The issue with this is that the earlier layers tend to do nothing. While we migh
 
 Currently, we are working on *skip connections*. These let layers skip between layers and travel between layers. 
 
-# Computer Vision
+## Computer Vision
 
 We can think of computer vision as the opposite of graphics rendering. Instead of generating an image from a representation of data, we turn an image into a representation of data. 
 
@@ -48,7 +48,7 @@ The benefits of weight reuse are:
 
 We can use filters as a feature detector! We can have the CNN learn its own filters to have automated feature detection. 
 
-# Text and Language
+## Text and Language
 
 Our original approach was to use [[05_machine_learning#Bag-of-Words|one-hot encoding]] to turn words into vectors. However, this leads to many inputs and weights while having mostly zeros for everything. 
 
@@ -73,7 +73,8 @@ We can also just flip this process and now we have **image generation**. The too
 **Transformers** take our input and predicts the next output from the current output sequence along with the *entire* input sequence. It has an attention mechanism that matches each input word with every other input word. 
 
 **Large Language Models** is the idea of taking our current approach and scaling it massively. GPT-3 is a massive transformer scaled to run in data centers. ChatGPT is not GPT-3, it takes our input, understands it, and then creates a DIFFERENT response instead of translating. 
-# Flaws
+
+## Flaws
 
 As models become more capable of doing useful work, we have to worry more about their shortcomings. Some main areas of focus are:
 - Bias, or incorrect assumptions based on factors that don't really matter. Such as race/gender bias. 

@@ -1,4 +1,4 @@
-# Curve Fitting
+## Curve Fitting
 
 **Curve fitting** is the process of fitting a curve to a set of points. We want to do this in order to discover more relationships and model relationships as a mathematical function. A function is *linear* if it can be written as a sum of terms $f(x,y,...)=ax+by+...+c$. It is [[10_nonlinear_model_parameter_estimation#Nonlinear Parameter Estimation|nonlinear]] if we can't express it in linear terms, such as if it includes the term $axe^{by}$. 
 
@@ -11,7 +11,8 @@ We consider "closest" to target values as having the least error over all data p
 
 We choose SSE because it is the cheapest and easiest to do. 
 
-# Linear Least Squares
+## Linear Least Squares
+
 **Linear least squares** is to minimize SSE for a linear parameter function. The approximation for this becomes $E=\sum_i|A\rho-b|_i^2$, where $A$ is the matrix comprised of $x,y$ values for every system and $b$ is the 1xN array made of the solution value. Next, we take the partial derivatives to the unknown variables and solve against zero. Plug in data, then we are left with a line passing through our dataset. 
 
 Alternatively, instead of a partial derivative, $\hat{\rho}=(A^TA)^{-1}A^Tb$. So we just need to define A and b correctly, where A and b are our parameter matrix and our solution side, respectively. Remember, this is only an approximate best solution. 
@@ -22,9 +23,9 @@ How do we set up Linear Least Squares? Let's take the three points (0,6),(1,0), 
 
 Next, we take the points and plug them into our equation, leaving us with a system of equations:
 
-$6=0m+b$
-$0=1m+b$
+$6=0m+b$  
+$0=1m+b$  
 $0=2m+b$
 
-Then we can plug them into the matrix $b=A\rho$, like this:
+Then we can plug them into the matrix $b=A\rho$, like this:  
 $\begin{bmatrix}6\\0\\0\end{bmatrix}=m\cdot\begin{bmatrix}0\\1\\2\end{bmatrix}+b\cdot\begin{bmatrix}1\\1\\1\end{bmatrix}\text{ becomes }\begin{bmatrix}6\\0\\0\end{bmatrix}=\begin{bmatrix}0&1\\1&1\\2&1\end{bmatrix}\begin{bmatrix}m\\b\end{bmatrix}$

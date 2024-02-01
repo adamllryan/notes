@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
+                "file": "CSE5524 - Computer Vision/07. Principal Component Analysis.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
+                "file": "CSE5524 - Computer Vision/07. Principal Component Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
+                "file": "CSE5524 - Computer Vision/07. Principal Component Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md"
+                "file": "CSE5524 - Computer Vision/07. Principal Component Analysis.md"
               }
             }
           },
@@ -159,35 +159,35 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f5efa36adb8a032f",
+  "active": "4e3ecca74107cb14",
   "lastOpenFiles": [
+    "CSE5524 - Computer Vision/03. Edge Detection.md",
+    "CSE5524 - Computer Vision/07. Principal Component Analysis.md",
+    "CSE5524 - Computer Vision/06. 2-D Shape.md",
+    "CSE5524 - Computer Vision/05. Region Extraction.md",
+    "CSE5524 - Computer Vision/04. Image Pyramids.md",
+    "CSE5524 - Computer Vision/02. Noise Removal.md",
+    "CSE5524 - Computer Vision/01. Image Formation.md",
+    "CSE5524 - Computer Vision/00. Introduction.md",
+    "AU23/CSE3521 - AI Survey/12_modern_neural_networks.md",
+    "AU23/CSE3521 - AI Survey/11_perceptrons.md",
+    "AU23/CSE3521 - AI Survey/10_nonlinear_model_parameter_estimation.md",
+    "AU23/CSE3521 - AI Survey/09_linear_parameter_estimation.md",
+    "AU23/CSE3521 - AI Survey/08_gaussian_mixture_models.md",
+    "AU23/CSE3521 - AI Survey/07_probabilistic_graphical_models.md",
+    "AU23/CSE3521 - AI Survey/06_probability_intro.md",
+    "AU23/CSE3521 - AI Survey/05_machine_learning.md",
+    "AU23/CSE3521 - AI Survey/04_adversarial_search.md",
+    "AU23/CSE3521 - AI Survey/03_informed_search.md",
+    "AU23/CSE3521 - AI Survey/02_uninformed_search.md",
+    "AU23/CSE3521 - AI Survey/01_agent_design.md",
+    "AU23/CSE3521 - AI Survey/00_quizzes.md",
+    "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
     "CSE5526 - Neural Networks/01. Brain and Neural Model (Neurons).md",
     "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md",
     "CSE5526 - Neural Networks/03. Perceptrons.md",
     "CSE5526 - Neural Networks/04. Gradient Descent.md",
-    "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
-    "CSE5526 - Neural Networks/07. Network Optimization and Regularization.md",
-    "CSE5255 - Natural Language Processing/04. Context Free Grammars.md",
-    "Work Notes/stock.md",
-    "Work Notes/salary_negotiation.md",
     "Work Notes",
-    "SP23/CSE3901 - Web Apps/Definitions/Working Tree.md",
-    "SP23/CSE3901 - Web Apps/Definitions/Store.md",
-    "SP23/CSE3901 - Web Apps/Definitions/Repository.md",
-    "SP23/CSE3901 - Web Apps/Definitions/History.md",
-    "SP23/CSE3901 - Web Apps/Definitions/Index.md",
-    "SP23/CSE3901 - Web Apps/Definitions/Glyph.md",
-    "SP23/CSE3901 - Web Apps/Definitions/Commit.md",
-    "SP23/CSE3901 - Web Apps/Definitions/Code Point.md",
-    "SP23/CSE3901 - Web Apps/Definitions/Branch.md",
-    "SP23/CSE3901 - Web Apps/Definitions/Block.md",
-    "SP23/CSE2431 - Systems 2/Definitions/two-level directory.md",
-    "SP23/CSE2431 - Systems 2/Definitions/tree-structured directory.md",
-    "SP23/CSE2431 - Systems 2/Definitions/single-level directory.md",
-    "SP23/CSE2431 - Systems 2/Definitions/mirroring.md",
-    "SP23/CSE2431 - Systems 2/Definitions/jukebox.md",
-    "SP23/CSE2431 - Systems 2/Definitions/interleaved parity.md",
-    "SP23/CSE2431 - Systems 2/Definitions/extents.md",
     "SP23/CSE3901 - Web Apps/Definitions",
     "SP23/CSE2431 - Systems 2/Definitions",
     "SP23/CSE3901 - Web Apps",

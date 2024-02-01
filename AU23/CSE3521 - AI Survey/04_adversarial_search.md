@@ -1,19 +1,19 @@
-# Multiple Agent Games
+## Multiple Agent Games
 
-When agents are placed together, they can either participate in zero-sum or general games. 
-If agents have opposite utilities, they are playing by **zero-sum** rules. In this scenario, agents have opposite utilities and must compete to maximize theirs while minimizing their opponents'. 
+When agents are placed together, they can either participate in zero-sum or general games.  
+If agents have opposite utilities, they are playing by **zero-sum** rules. In this scenario, agents have opposite utilities and must compete to maximize theirs while minimizing their opponents'.  
 Alternatively, **general games** are when agents have independent utilities. This can allow for cooperation, indifference, competition, and more. 
 
-If utility cost is accumulated, our solution is the goal state. In this case, our solution should focus on having the *minimum cost*. We should use A* or UCS, and we want to aim for faster times than brute force. 
+If utility cost is accumulated, our solution is the goal state. In this case, our solution should focus on having the *minimum cost*. We should use A* or UCS, and we want to aim for faster times than brute force.  
 If it isn't, our solution is the terminal state. Now, we focus on finding the solution with the *max utility*. We should explore all paths to terminal states. 
 
 Now, we will refer to the value of a state as the best achievable outcome or utility from that given state. It represents the best possible score we can get given that position. 
 
-# Adversarial Search
+## Adversarial Search
 
 Adversarial search (A\*) uses the sum of uninformed and informed search to find the best move in a game. It is a combination of minimax and alpha-beta pruning.
 
-## Minimax
+### Minimax
 
 **Minimax** is a recursive algorithm that is used to choose an optimal move for a player assuming that the opponent is also playing optimally. It is used in two-player games such as tic-tac-toe, checkers, chess, go, and so on.
 
@@ -55,7 +55,8 @@ def min-value(state):
 ~~~
 
 Minimax has efficiency $O(B^m)$ time and $O(bm)$ space complexity. Similar to [[02_uninformed_search#Uninformed Search|DFS]]. 
-## Alpha-Beta Pruning
+
+### Alpha-Beta Pruning
 
 **Alpha-beta pruning** is an optimization technique for minimax that reduces the number of nodes that are evaluated by the minimax algorithm in its search tree. It is called alpha-beta pruning because it uses two values, alpha and beta, to determine when to prune branches in the search tree. Alpha is expected to increase and beta should decrease. 
 
@@ -93,8 +94,9 @@ Terms:
 - h - forward cost (heuristic function or greedy search)
 - f - total cost (g + h)
 
-## Deterministic Games
-State space is S, starts from $s_0$
+### Deterministic Games
+
+State space is S, starts from $s_0$  
 Players: Agents
 
 Terminal test: sometimes opponent wins and you fail. terminal test checks success whether or not you win or not. Indicates end of path, not just you have reached the end of a path, where it may be the goal state or not. If you can only end by winning, we use goal test, otherwise it is called terminal test. 

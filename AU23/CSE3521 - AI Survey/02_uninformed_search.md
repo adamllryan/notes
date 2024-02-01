@@ -1,6 +1,6 @@
 Before a [[01_agent_design#Agent Types|planning agent]] makes a real action, it simulates its actions in an offline, fake environment. This fake scenario has a **goal test**, which is the measure of how well a sequence of actions would expectedly achieve a solution. It is not always the same as the problem. 
 
-# Search Problem
+## Search Problem
 
 Note the difference between **complete** (the solution) and **optimal** (complete and most efficient). 
 
@@ -8,7 +8,7 @@ A **search problem** encapsulates the following:
 - **state space**, containing the world state, which holds every detail about the environment and a search state, which holds only details needed to plan the next move. 
 - **successor function**, which stores a tree of possible actions associated with costs. 
 - **start state**, or our initial state. 
-- **goal test**, which is a state(s) or function that, once reached, lets us know that we have reached a solution. 
+- **goal test**, which is a state(s) or function that, once reached, lets us know that we have reached a solution.  
 A **solution** is a sequence of actions or a plan that transforms the start state to a goal state. 
 
 A state space is the set of all possible states that can be achieved. 
@@ -19,7 +19,8 @@ A state space is the set of all possible states that can be achieved.
 
 For both state space graphs and search trees, we construct them *on demand* and as little of them as possible. 
 
-# Tree Search
+## Tree Search
+
 How do we systematically build and explore a search tree? We can start by defining a few goals and requirements:
 - Must start at the root.
 - Expand as few nodes as possible.
@@ -41,7 +42,8 @@ Function Loop:
 3. If the NODE contains a goal state, return the corresponding solution, otherwise expand the NODE and add the resulting NODES to the search tree.
 4. Continue.
 ~~~
-# Uninformed Search
+
+## Uninformed Search
 
 Uninformed search is the first area of focus. **Uninformed search** means that we search *without information* to the problem and are only able to find solutions by systematically visiting new states and testing for the goal. Alternatively, [[03_informed_search|informed search]] is the approach where we are given some ideas of where to look for solutions. It uses problem specific knowledge to solve the problem!
 
@@ -78,7 +80,7 @@ Analysis of UCS:
 
 Note that the only difference between all of these is the way we add and remove nodes! We can implement the same search algorithm but use a queue, stack, and priority queue for breadth-first, depth-first, and uniform cost search respectively. 
 
-# Graph Search
+## Graph Search
 
 With tree search, we need to identify repeated states or else we could end up with lots of extra work (or even infinite loops). This is due to creating our tree from a graph that may contain recurrences. Here is a general set of rules to abide by so that we can avoid this:
 - Never expand a state twice. 
