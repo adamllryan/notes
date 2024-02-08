@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE5524 - Computer Vision/07. Principal Component Analysis.md",
+                "file": "CSE5526 - Neural Networks/03. Perceptrons.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1030e3f347e34f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE5524 - Computer Vision/08. Motion.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE5524 - Computer Vision/07. Principal Component Analysis.md",
+                "file": "CSE5524 - Computer Vision/08. Motion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE5524 - Computer Vision/07. Principal Component Analysis.md",
+                "file": "CSE5524 - Computer Vision/08. Motion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE5524 - Computer Vision/07. Principal Component Analysis.md"
+                "file": "CSE5524 - Computer Vision/08. Motion.md"
               }
             }
           },
@@ -136,7 +150,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -159,34 +175,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4e3ecca74107cb14",
+  "active": "b1030e3f347e34f0",
   "lastOpenFiles": [
-    "CSE5524 - Computer Vision/03. Edge Detection.md",
-    "CSE5524 - Computer Vision/07. Principal Component Analysis.md",
     "CSE5524 - Computer Vision/06. 2-D Shape.md",
-    "CSE5524 - Computer Vision/05. Region Extraction.md",
-    "CSE5524 - Computer Vision/04. Image Pyramids.md",
-    "CSE5524 - Computer Vision/02. Noise Removal.md",
-    "CSE5524 - Computer Vision/01. Image Formation.md",
-    "CSE5524 - Computer Vision/00. Introduction.md",
+    "CSE5526 - Neural Networks/04. Gradient Descent.md",
+    "CSE5526 - Neural Networks/07. Network Optimization and Regularization.md",
+    "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
     "AU23/CSE3521 - AI Survey/12_modern_neural_networks.md",
     "AU23/CSE3521 - AI Survey/11_perceptrons.md",
     "AU23/CSE3521 - AI Survey/10_nonlinear_model_parameter_estimation.md",
     "AU23/CSE3521 - AI Survey/09_linear_parameter_estimation.md",
     "AU23/CSE3521 - AI Survey/08_gaussian_mixture_models.md",
     "AU23/CSE3521 - AI Survey/07_probabilistic_graphical_models.md",
-    "AU23/CSE3521 - AI Survey/06_probability_intro.md",
     "AU23/CSE3521 - AI Survey/05_machine_learning.md",
+    "AU23/CSE3521 - AI Survey/06_probability_intro.md",
     "AU23/CSE3521 - AI Survey/04_adversarial_search.md",
     "AU23/CSE3521 - AI Survey/03_informed_search.md",
     "AU23/CSE3521 - AI Survey/02_uninformed_search.md",
     "AU23/CSE3521 - AI Survey/01_agent_design.md",
     "AU23/CSE3521 - AI Survey/00_quizzes.md",
-    "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
-    "CSE5526 - Neural Networks/01. Brain and Neural Model (Neurons).md",
-    "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md",
     "CSE5526 - Neural Networks/03. Perceptrons.md",
-    "CSE5526 - Neural Networks/04. Gradient Descent.md",
+    "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md",
+    "CSE5526 - Neural Networks/01. Brain and Neural Model (Neurons).md",
+    "CSE5526 - Neural Networks/00. Neural Networks.md",
+    "CSE5255 - Natural Language Processing/04. Context Free Grammars.md",
+    "CSE5524 - Computer Vision/07. Principal Component Analysis.md",
+    "CSE5524 - Computer Vision/03. Edge Detection.md",
+    "CSE5524 - Computer Vision/05. Region Extraction.md",
+    "CSE5524 - Computer Vision/04. Image Pyramids.md",
     "Work Notes",
     "SP23/CSE3901 - Web Apps/Definitions",
     "SP23/CSE2431 - Systems 2/Definitions",
