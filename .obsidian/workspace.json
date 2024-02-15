@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE5524 - Computer Vision/08. Motion.md",
+                "file": "CSE3341 - Principles of Programming Languages/4. Imperative Languages.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Least Mean Squares",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE5524 - Computer Vision/08. Motion.md",
+                "file": "CSE3341 - Principles of Programming Languages/4. Imperative Languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE5524 - Computer Vision/08. Motion.md",
+                "file": "CSE3341 - Principles of Programming Languages/4. Imperative Languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE5524 - Computer Vision/08. Motion.md"
+                "file": "CSE3341 - Principles of Programming Languages/4. Imperative Languages.md"
               }
             }
           },
@@ -177,32 +177,33 @@
   },
   "active": "b1030e3f347e34f0",
   "lastOpenFiles": [
-    "CSE5524 - Computer Vision/06. 2-D Shape.md",
+    "CSE5526 - Neural Networks/09. Convolutional Neural Networks.md",
+    "CSE5526 - Neural Networks/08. Regularization.md",
+    "CSE5524 - Computer Vision/09. Tracking.md",
+    "CSE5524 - Computer Vision/09. Tracking",
     "CSE5526 - Neural Networks/04. Gradient Descent.md",
-    "CSE5526 - Neural Networks/07. Network Optimization and Regularization.md",
+    "CSE5526 - Neural Networks/09. Regularization.md",
+    "CSE5526 - Neural Networks/03. Perceptrons.md",
     "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
-    "AU23/CSE3521 - AI Survey/12_modern_neural_networks.md",
-    "AU23/CSE3521 - AI Survey/11_perceptrons.md",
-    "AU23/CSE3521 - AI Survey/10_nonlinear_model_parameter_estimation.md",
-    "AU23/CSE3521 - AI Survey/09_linear_parameter_estimation.md",
-    "AU23/CSE3521 - AI Survey/08_gaussian_mixture_models.md",
-    "AU23/CSE3521 - AI Survey/07_probabilistic_graphical_models.md",
+    "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md",
     "AU23/CSE3521 - AI Survey/05_machine_learning.md",
-    "AU23/CSE3521 - AI Survey/06_probability_intro.md",
     "AU23/CSE3521 - AI Survey/04_adversarial_search.md",
+    "AU23/CSE3521 - AI Survey/06_probability_intro.md",
+    "AU23/CSE3521 - AI Survey/07_probabilistic_graphical_models.md",
+    "AU23/CSE3521 - AI Survey/08_gaussian_mixture_models.md",
+    "AU23/CSE3521 - AI Survey/09_linear_parameter_estimation.md",
+    "AU23/CSE3521 - AI Survey/10_nonlinear_model_parameter_estimation.md",
+    "AU23/CSE3521 - AI Survey/11_perceptrons.md",
+    "AU23/CSE3521 - AI Survey/12_modern_neural_networks.md",
+    "AU23/CSE3521 - AI Survey/00_quizzes.md",
+    "CSE5524 - Computer Vision/08. Motion.md",
+    "CSE5524 - Computer Vision/06. 2-D Shape.md",
+    "CSE5526 - Neural Networks/07. Network Optimization and Regularization.md",
     "AU23/CSE3521 - AI Survey/03_informed_search.md",
     "AU23/CSE3521 - AI Survey/02_uninformed_search.md",
     "AU23/CSE3521 - AI Survey/01_agent_design.md",
-    "AU23/CSE3521 - AI Survey/00_quizzes.md",
-    "CSE5526 - Neural Networks/03. Perceptrons.md",
-    "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md",
     "CSE5526 - Neural Networks/01. Brain and Neural Model (Neurons).md",
     "CSE5526 - Neural Networks/00. Neural Networks.md",
-    "CSE5255 - Natural Language Processing/04. Context Free Grammars.md",
-    "CSE5524 - Computer Vision/07. Principal Component Analysis.md",
-    "CSE5524 - Computer Vision/03. Edge Detection.md",
-    "CSE5524 - Computer Vision/05. Region Extraction.md",
-    "CSE5524 - Computer Vision/04. Image Pyramids.md",
     "Work Notes",
     "SP23/CSE3901 - Web Apps/Definitions",
     "SP23/CSE2431 - Systems 2/Definitions",
@@ -215,7 +216,6 @@
     "CSE5526 - Neural Networks",
     "CSE5524 - Computer Vision/salt-and-pepper.png",
     "CSE5524 - Computer Vision/SNP_results.png",
-    "CSE5524 - Computer Vision",
     "CSE5255 - Natural Language Processing/CYK Algorithm.gif",
     "AU23/CSE3521 - AI Survey/Swiss Roll.png",
     "AU23/CSE3521 - AI Survey/Bayes Network.png",
