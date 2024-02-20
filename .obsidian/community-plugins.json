@@ -1,6 +1,8 @@
 [
-  "obsidian-git",
   "note-refactor-obsidian",
   "obsidian-minimal-settings",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "highlightr-plugin",
+  "obsidian-linter",
+  "omnisearch"
 ]

@@ -1,0 +1,1 @@
+Expressions are a sequence of relational algebra operations.

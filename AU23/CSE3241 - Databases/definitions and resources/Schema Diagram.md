@@ -1,0 +1,1 @@
+Displays the selected aspects of a schema. Connects tables to each other? Can map relational database schema

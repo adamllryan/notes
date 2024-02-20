@@ -1,0 +1,1 @@
+Database Management Systems are programs made up of a segment of software to process queries/programs and a software to access stored data in a [[Database|database]].

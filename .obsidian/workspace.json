@@ -11,11 +11,30 @@
             "id": "f5efa36adb8a032f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CSE5526 - Neural Networks/03. Perceptrons.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1030e3f347e34f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE3341 - Principles of Programming Languages/4. Imperative Languages.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Least Mean Squares",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CSE3341 - Principles of Programming Languages/4. Imperative Languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CSE3341 - Principles of Programming Languages/4. Imperative Languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CSE3341 - Principles of Programming Languages/4. Imperative Languages.md"
+              }
             }
           },
           {
@@ -127,7 +150,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -150,54 +175,54 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f5efa36adb8a032f",
+  "active": "b1030e3f347e34f0",
   "lastOpenFiles": [
-    "CSE5524 - Computer Vision/02. Noise Removal.md",
-    "CSE5255 - Natural Language Processing/04. Context Free Grammars.md",
-    "Study Guides/Study Guide.md",
-    "Study Guides",
-    "CSE3521 - AI Survey/Swiss Roll.png",
-    "CSE3521 - AI Survey/Bayes Network.png",
-    "CSE3521 - AI Survey/AlphaBetaPruning.png",
-    "CSE3521 - AI Survey/12_modern_neural_networks.md",
-    "CSE3521 - AI Survey/11_perceptrons.md",
-    "CSE3521 - AI Survey/10_nonlinear_model_parameter_estimation.md",
-    "CSE3521 - AI Survey/09_linear_parameter_estimation.md",
-    "CSE3521 - AI Survey/08_gaussian_mixture_models.md",
-    "CSE3521 - AI Survey/07_probabilistic_graphical_models.md",
-    "CSE3521 - AI Survey/06_probability_intro.md",
-    "CSE3521 - AI Survey/05_machine_learning.md",
-    "CSE3521 - AI Survey/04_adversarial_search.md",
-    "CSE3521 - AI Survey/03_informed_search.md",
-    "CSE3521 - AI Survey/02_uninformed_search.md",
-    "CSE3521 - AI Survey/01_agent_design.md",
-    "CSE3521 - AI Survey/00_quizzes.md",
-    "CSE3521 - AI Survey",
-    "CSE2221 - Software 1/31_object_oriented_programming.md",
-    "CSE2221 - Software 1/03_output_strings_input.md",
-    "CSE2221 - Software 1/02_java_overview.md",
-    "CSE2221 - Software 1/01_introduction.md",
-    "CSE2221 - Software 1",
-    "CSE5255 - Natural Language Processing/CYK Algorithm.gif",
-    "CSE5255 - Natural Language Processing/03. Text Classification.md",
-    "CSE5524 - Computer Vision/01. Image Formation.md",
-    "CSE5255 - Natural Language Processing/01. Overview of Machine Learning.md",
-    "CSE5524 - Computer Vision/00. Introduction.md",
-    "CSE5524 - Computer Vision/03. Edge Detection.md",
-    "CSE5524 - Computer Vision/04. Image Pyramids.md",
+    "CSE5526 - Neural Networks/09. Convolutional Neural Networks.md",
+    "CSE5526 - Neural Networks/08. Regularization.md",
+    "CSE5524 - Computer Vision/09. Tracking.md",
+    "CSE5524 - Computer Vision/09. Tracking",
+    "CSE5526 - Neural Networks/04. Gradient Descent.md",
+    "CSE5526 - Neural Networks/09. Regularization.md",
+    "CSE5526 - Neural Networks/03. Perceptrons.md",
+    "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
+    "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md",
+    "AU23/CSE3521 - AI Survey/05_machine_learning.md",
+    "AU23/CSE3521 - AI Survey/04_adversarial_search.md",
+    "AU23/CSE3521 - AI Survey/06_probability_intro.md",
+    "AU23/CSE3521 - AI Survey/07_probabilistic_graphical_models.md",
+    "AU23/CSE3521 - AI Survey/08_gaussian_mixture_models.md",
+    "AU23/CSE3521 - AI Survey/09_linear_parameter_estimation.md",
+    "AU23/CSE3521 - AI Survey/10_nonlinear_model_parameter_estimation.md",
+    "AU23/CSE3521 - AI Survey/11_perceptrons.md",
+    "AU23/CSE3521 - AI Survey/12_modern_neural_networks.md",
+    "AU23/CSE3521 - AI Survey/00_quizzes.md",
+    "CSE5524 - Computer Vision/08. Motion.md",
+    "CSE5524 - Computer Vision/06. 2-D Shape.md",
+    "CSE5526 - Neural Networks/07. Network Optimization and Regularization.md",
+    "AU23/CSE3521 - AI Survey/03_informed_search.md",
+    "AU23/CSE3521 - AI Survey/02_uninformed_search.md",
+    "AU23/CSE3521 - AI Survey/01_agent_design.md",
+    "CSE5526 - Neural Networks/01. Brain and Neural Model (Neurons).md",
+    "CSE5526 - Neural Networks/00. Neural Networks.md",
+    "Work Notes",
+    "SP23/CSE3901 - Web Apps/Definitions",
+    "SP23/CSE2431 - Systems 2/Definitions",
+    "SP23/CSE3901 - Web Apps",
+    "SP23/CSE2431 - Systems 2",
+    "SP23",
+    "Common Terms",
+    "CSE5914 - Knowledge-based Systems Capstone",
     "CSE5526 - Neural Networks/Edges.png",
+    "CSE5526 - Neural Networks",
+    "CSE5524 - Computer Vision/salt-and-pepper.png",
     "CSE5524 - Computer Vision/SNP_results.png",
-    "CSE5524 - Computer Vision/salt-and-pepper.png",
-    "CSE5524 - Computer Vision/salt-and-pepper.png",
-    "AU23/CSE5463 - Wireless Networks",
+    "CSE5255 - Natural Language Processing/CYK Algorithm.gif",
+    "AU23/CSE3521 - AI Survey/Swiss Roll.png",
     "AU23/CSE3521 - AI Survey/Bayes Network.png",
     "AU23/CSE3521 - AI Survey/AlphaBetaPruning.png",
-    "AU23/CSE3521 - AI Survey",
-    "AU23/CSE3461 - Wired Networks",
-    "AU23/CSE3241 - Databases/definitions and resources",
-    "AU23/CSE3241 - Databases",
-    "AU23",
-    "untitled folder",
+    "AU23/CSE3241 - Databases/definitions and resources/Screenshot 2023-11-17 at 1.32.07 PM.png",
+    "AU23/CSE3241 - Databases/Relationship.png",
+    "AU23/CSE3241 - Databases/Entity.png",
     "CSE3461 - Wired Networks/Traceroute.canvas",
     "Projects/Graph.canvas"
   ]
