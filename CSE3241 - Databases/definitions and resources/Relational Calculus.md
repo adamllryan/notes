@@ -1,1 +1,0 @@
-Relational calculus is a higher-level declarative language for specifying relational queries. 

@@ -1,1 +1,0 @@
-Data in a database in a particular moment. Just a view of the data basically

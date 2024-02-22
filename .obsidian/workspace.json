@@ -11,13 +11,8 @@
             "id": "6b342fc5f0a9472f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WEB_DEV/Vue/Syntaxes.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WEB_DEV/Vue/Syntaxes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WEB_DEV/Vue/Syntaxes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "WEB_DEV/Vue/Syntaxes.md"
-              }
+              "state": {}
             }
           },
           {
@@ -136,7 +127,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -160,9 +153,17 @@
   },
   "active": "6b342fc5f0a9472f",
   "lastOpenFiles": [
+    "CSE3461 - Wired Networks/08_security.md",
+    "CSE3241 - Databases/11. XML.md",
+    "CSE3241 - Databases/12. NoSQL.md",
+    "CSE3241 - Databases/10. Transaction Management.md",
+    "CSE3241 - Databases/8. Indexing.md",
+    "SP23/CSE3901 - Web Apps/8. JavaScript.md",
+    "SP23/CSE3901 - Web Apps/9. Rails.md",
+    "README.md",
+    "WEB_DEV/Vue/Syntaxes.md",
     "work/stock.md",
     "work/salary_negotiation.md",
-    "README.md",
     "config.md",
     "Math3345 MT1.md",
     "nvim.md",
@@ -176,18 +177,10 @@
     "CSE3461 - Wired Networks/05_control_plane.md",
     "CSE3521 - AI Survey/Bayes Network.png",
     "CSE3521 - AI Survey/Swiss Roll.png",
-    "CSE3461 - Wired Networks/08_security.md",
     "CSE3461 - Wired Networks/06_link_layer.md",
     "CSE3461 - Wired Networks/01_introduction.md",
     "CSE3461 - Wired Networks/07_wireless.md",
     "CSE3521 - AI Survey/18_modern_neural_networks.md",
-    "CSE3521 - AI Survey/07_data_to_features.md",
-    "CSE3521 - AI Survey/04_adversarial_search.md",
-    "CSE3521 - AI Survey/11_bayesian_networks.md",
-    "CSE3521 - AI Survey/10_probability_intro.md",
-    "CSE3521 - AI Survey/13_probabilistic_parameter_estimation.md",
-    "CSE3521 - AI Survey/06_learning_agents_and_data.md",
-    "CSE3521 - AI Survey/09_dimensionality_reduction.md",
     "CSE3461 - Wired Networks/06_link_layer",
     "06_link_layer",
     "CSE3241 - Databases/definitions and resources/Screenshot 2023-11-17 at 1.32.07 PM.png",

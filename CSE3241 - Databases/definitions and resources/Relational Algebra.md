@@ -1,1 +1,0 @@
-Relational algebra is the basic set of operations for the relational model.

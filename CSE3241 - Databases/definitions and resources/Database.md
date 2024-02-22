@@ -1,1 +1,0 @@
-A database is a collection of *logically coherent* data with some *inherent meaning* designed and built for a *specific purpose*. 

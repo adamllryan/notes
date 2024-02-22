@@ -1,1 +1,0 @@
-Every object in a schema. 
