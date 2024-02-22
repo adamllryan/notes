@@ -1,0 +1,1 @@
+>Mirroring, or shadowing, duplicates a disk one or more times. 

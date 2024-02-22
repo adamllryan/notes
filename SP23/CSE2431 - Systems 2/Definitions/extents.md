@@ -1,0 +1,1 @@
+>A contiguous block of disk. A file consists of one or more extents. 

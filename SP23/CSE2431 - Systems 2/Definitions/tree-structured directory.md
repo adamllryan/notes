@@ -1,0 +1,1 @@
+>Directory structure where every file is a child of a directory tree. Directories act as folders in this structure. (Same name, Grouping)

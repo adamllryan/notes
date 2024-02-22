@@ -1,0 +1,2 @@
+> A handler that processes events once they are delivered. 
+> It can deliver the signal to a specific thread, every thread, certain threads in a process, or assign a thread to receive all signals for a process. 

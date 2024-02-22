@@ -1,0 +1,1 @@
+>Uses a group of disks as one storage unit. 

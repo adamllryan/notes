@@ -1,0 +1,1 @@
+>Interleaved parity split sections of disks across other disks but have much less redundancy. 

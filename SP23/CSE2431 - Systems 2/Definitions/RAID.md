@@ -1,0 +1,1 @@
+>RAID is a data storage virtualization technology that combines multiple physical disks into one or more logical units in order to provide redundancy and reliability. 

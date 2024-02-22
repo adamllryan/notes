@@ -1,0 +1,1 @@
+>finite length of n messages, sender waits if full

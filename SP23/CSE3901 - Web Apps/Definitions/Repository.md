@@ -1,0 +1,1 @@
+> A combination of the [[Working Tree]], [[Store]], and [[SP23/CSE3901 - Web Apps/Definitions/Index]]. 

@@ -1,0 +1,1 @@
+>When [[virtual memory]] uses disk space as an extension of main memory.
