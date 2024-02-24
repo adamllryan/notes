@@ -1,0 +1,1 @@
+A snapshot of the project's currently staged changes. 

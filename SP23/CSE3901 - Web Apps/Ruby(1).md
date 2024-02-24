@@ -250,7 +250,7 @@ Can work similar to ... parameter in Java
 
 ### Blocks
 
-A [[Block]] may have parameters. `5.times  {|n| puts n**2}`
+A [[Block Statement]] may have parameters. `5.times  {|n| puts n**2}`
 
 We can write `yield` in a function, which will replace that yield with the block passed in as an argument. NOT PASSING IN A BLOCK INTO A FUNCTION THAT CONTAINS YIELD WILL ERROR OUT. 
 

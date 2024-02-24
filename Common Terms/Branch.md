@@ -1,1 +1,0 @@
-> A pointer to a commit. 

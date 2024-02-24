@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ab30a971f68434f4",
+        "id": "923094bf57dc1316",
         "type": "tabs",
         "children": [
           {
-            "id": "6b342fc5f0a9472f",
+            "id": "73b0a0a9d2d9c5c8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md"
+              }
             }
           },
           {
@@ -148,41 +157,42 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "6b342fc5f0a9472f",
+  "active": "73b0a0a9d2d9c5c8",
   "lastOpenFiles": [
-    "Common Terms/Index 1.md",
-    "Common Terms/Index.md",
-    "Common Terms/Working Tree.md",
-    "Common Terms/Store.md",
-    "Common Terms/Repository.md",
-    "Common Terms/History.md",
+    "CSE5526 - Neural Networks/01. Brain and Neural Model (Neurons).md",
+    "CSE5526 - Neural Networks/00. Neural Networks.md",
+    "Common Terms/Git Repository.md",
+    "SP23/CSE2431 - Systems 2/9. Virtual Memory.md",
+    "Common Terms/Block Statement.md",
+    "SP23/CSE3901 - Web Apps/Ruby(1).md",
+    "Common Terms/Advisory.md",
+    "Common Terms/Git Branch.md",
     "Common Terms/Glyph.md",
-    "Common Terms/Commit.md",
-    "Common Terms/Code Point.md",
-    "Common Terms/Branch.md",
-    "Common Terms/Block.md",
-    "SP23/CSE2431 - Systems 2/0. Formulas and Math and Algorithms and.md",
+    "Common Terms/latency.md",
+    "Common Terms/Index.md",
+    "Common Terms/Project History.md",
+    "Common Terms/eermodel.md",
+    "Common Terms/database.md",
+    "Common Terms/commit (argument).md",
+    "Common Terms/jukebox.md",
+    "Common Terms/User ID.md",
+    "Common Terms/Name.md",
+    "Common Terms/File Size.md",
+    "Common Terms/Type.md",
+    "Common Terms/Project Store.md",
+    "Common Terms/Zero capacity.md",
     "Common Terms/acyclic-graph directories.md",
-    "AU23/CSE5463 - Wireless Networks/Lecture 2.md",
-    "Common Terms/Upcall.md",
-    "Common Terms/Transaction Processing.md",
-    "AU23/CSE3461 - Wired Networks/quiz stuff.md",
-    "AU23/CSE3461 - Wired Networks/Untitled.md",
+    "AU23/CSE3241 - Databases/0. Quick Reference.md",
+    "Common Terms/Index 1.md",
+    "Common Terms/Working Tree.md",
     "AU23/CSE3241 - Databases/Screenshot 2023-11-17 at 1.32.07 PM.png",
-    "Common Terms/Application Program.md",
-    "AU23/CSE3241 - Databases/1. Intro to Database Management System.md",
-    "Common Terms/Application Programs and Queries.md",
-    "Work Notes/stock.md",
-    "Work Notes/salary_negotiation.md",
     "Work Notes",
-    "Study Guides/Study Guide.md",
     "Study Guides",
-    "README.md",
     "Common Terms",
-    "CSE5914 - Knowledge-based Systems Capstone/Day 1.md",
     "CSE5914 - Knowledge-based Systems Capstone",
     "CSE5526 - Neural Networks/Edges.png",
     "CSE5526 - Neural Networks/-",
