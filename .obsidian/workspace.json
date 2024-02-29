@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md",
+                "file": "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md",
+                "file": "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md",
+                "file": "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE5526 - Neural Networks/02. McCulloch-Pitts Neurons.md"
+                "file": "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md"
               }
             }
           },
@@ -163,32 +163,36 @@
   },
   "active": "73b0a0a9d2d9c5c8",
   "lastOpenFiles": [
-    "CSE5526 - Neural Networks/01. Brain and Neural Model (Neurons).md",
-    "CSE5526 - Neural Networks/00. Neural Networks.md",
-    "Common Terms/Git Repository.md",
-    "SP23/CSE2431 - Systems 2/9. Virtual Memory.md",
-    "Common Terms/Block Statement.md",
-    "SP23/CSE3901 - Web Apps/Ruby(1).md",
-    "Common Terms/Advisory.md",
-    "Common Terms/Git Branch.md",
-    "Common Terms/Glyph.md",
-    "Common Terms/latency.md",
-    "Common Terms/Index.md",
-    "Common Terms/Project History.md",
-    "Common Terms/eermodel.md",
-    "Common Terms/database.md",
-    "Common Terms/commit (argument).md",
-    "Common Terms/jukebox.md",
-    "Common Terms/User ID.md",
-    "Common Terms/Name.md",
-    "Common Terms/File Size.md",
-    "Common Terms/Type.md",
-    "Common Terms/Project Store.md",
-    "Common Terms/Zero capacity.md",
-    "Common Terms/acyclic-graph directories.md",
-    "AU23/CSE3241 - Databases/0. Quick Reference.md",
-    "Common Terms/Index 1.md",
-    "Common Terms/Working Tree.md",
+    "CSE5255 - Natural Language Processing/midterm.md",
+    "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
+    "AU23/CSE3241 - Databases/5. Relational Algebra.md",
+    "AU23/CSE3241 - Databases/6. Functional Dependency & Normalization.md",
+    "AU23/CSE3241 - Databases/7. SQL.md",
+    "AU23/CSE3241 - Databases/8. Indexing.md",
+    "AU23/CSE3241 - Databases/9. Embedded SQL.md",
+    "AU23/CSE3241 - Databases/10. Transaction Management.md",
+    "AU23/CSE3241 - Databases/11. XML.md",
+    "AU23/CSE3241 - Databases/12. NoSQL.md",
+    "AU23/CSE3241 - Databases/DBMS Environment.png",
+    "AU23/CSE3241 - Databases/Relationship.png",
+    "AU23/CSE3241 - Databases/2. Entity Relationship Model.md",
+    "AU23/CSE3241 - Databases/1. Intro to Database Management System.md",
+    "Common Terms/Application Program.md",
+    "AU21/CSE2221 - Software 1/31_object_oriented_programming.md",
+    "AU21/CSE2221 - Software 1/03_output_strings_input.md",
+    "AU21/CSE2221 - Software 1/01_introduction.md",
+    "AU21/CSE2221 - Software 1/02_java_overview.md",
+    "AU23/CSE3521 - AI Survey/12_modern_neural_networks.md",
+    "AU23/CSE3521 - AI Survey/AlphaBetaPruning.png",
+    "AU23/CSE3521 - AI Survey/Bayes Network.png",
+    "AU23/CSE3521 - AI Survey/07_probabilistic_graphical_models.md",
+    "AU23/CSE3521 - AI Survey/08_gaussian_mixture_models.md",
+    "AU23/CSE3521 - AI Survey/09_linear_parameter_estimation.md",
+    "AU23/CSE3521 - AI Survey/10_nonlinear_model_parameter_estimation.md",
+    "CSE5526 - Neural Networks/09b. Midterm Content.md",
+    "CSE5526 - Neural Networks/09. Convolutional Neural Networks.md",
+    "CSE5526 - Neural Networks/08. Regularization.md",
+    "CSE5526 - Neural Networks/07. Neural Network Training.md",
     "AU23/CSE3241 - Databases/Screenshot 2023-11-17 at 1.32.07 PM.png",
     "Work Notes",
     "Study Guides",
@@ -202,13 +206,9 @@
     "CSE5524 - Computer Vision/image_segmentation.png",
     "CSE5524 - Computer Vision/SNP_results.png",
     "CSE5524 - Computer Vision",
-    "CSE5255 - Natural Language Processing/CYK Algorithm.gif",
     "CSE5255 - Natural Language Processing",
     "CSE3341 - Principles of Programming Languages",
     "CSE2221 - Software 1",
-    "AU23/CSE3241 - Databases/definitions and resources/Screenshot 2023-11-17 at 1.32.07 PM.png",
-    "AU23/CSE3521 - AI Survey/Swiss Roll.png",
-    "AU23/CSE3521 - AI Survey/Bayes Network.png",
     "CSE3461 - Wired Networks/Traceroute.canvas",
     "Projects/Graph.canvas"
   ]
