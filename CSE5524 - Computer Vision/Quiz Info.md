@@ -40,7 +40,7 @@ The weight per at pixel i is determined by the kernel.
 Aggregate mixe multiple pixels, smoothing
 normal assumes motion having perpendicular edges. Normal flow is more susceptible to noise.
 
-# Course to find Motion
+# Coarse to fine Motion
 
 Big image on pyramid (highest-quality) is good at finding small motion, while small image is better for larger motion.
 
