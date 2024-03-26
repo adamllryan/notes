@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "923094bf57dc1316",
+        "id": "5b7841b7a21f40f5",
         "type": "tabs",
         "children": [
           {
-            "id": "73b0a0a9d2d9c5c8",
+            "id": "9cf0c5de376f5d66",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md"
-              }
+              "state": {}
             }
           },
           {
@@ -161,8 +152,9 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "73b0a0a9d2d9c5c8",
+  "active": "9cf0c5de376f5d66",
   "lastOpenFiles": [
+    "CSE5255 - Natural Language Processing/00. Intro & Syllabus.md",
     "CSE5255 - Natural Language Processing/midterm.md",
     "CSE5526 - Neural Networks/06. Multi-layer Perceptrons.md",
     "AU23/CSE3241 - Databases/5. Relational Algebra.md",
@@ -192,7 +184,6 @@
     "CSE5526 - Neural Networks/09b. Midterm Content.md",
     "CSE5526 - Neural Networks/09. Convolutional Neural Networks.md",
     "CSE5526 - Neural Networks/08. Regularization.md",
-    "CSE5526 - Neural Networks/07. Neural Network Training.md",
     "AU23/CSE3241 - Databases/Screenshot 2023-11-17 at 1.32.07 PM.png",
     "Work Notes",
     "Study Guides",
