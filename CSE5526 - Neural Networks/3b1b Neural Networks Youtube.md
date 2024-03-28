@@ -28,6 +28,6 @@ To minimize the cost function, we can use gradient descent. We want to find the 
 
 We take the output from the network add the squares of the differences, which gives the total cost of the network.
 
-# Back-propagation
+## Back-propagation
 
 We can think of the negative gradient
