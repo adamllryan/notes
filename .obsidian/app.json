@@ -1,0 +1,18 @@
+{
+  "promptDelete": false,
+  "strictLineBreaks": true,
+  "rightToLeft": false,
+  "showLineNumber": true,
+  "vimMode": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./",
+  "livePreview": true,
+  "readableLineLength": true,
+  "propertiesInDocument": "visible",
+  "foldHeading": true,
+  "foldIndent": true,
+  "showIndentGuide": true,
+  "spellcheck": false
+}
