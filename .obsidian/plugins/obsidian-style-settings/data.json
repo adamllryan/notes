@@ -75,5 +75,6 @@
   "ulu-theme-settings@@ulu-canvas-center": false,
   "ulu-theme-settings@@ulu-colorfo-headings": false,
   "ulu-theme-settings@@ulu-border": "none",
-  "ulu-theme-settings@@ulu-theme-light": "ulu-accent-bg-lowcon-l"
+  "ulu-theme-settings@@ulu-theme-light": "ulu-accent-bg-lowcon-l",
+  "ulu-theme-settings@@ulu-header1-override-size": 0.8
 }
