@@ -47,3 +47,7 @@ Big image on pyramid (highest-quality) is good at finding small motion, while sm
 If we detect larger motion, we extract the image, shift it to where we think it may be in the next smaller scale (larger resolution) detector image and then try to reposition it.
 
 KLT Tracking focuses on tracking the corner points only.
+
+# Quiz 2
+
+Covers weeks 7 through 12, or image segmentation through stereo vision, or note set 10 through 15
