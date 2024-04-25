@@ -55,9 +55,9 @@
   "ul-theme-settings@@font-title": "Getai",
   "ul-theme-settings@@ul-faintselect": true,
   "ul-theme-settings@@ul-canvas-center": true,
-  "ulu-theme-settings@@ulu-subtheme-selection": "ulu-gummy",
+  "ulu-theme-settings@@ulu-subtheme-selection": "ulu-origami",
   "ulu-theme-settings@@ulu-color-accent": "ulu-red",
-  "ulu-theme-settings@@ulu-theme-dark": "ulu-accent-bg-lowcon-d",
+  "ulu-theme-settings@@ulu-theme-dark": "ulu-obplus-dt",
   "ulu-theme-settings@@ulu-cards-border": false,
   "ulu-theme-settings@@ulu-cards-shadow": false,
   "ulu-theme-settings@@ulu-radius": "var(--radius-s)",
@@ -70,11 +70,11 @@
   "ulu-theme-settings@@ulu-scrollbars": false,
   "ulu-theme-settings@@ulu-fancy-canvas-1": "none",
   "ulu-theme-settings@@ulu-font-general": "Satoshi",
-  "ulu-theme-settings@@ulu-faintselect": false,
+  "ulu-theme-settings@@ulu-faintselect": true,
   "ulu-theme-settings@@ulu-accent-title": true,
-  "ulu-theme-settings@@ulu-canvas-center": false,
+  "ulu-theme-settings@@ulu-canvas-center": true,
   "ulu-theme-settings@@ulu-colorfo-headings": false,
   "ulu-theme-settings@@ulu-border": "none",
-  "ulu-theme-settings@@ulu-theme-light": "ulu-accent-bg-lowcon-l",
-  "ulu-theme-settings@@ulu-header1-override-size": 0.8
+  "ulu-theme-settings@@ulu-theme-light": "ulu-red-l",
+  "ulu-theme-settings@@ulu-header1-override-size": 0.3
 }
