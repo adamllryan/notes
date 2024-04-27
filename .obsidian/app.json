@@ -14,5 +14,6 @@
   "foldHeading": true,
   "foldIndent": true,
   "showIndentGuide": true,
-  "spellcheck": false
+  "spellcheck": false,
+  "showInlineTitle": false
 }

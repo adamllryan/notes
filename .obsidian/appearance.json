@@ -7,5 +7,6 @@
   "interfaceFontFamily": "Apple Braille",
   "baseFontSizeAction": true,
   "textFontFamily": "",
-  "nativeMenus": true
+  "nativeMenus": true,
+  "showViewHeader": false
 }
