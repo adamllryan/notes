@@ -57,7 +57,7 @@
   "ul-theme-settings@@ul-canvas-center": true,
   "ulu-theme-settings@@ulu-subtheme-selection": "ulu-origami",
   "ulu-theme-settings@@ulu-color-accent": "ulu-red",
-  "ulu-theme-settings@@ulu-theme-dark": "ulu-obplus-dt",
+  "ulu-theme-settings@@ulu-theme-dark": "ulu-solar-dt",
   "ulu-theme-settings@@ulu-cards-border": false,
   "ulu-theme-settings@@ulu-cards-shadow": false,
   "ulu-theme-settings@@ulu-radius": "var(--radius-s)",
