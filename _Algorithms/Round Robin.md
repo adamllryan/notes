@@ -1,0 +1,3 @@
+In *CPU scheduling*, Round-robin scheduling is ==a preemptive scheduling algorithm that assigns equal time slices to each process in a circular order==. In this method, tasks are placed in a circular queue and when a task's allocated time expires, it is moved to the end of the queue. The next task is then taken from the front of the queue.
+
+In *distributed systems*, a reverse proxy or load balancer may use this algorithm to help balance requests between a cluster of servers. 
