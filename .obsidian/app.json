@@ -2,7 +2,7 @@
   "promptDelete": false,
   "strictLineBreaks": true,
   "rightToLeft": false,
-  "showLineNumber": true,
+  "showLineNumber": false,
   "vimMode": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
@@ -15,5 +15,6 @@
   "foldIndent": true,
   "showIndentGuide": true,
   "spellcheck": false,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "showRibbon": true
 }
